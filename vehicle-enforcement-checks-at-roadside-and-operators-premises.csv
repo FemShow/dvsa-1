@@ -1,0 +1,322 @@
+Fin_yr,Period,Fin-period,GB_or_nonGB,Veh_grp,Mech_chcks,Mech_chcks-obs-status,Mch_prhb_issd,Mch_prhb_issd-obs-status,Mch_prhb_rte,Mch_prhb_rte-obs-status,Trffc_chcks,Trffc_chcks-obs-status,Drvrs_hrs_prhb,Drvrs_hrs_prhb-obs-status,Drvrs_hrs_p_rte,Drvrs_hrs_p_rte-obs-status,Off_prhb,Off_prhb-obs-status,Off_prhb_rte,Off_prhb_rte-obs-status,Wght_chcks,Wght_chcks-obs-status,Ovrld_prhb_issd,Ovrld_prhb_issd-obs-status,Ovrld_prhb_rte,Ovrld_prhb_rte-obs-status,Fxd_pnlties,Fxd_pnlties-obs-status,Pnlty_amnt,Pnlty_amnt-obs-status
+2022 to 2023,Quarter 4: January to March,2022-2023/q4,great-britain,car,151,,86,,0.5695,,13,,1,,0.0769,,4,,0.3077,,4,,0,,0.0,,3,,800.0,
+2022 to 2023,Quarter 4: January to March,2022-2023/q4,great-britain,heavy-goods-vehicle-hgv,5670,,1449,,0.2556,,5657,,158,,0.0279,,98,,0.0173,,956,,274,,0.2866,,799,,126900.0,
+2022 to 2023,Quarter 4: January to March,2022-2023/q4,great-britain,lgv,1157,,695,,0.6007,,624,,10,,0.016,,31,,0.0496999999999999,,527,,393,,0.7456999999999999,,248,,50000.0,
+2022 to 2023,Quarter 4: January to March,2022-2023/q4,great-britain,non-testable,536,,283,,0.528,,371,,2,,0.0054,,0,,0.0,,145,,4,,0.0276,,9,,1200.0,
+2022 to 2023,Quarter 4: January to March,2022-2023/q4,great-britain,psv,369,,92,,0.2493,,246,,13,,0.0528,,0,,0.0,,0,,0,,,x,18,,2350.0,
+2022 to 2023,Quarter 4: January to March,2022-2023/q4,great-britain,taxi,54,,41,,0.7593000000000001,,1,,0,,0.0,,0,,0.0,,0,,0,,,x,0,,,x
+2022 to 2023,Quarter 4: January to March,2022-2023/q4,great-britain,trailer,2430,,703,,0.2893,,0,,0,,,x,0,,,x,5,,0,,0.0,,0,,,x
+2022 to 2023,Quarter 4: January to March,2022-2023/q4,non-great-britain,car,1,,1,,1.0,,0,,0,,,x,0,,,x,0,,0,,,x,0,,,x
+2022 to 2023,Quarter 4: January to March,2022-2023/q4,non-great-britain,heavy-goods-vehicle-hgv,6341,,1213,,0.1913,,10051,,193,,0.0192,,247,,0.0246,,1192,,233,,0.1955,,4071,,888150.0,
+2022 to 2023,Quarter 4: January to March,2022-2023/q4,non-great-britain,lgv,84,,46,,0.5476,,112,,4,,0.0356999999999999,,20,,0.1785999999999999,,84,,59,,0.7023999999999999,,97,,14350.0,
+2022 to 2023,Quarter 4: January to March,2022-2023/q4,non-great-britain,non-testable,39,,27,,0.6923,,53,,0,,0.0,,0,,0.0,,22,,0,,0.0,,0,,,x
+2022 to 2023,Quarter 4: January to March,2022-2023/q4,non-great-britain,psv,5,,2,,0.4,,11,,0,,0.0,,0,,0.0,,0,,0,,,x,2,,600.0,
+2022 to 2023,Quarter 4: January to March,2022-2023/q4,non-great-britain,trailer,6047,,1894,,0.3132,,0,,0,,,x,0,,,x,17,,0,,0.0,,1,,300.0,
+2022 to 2023,Quarter 4: January to March,2022-2023/q4,non-great-britain,subtotal,22884,,6532,,0.2854,,17139,,381,,0.0222,,400,,0.0233,,2952,,963,,0.3262,,5248,,1084650.0,
+2022 to 2023,Quarter 4: January to March,2022-2023/q4,total,2022-to-2023-quarter-4,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x
+2022 to 2023,Quarter 3: October to December,2022-2023/q3,great-britain,car,246,,147,,0.5976,,22,,1,,0.0455,,7,,0.3182,,9,,4,,0.4443999999999999,,11,,2100.0,
+2022 to 2023,Quarter 3: October to December,2022-2023/q3,great-britain,heavy-goods-vehicle-hgv,3928,,880,,0.2239999999999999,,4017,,95,,0.0236,,68,,0.0169,,605,,184,,0.3041,,570,,100650.0,
+2022 to 2023,Quarter 3: October to December,2022-2023/q3,great-britain,lgv,1997,,1154,,0.5779,,1019,,16,,0.0157,,66,,0.0648,,837,,579,,0.6918000000000001,,357,,66950.0,
+2022 to 2023,Quarter 3: October to December,2022-2023/q3,great-britain,non-testable,591,,310,,0.5245000000000001,,408,,0,,0.0,,0,,0.0,,163,,1,,0.0060999999999999,,3,,300.0,
+2022 to 2023,Quarter 3: October to December,2022-2023/q3,great-britain,psv,998,,190,,0.1903999999999999,,563,,9,,0.016,,3,,0.0053,,2,,1,,0.5,,18,,3050.0,
+2022 to 2023,Quarter 3: October to December,2022-2023/q3,great-britain,taxi,170,,109,,0.6412,,1,,0,,0.0,,0,,0.0,,0,,0,,,x,8,,550.0,
+2022 to 2023,Quarter 3: October to December,2022-2023/q3,great-britain,trailer,1654,,385,,0.2328,,0,,0,,,x,0,,,x,1,,0,,0.0,,0,,,x
+2022 to 2023,Quarter 3: October to December,2022-2023/q3,non-great-britain,car,2,,1,,0.5,,0,,0,,,x,0,,,x,0,,0,,,x,0,,,x
+2022 to 2023,Quarter 3: October to December,2022-2023/q3,non-great-britain,heavy-goods-vehicle-hgv,4639,,947,,0.2041,,7373,,155,,0.021,,188,,0.0255,,413,,135,,0.3268999999999999,,3259,,724900.0,
+2022 to 2023,Quarter 3: October to December,2022-2023/q3,non-great-britain,lgv,165,,69,,0.4182,,239,,6,,0.0250999999999999,,33,,0.1381,,187,,115,,0.615,,151,,24200.0,
+2022 to 2023,Quarter 3: October to December,2022-2023/q3,non-great-britain,non-testable,53,,23,,0.434,,58,,0,,0.0,,0,,0.0,,32,,0,,0.0,,0,,,x
+2022 to 2023,Quarter 3: October to December,2022-2023/q3,non-great-britain,psv,18,,6,,0.3333,,30,,2,,0.0667,,0,,0.0,,0,,0,,,x,4,,1200.0,
+2022 to 2023,Quarter 3: October to December,2022-2023/q3,non-great-britain,taxi,2,,2,,1.0,,0,,0,,,x,0,,,x,0,,0,,,x,0,,,x
+2022 to 2023,Quarter 3: October to December,2022-2023/q3,non-great-britain,trailer,4459,,1373,,0.3079,,0,,0,,,x,0,,,x,12,,0,,0.0,,1,,100.0,
+2022 to 2023,Quarter 3: October to December,2022-2023/q3,total,2022-to-2023-quarter-3,18922,,5596,,0.2957,,13730,,284,,0.0207,,365,,0.0266,,2261,,1019,,0.4507,,4382,,924000.0,
+2022 to 2023,Quarter 2: July to September,2022-2023/q2,great-britain,car,291,,157,,0.5395,,29,,1,,0.0345,,12,,0.4138,,11,,5,,0.4545,,9,,2350.0,
+2022 to 2023,Quarter 2: July to September,2022-2023/q2,great-britain,heavy-goods-vehicle-hgv,3640,,827,,0.2271999999999999,,4022,,89,,0.0220999999999999,,73,,0.0182,,527,,169,,0.3207,,538,,94700.0,
+2022 to 2023,Quarter 2: July to September,2022-2023/q2,great-britain,lgv,2108,,1081,,0.5128,,1206,,25,,0.0207,,97,,0.0803999999999999,,952,,633,,0.6648999999999999,,403,,82800.0,
+2022 to 2023,Quarter 2: July to September,2022-2023/q2,great-britain,non-testable,852,,410,,0.4811999999999999,,509,,0,,0.0,,2,,0.0039,,212,,1,,0.0046999999999999,,7,,700.0,
+2022 to 2023,Quarter 2: July to September,2022-2023/q2,great-britain,psv,1027,,137,,0.1334,,837,,13,,0.0155,,22,,0.0263,,1,,0,,0.0,,33,,7250.0,
+2022 to 2023,Quarter 2: July to September,2022-2023/q2,great-britain,taxi,174,,92,,0.5287,,6,,0,,0.0,,0,,0.0,,0,,0,,,x,2,,150.0,
+2022 to 2023,Quarter 2: July to September,2022-2023/q2,great-britain,trailer,1632,,385,,0.2359,,0,,0,,,x,0,,,x,8,,0,,0.0,,0,,,x
+2022 to 2023,Quarter 2: July to September,2022-2023/q2,non-great-britain,heavy-goods-vehicle-hgv,4578,,852,,0.1861,,7363,,191,,0.0259,,204,,0.0277,,407,,149,,0.3661,,3626,,880900.0,
+2022 to 2023,Quarter 2: July to September,2022-2023/q2,non-great-britain,lgv,143,,45,,0.3147,,206,,3,,0.0146,,40,,0.1942,,149,,96,,0.6443000000000001,,121,,20550.0,
+2022 to 2023,Quarter 2: July to September,2022-2023/q2,non-great-britain,non-testable,46,,24,,0.5217,,68,,0,,0.0,,0,,0.0,,32,,0,,0.0,,0,,,x
+2022 to 2023,Quarter 2: July to September,2022-2023/q2,non-great-britain,psv,14,,2,,0.1429,,38,,0,,0.0,,1,,0.0263,,0,,0,,,x,8,,2200.0,
+2022 to 2023,Quarter 2: July to September,2022-2023/q2,non-great-britain,trailer,4322,,1312,,0.3036,,0,,0,,,x,0,,,x,11,,0,,0.0,,0,,,x
+2022 to 2023,Quarter 2: July to September,2022-2023/q2,total,2022-to-2023-quarter-2,18827,,5324,,0.2828,,14284,,322,,0.0225,,451,,0.0316,,2310,,1053,,0.4558,,4747,,1091600.0,
+2022 to 2023,Quarter 1: April to June,2022-2023/q1,great-britain,car,354,,211,,0.596,,36,,0,,0.0,,13,,0.3611,,15,,7,,0.4667,,11,,2250.0,
+2022 to 2023,Quarter 1: April to June,2022-2023/q1,great-britain,heavy-goods-vehicle-hgv,4423,,999,,0.2259,,4297,,94,,0.0219,,84,,0.0195,,611,,164,,0.2683999999999999,,515,,90650.0,
+2022 to 2023,Quarter 1: April to June,2022-2023/q1,great-britain,lgv,2239,,1108,,0.4949,,1224,,26,,0.0212,,98,,0.0801,,927,,634,,0.6839,,441,,90600.0,
+2022 to 2023,Quarter 1: April to June,2022-2023/q1,great-britain,non-testable,950,,435,,0.4579,,606,,0,,0.0,,1,,0.0017,,219,,2,,0.0091,,8,,1200.0,
+2022 to 2023,Quarter 1: April to June,2022-2023/q1,great-britain,psv,1029,,200,,0.1944,,987,,26,,0.0263,,34,,0.0344,,3,,1,,0.3333,,52,,12300.0,
+2022 to 2023,Quarter 1: April to June,2022-2023/q1,great-britain,taxi,88,,46,,0.5227,,7,,0,,0.0,,0,,0.0,,0,,0,,,x,5,,450.0,
+2022 to 2023,Quarter 1: April to June,2022-2023/q1,great-britain,trailer,1886,,434,,0.2301,,0,,0,,,x,0,,,x,4,,0,,0.0,,0,,,x
+2022 to 2023,Quarter 1: April to June,2022-2023/q1,non-great-britain,car,4,,3,,0.75,,2,,0,,0.0,,0,,0.0,,0,,0,,,x,0,,,x
+2022 to 2023,Quarter 1: April to June,2022-2023/q1,non-great-britain,heavy-goods-vehicle-hgv,6003,,1109,,0.1846999999999999,,8418,,204,,0.0242,,232,,0.0276,,644,,202,,0.3137,,4636,,1050850.0,
+2022 to 2023,Quarter 1: April to June,2022-2023/q1,non-great-britain,lgv,155,,58,,0.3742,,208,,5,,0.024,,29,,0.1394,,172,,95,,0.5523,,122,,18700.0,
+2022 to 2023,Quarter 1: April to June,2022-2023/q1,non-great-britain,non-testable,40,,21,,0.525,,47,,0,,0.0,,0,,0.0,,29,,0,,0.0,,0,,,x
+2022 to 2023,Quarter 1: April to June,2022-2023/q1,non-great-britain,psv,15,,3,,0.2,,25,,2,,0.08,,0,,0.0,,0,,0,,,x,8,,2100.0,
+2022 to 2023,Quarter 1: April to June,2022-2023/q1,non-great-britain,trailer,5756,,1767,,0.307,,0,,0,,,x,0,,,x,21,,0,,0.0,,1,,300.0,
+2022 to 2023,Quarter 1: April to June,2022-2023/q1,total,2022-to-2023-quarter-1,22942,,6394,,0.2787,,15857,,357,,0.0225,,491,,0.031,,2645,,1105,,0.4178,,5799,,1269400.0,
+2021 to 2022,Quarter 4: January to March,2021-2022/q4,great-britain,heavy-goods-vehicle-hgv,4903,,969,,0.1976,,4679,,94,,0.0200999999999999,,104,,0.0222,,483,,161,,0.3333,,458,,80850.0,
+2021 to 2022,Quarter 4: January to March,2021-2022/q4,great-britain,car,248,,155,,0.625,,32,,1,,0.0313,,10,,0.3125,,12,,5,,0.4167,,9,,1850.0,
+2021 to 2022,Quarter 4: January to March,2021-2022/q4,great-britain,light-goods-vehicle,1973,,996,,0.5047999999999999,,1084,,15,,0.0138,,55,,0.0507,,835,,556,,0.6659,,338,,70800.0,
+2021 to 2022,Quarter 4: January to March,2021-2022/q4,great-britain,non-testable,475,,268,,0.5642,,391,,0,,0.0,,1,,0.0026,,159,,2,,0.0126,,5,,400.0,
+2021 to 2022,Quarter 4: January to March,2021-2022/q4,great-britain,taxi,143,,84,,0.5874,,2,,0,,0.0,,0,,0.0,,0,,0,,,x,9,,1150.0,
+2021 to 2022,Quarter 4: January to March,2021-2022/q4,great-britain,public-service-vehicle,1122,,105,,0.0935999999999999,,798,,4,,0.005,,6,,0.0075,,0,,0,,,x,10,,1850.0,
+2021 to 2022,Quarter 4: January to March,2021-2022/q4,great-britain,trailer,2078,,439,,0.2113,,0,,0,,,x,0,,,x,5,,0,,0.0,,0,,,x
+2021 to 2022,Quarter 4: January to March,2021-2022/q4,great-britain,subtotal,10942,,3016,,0.2756,,6986,,114,,0.0163,,176,,0.0252,,1494,,724,,0.4846,,829,,156900.0,
+2021 to 2022,Quarter 4: January to March,2021-2022/q4,non-great-britain,heavy-goods-vehicle-hgv,6935,,1268,,0.1828,,9554,,247,,0.0259,,214,,0.0224,,617,,222,,0.3597999999999999,,4881,,1084200.0,
+2021 to 2022,Quarter 4: January to March,2021-2022/q4,non-great-britain,car,3,,3,,1.0,,1,,0,,0.0,,1,,1.0,,0,,0,,,x,1,,300.0,
+2021 to 2022,Quarter 4: January to March,2021-2022/q4,non-great-britain,light-goods-vehicle,274,,85,,0.3102,,177,,4,,0.0226,,16,,0.0904,,166,,107,,0.6446,,140,,23050.0,
+2021 to 2022,Quarter 4: January to March,2021-2022/q4,non-great-britain,non-testable,45,,18,,0.4,,55,,0,,0.0,,0,,0.0,,28,,0,,0.0,,0,,,x
+2021 to 2022,Quarter 4: January to March,2021-2022/q4,non-great-britain,taxi,6,,5,,0.8332999999999999,,0,,0,,,x,0,,,x,0,,0,,,x,2,,150.0,
+2021 to 2022,Quarter 4: January to March,2021-2022/q4,non-great-britain,public-service-vehicle,1,,0,,0.0,,1,,0,,0.0,,0,,0.0,,0,,0,,,x,0,,,x
+2021 to 2022,Quarter 4: January to March,2021-2022/q4,non-great-britain,trailer,6633,,1837,,0.2769,,0,,0,,,x,0,,,x,30,,0,,0.0,,0,,,x
+2021 to 2022,Quarter 4: January to March,2021-2022/q4,non-great-britain,subtotal,13897,,3216,,0.2314,,9788,,251,,0.0256,,231,,0.0236,,841,,329,,0.3912,,5024,,1107700.0,
+2021 to 2022,Quarter 4: January to March,2021-2022/q4,total,2021-to-2022-quarter-4,24839,,6232,,0.2509,,16774,,365,,0.0218,,407,,0.0243,,2335,,1053,,0.451,,5853,,1264600.0,
+2021 to 2022,Quarter 3: October to December,2021-2022/q3,great-britain,heavy-goods-vehicle-hgv,4567,,836,,0.1830999999999999,,4331,,95,,0.0219,,76,,0.0175,,553,,156,,0.2821,,535,,102200.0,
+2021 to 2022,Quarter 3: October to December,2021-2022/q3,great-britain,car,277,,176,,0.6354,,18,,0,,0.0,,8,,0.4443999999999999,,12,,2,,0.1667,,3,,650.0,
+2021 to 2022,Quarter 3: October to December,2021-2022/q3,great-britain,light-goods-vehicle,1913,,1066,,0.5572,,1174,,6,,0.0051,,42,,0.0358,,905,,599,,0.6618999999999999,,436,,97700.0,
+2021 to 2022,Quarter 3: October to December,2021-2022/q3,great-britain,non-testable,470,,231,,0.4915,,370,,1,,0.0027,,0,,0.0,,143,,1,,0.0069999999999999,,2,,200.0,
+2021 to 2022,Quarter 3: October to December,2021-2022/q3,great-britain,taxi,137,,80,,0.5839,,1,,0,,0.0,,0,,0.0,,0,,0,,,x,16,,1200.0,
+2021 to 2022,Quarter 3: October to December,2021-2022/q3,great-britain,public-service-vehicle,1186,,127,,0.1071,,992,,8,,0.0081,,15,,0.0151,,1,,0,,0.0,,23,,4400.0,
+2021 to 2022,Quarter 3: October to December,2021-2022/q3,great-britain,trailer,2038,,427,,0.2095,,0,,0,,,x,0,,,x,12,,0,,0.0,,0,,,x
+2021 to 2022,Quarter 3: October to December,2021-2022/q3,great-britain,subtotal,10588,,2943,,0.278,,6886,,110,,0.016,,141,,0.0204999999999999,,1626,,758,,0.4661999999999999,,1015,,206350.0,
+2021 to 2022,Quarter 3: October to December,2021-2022/q3,non-great-britain,heavy-goods-vehicle-hgv,6820,,1157,,0.1696,,9430,,229,,0.0243,,214,,0.0227,,763,,272,,0.3565,,4530,,1006150.0,
+2021 to 2022,Quarter 3: October to December,2021-2022/q3,non-great-britain,car,2,,2,,1.0,,0,,0,,,x,0,,,x,0,,0,,,x,0,,,x
+2021 to 2022,Quarter 3: October to December,2021-2022/q3,non-great-britain,light-goods-vehicle,246,,78,,0.3171,,136,,2,,0.0147,,20,,0.1471,,124,,83,,0.6694,,144,,20900.0,
+2021 to 2022,Quarter 3: October to December,2021-2022/q3,non-great-britain,non-testable,39,,21,,0.5385,,62,,0,,0.0,,0,,0.0,,34,,0,,0.0,,0,,,x
+2021 to 2022,Quarter 3: October to December,2021-2022/q3,non-great-britain,taxi,1,,1,,1.0,,0,,0,,,x,0,,,x,0,,0,,,x,1,,50.0,
+2021 to 2022,Quarter 3: October to December,2021-2022/q3,non-great-britain,public-service-vehicle,1,,0,,0.0,,3,,0,,0.0,,0,,0.0,,0,,0,,,x,0,,,x
+2021 to 2022,Quarter 3: October to December,2021-2022/q3,non-great-britain,trailer,6601,,1721,,0.2607,,0,,0,,,x,0,,,x,32,,0,,0.0,,0,,,x
+2021 to 2022,Quarter 3: October to December,2021-2022/q3,non-great-britain,subtotal,13710,,2980,,0.2173999999999999,,9631,,231,,0.024,,234,,0.0243,,953,,355,,0.3725,,4675,,1027100.0,
+2021 to 2022,Quarter 3: October to December,2021-2022/q3,total,2021-to-2022-quarter-3,24298,,5923,,0.2438,,16517,,341,,0.0206,,375,,0.0227,,2579,,1113,,0.4316,,5690,,1233450.0,
+2021 to 2022,Quarter 2: July to September,2021-2022/q2,great-britain,heavy-goods-vehicle-hgv,5140,,987,,0.192,,4786,,85,,0.0178,,111,,0.0232,,686,,202,,0.2945,,598,,108150.0,
+2021 to 2022,Quarter 2: July to September,2021-2022/q2,great-britain,car,626,,162,,0.2588,,33,,2,,0.0605999999999999,,8,,0.2423999999999999,,9,,5,,0.5556,,10,,2200.0,
+2021 to 2022,Quarter 2: July to September,2021-2022/q2,great-britain,light-goods-vehicle,1696,,898,,0.5295000000000001,,1046,,15,,0.0143,,81,,0.0774,,868,,613,,0.7062,,422,,99550.0,
+2021 to 2022,Quarter 2: July to September,2021-2022/q2,great-britain,non-testable,888,,263,,0.2962,,469,,1,,0.0021,,0,,0.0,,149,,0,,0.0,,6,,1200.0,
+2021 to 2022,Quarter 2: July to September,2021-2022/q2,great-britain,taxi,105,,47,,0.4476,,4,,0,,0.0,,0,,0.0,,0,,0,,,x,1,,100.0,
+2021 to 2022,Quarter 2: July to September,2021-2022/q2,great-britain,public-service-vehicle,936,,75,,0.0801,,728,,9,,0.0124,,13,,0.0179,,1,,0,,0.0,,9,,2700.0,
+2021 to 2022,Quarter 2: July to September,2021-2022/q2,great-britain,trailer,2309,,506,,0.2191,,0,,0,,,x,0,,,x,10,,0,,0.0,,,x,,x
+2021 to 2022,Quarter 2: July to September,2021-2022/q2,great-britain,subtotal,11700,,2938,,0.2511,,7066,,112,,0.0159,,213,,0.0301,,1723,,820,,0.4759,,1046,,213900.0,
+2021 to 2022,Quarter 2: July to September,2021-2022/q2,non-great-britain,heavy-goods-vehicle-hgv,6247,,1087,,0.174,,8586,,197,,0.0229,,224,,0.0260999999999999,,735,,247,,0.3361,,3913,,823350.0,
+2021 to 2022,Quarter 2: July to September,2021-2022/q2,non-great-britain,car,5,,1,,0.2,,0,,0,,,x,0,,,x,0,,0,,,x,,x,,x
+2021 to 2022,Quarter 2: July to September,2021-2022/q2,non-great-britain,light-goods-vehicle,224,,67,,0.2991,,134,,3,,0.0224,,19,,0.1418,,110,,78,,0.7091,,114,,17500.0,
+2021 to 2022,Quarter 2: July to September,2021-2022/q2,non-great-britain,non-testable,48,,16,,0.3333,,52,,0,,0.0,,0,,0.0,,22,,,x,0.0,,0,,,x
+2021 to 2022,Quarter 2: July to September,2021-2022/q2,non-great-britain,taxi,,x,,x,,x,,x,,x,,x,,x,,x,,x,0,,,x,,x,,x
+2021 to 2022,Quarter 2: July to September,2021-2022/q2,non-great-britain,public-service-vehicle,4,,1,,0.25,,3,,1,,0.3333,,1,,0.3333,,1,,0,,0.0,,3,,700.0,
+2021 to 2022,Quarter 2: July to September,2021-2022/q2,non-great-britain,trailer,6072,,1777,,0.2927,,0,,0,,,x,,x,,x,40,,0,,0.0,,0,,,x
+2021 to 2022,Quarter 2: July to September,2021-2022/q2,non-great-britain,subtotal,12600,,2949,,0.2339999999999999,,8775,,201,,0.0229,,244,,0.0278,,908,,325,,0.3579,,4030,,841550.0,
+2021 to 2022,Quarter 2: July to September,2021-2022/q2,total,2021-to-2022-quarter-2,24300,,5887,,0.2423,,15841,,313,,0.0197999999999999,,457,,0.0288,,2631,,1145,,0.4352,,5076,,1055450.0,
+2021 to 2022,Quarter 1: April to June,2021-2022/q1,great-britain,heavy-goods-vehicle-hgv,5544,,1117,,0.2014999999999999,,5110,,121,,0.0237,,94,,0.0184,,826,,227,,0.2748,,667,,123450.0,
+2021 to 2022,Quarter 1: April to June,2021-2022/q1,great-britain,car,318,,101,,0.3176,,20,,2,,0.1,,3,,0.15,,11,,3,,0.2727,,4,,1000.0,
+2021 to 2022,Quarter 1: April to June,2021-2022/q1,great-britain,light-goods-vehicle,1670,,867,,0.5192,,1261,,22,,0.0174,,91,,0.0722,,1049,,729,,0.6949,,527,,118650.0,
+2021 to 2022,Quarter 1: April to June,2021-2022/q1,great-britain,non-testable,655,,292,,0.4458,,497,,0,,0.0,,0,,0.0,,209,,3,,0.0144,,3,,600.0,
+2021 to 2022,Quarter 1: April to June,2021-2022/q1,great-britain,taxi,49,,33,,0.6735,,1,,0,,0.0,,0,,0.0,,0,,,x,,x,1,,100.0,
+2021 to 2022,Quarter 1: April to June,2021-2022/q1,great-britain,public-service-vehicle,331,,42,,0.1268999999999999,,122,,0,,0.0,,1,,0.0081999999999999,,0,,,x,,x,2,,600.0,
+2021 to 2022,Quarter 1: April to June,2021-2022/q1,great-britain,trailer,2384,,538,,0.2257,,0,,0,,,x,,x,,x,18,,,x,0.0,,0,,,x
+2021 to 2022,Quarter 1: April to June,2021-2022/q1,great-britain,subtotal,10951,,2990,,0.273,,7011,,145,,0.0207,,189,,0.027,,2113,,962,,0.4553,,1204,,244400.0,
+2021 to 2022,Quarter 1: April to June,2021-2022/q1,non-great-britain,heavy-goods-vehicle-hgv,6614,,1256,,0.1898999999999999,,9053,,189,,0.0209,,224,,0.0247,,892,,266,,0.2982,,4240,,927950.0,
+2021 to 2022,Quarter 1: April to June,2021-2022/q1,non-great-britain,car,2,,1,,0.5,,0,,0,,,x,0,,,x,0,,0,,,x,,x,,x
+2021 to 2022,Quarter 1: April to June,2021-2022/q1,non-great-britain,light-goods-vehicle,186,,64,,0.3440999999999999,,188,,3,,0.016,,29,,0.1543,,171,,103,,0.6023,,171,,29700.0,
+2021 to 2022,Quarter 1: April to June,2021-2022/q1,non-great-britain,non-testable,47,,17,,0.3617,,75,,0,,0.0,,0,,0.0,,48,,0,,0.0,,0,,,x
+2021 to 2022,Quarter 1: April to June,2021-2022/q1,non-great-britain,taxi,,x,,x,,x,,x,,x,,x,,x,,x,0,,0,,,x,,x,,x
+2021 to 2022,Quarter 1: April to June,2021-2022/q1,non-great-britain,public-service-vehicle,0,,0,,,x,2,,0,,0.0,,0,,0.0,,0,,0,,,x,1,,300.0,
+2021 to 2022,Quarter 1: April to June,2021-2022/q1,non-great-britain,trailer,6432,,1999,,0.3107999999999999,,0,,0,,,x,0,,,x,41,,0,,0.0,,0,,,x
+2021 to 2022,Quarter 1: April to June,2021-2022/q1,non-great-britain,subtotal,13281,,3337,,0.2512999999999999,,9318,,192,,0.0206,,253,,0.0272,,1152,,369,,0.3203,,4412,,957950.0,
+2021 to 2022,Quarter 1: April to June,2021-2022/q1,total,2021-to-2022-quarter-1,24232,,6327,,0.2611,,16329,,337,,0.0206,,442,,0.0271,,3265,,1331,,0.4077,,5616,,1202350.0,
+2020 to 2021,Quarter 4: January to March,2020-2021/q4,great-britain,heavy-goods-vehicle-hgv,4543,,813,,0.179,,4540,,91,,0.02,,61,,0.0134,,675,,181,,0.2681,,521,,113500.0,
+2020 to 2021,Quarter 4: January to March,2020-2021/q4,great-britain,car,74,,50,,0.6757,,14,,1,,0.0713999999999999,,4,,0.2857,,10,,2,,0.2,,4,,600.0,
+2020 to 2021,Quarter 4: January to March,2020-2021/q4,great-britain,light-goods-vehicle,827,,450,,0.5440999999999999,,751,,11,,0.0146,,32,,0.0426,,673,,519,,0.7712,,333,,75550.0,
+2020 to 2021,Quarter 4: January to March,2020-2021/q4,great-britain,non-testable,231,,118,,0.5108,,273,,0,,0.0,,0,,0.0,,103,,2,,0.0194,,3,,500.0,
+2020 to 2021,Quarter 4: January to March,2020-2021/q4,great-britain,taxi,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x
+2020 to 2021,Quarter 4: January to March,2020-2021/q4,great-britain,public-service-vehicle,269,,37,,0.1375,,9,,0,,0.0,,0,,0.0,,0,,0,,,x,,x,,x
+2020 to 2021,Quarter 4: January to March,2020-2021/q4,great-britain,trailer,2095,,484,,0.231,,0,,0,,,x,0,,,x,23,,0,,0.0,,0,,,x
+2020 to 2021,Quarter 4: January to March,2020-2021/q4,great-britain,subtotal,8039,,1952,,0.2428,,5587,,103,,0.0184,,97,,0.0174,,1484,,704,,0.4744,,861,,190150.0,
+2020 to 2021,Quarter 4: January to March,2020-2021/q4,non-great-britain,heavy-goods-vehicle-hgv,5910,,797,,0.1349,,8256,,91,,0.011,,143,,0.0173,,788,,148,,0.1878,,5025,,1329750.0,
+2020 to 2021,Quarter 4: January to March,2020-2021/q4,non-great-britain,car,1,,1,,1.0,,0,,0,,,x,0,,,x,0,,0,,,x,0,,,x
+2020 to 2021,Quarter 4: January to March,2020-2021/q4,non-great-britain,light-goods-vehicle,48,,22,,0.4583,,45,,2,,0.0444,,7,,0.1556,,47,,26,,0.5532,,35,,5800.0,
+2020 to 2021,Quarter 4: January to March,2020-2021/q4,non-great-britain,non-testable,14,,8,,0.5714,,18,,0,,0.0,,0,,0.0,,11,,0,,0.0,,0,,,x
+2020 to 2021,Quarter 4: January to March,2020-2021/q4,non-great-britain,taxi,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x
+2020 to 2021,Quarter 4: January to March,2020-2021/q4,non-great-britain,public-service-vehicle,2,,0,,0.0,,2,,0,,0.0,,0,,0.0,,2,,1,,0.5,,0,,,x
+2020 to 2021,Quarter 4: January to March,2020-2021/q4,non-great-britain,trailer,5741,,1259,,0.2193,,0,,0,,,x,,x,,x,76,,0,,0.0,,0,,,x
+2020 to 2021,Quarter 4: January to March,2020-2021/q4,non-great-britain,subtotal,11716,,2087,,0.1780999999999999,,8321,,93,,0.0112,,150,,0.018,,924,,175,,0.1894,,5060,,1335550.0,
+2020 to 2021,Quarter 4: January to March,2020-2021/q4,total,2020-to-2021-quarter-4,19755,,4039,,0.2045,,13908,,196,,0.0141,,247,,0.0178,,2408,,879,,0.365,,5921,,1525700.0,
+2020 to 2021,Quarter 3: October to December,2020-2021/q3,great-britain,heavy-goods-vehicle-hgv,4325,,833,,0.1926,,3820,,96,,0.0250999999999999,,54,,0.0141,,485,,158,,0.3258,,551,,100650.0,
+2020 to 2021,Quarter 3: October to December,2020-2021/q3,great-britain,car,122,,83,,0.6803,,13,,1,,0.0769,,5,,0.3846,,11,,4,,0.3636,,5,,1300.0,
+2020 to 2021,Quarter 3: October to December,2020-2021/q3,great-britain,light-goods-vehicle,1239,,644,,0.5197999999999999,,911,,10,,0.011,,39,,0.0428,,858,,623,,0.7261,,471,,108550.0,
+2020 to 2021,Quarter 3: October to December,2020-2021/q3,great-britain,non-testable,338,,185,,0.5473,,297,,0,,0.0,,0,,0.0,,111,,1,,0.009,,3,,300.0,
+2020 to 2021,Quarter 3: October to December,2020-2021/q3,great-britain,taxi,41,,27,,0.6585,,0,,0,,,x,0,,,x,0,,0,,,x,1,,50.0,
+2020 to 2021,Quarter 3: October to December,2020-2021/q3,great-britain,public-service-vehicle,309,,39,,0.1261999999999999,,19,,0,,0.0,,0,,0.0,,1,,1,,1.0,,1,,300.0,
+2020 to 2021,Quarter 3: October to December,2020-2021/q3,great-britain,trailer,1963,,443,,0.2257,,0,,0,,,x,0,,,x,13,,0,,0.0,,,x,,x
+2020 to 2021,Quarter 3: October to December,2020-2021/q3,great-britain,subtotal,8337,,2254,,0.2704,,5060,,107,,0.0210999999999999,,98,,0.0194,,1479,,787,,0.5321,,1032,,211150.0,
+2020 to 2021,Quarter 3: October to December,2020-2021/q3,non-great-britain,heavy-goods-vehicle-hgv,6754,,1300,,0.1925,,9109,,255,,0.0279999999999999,,224,,0.0246,,533,,242,,0.4539999999999999,,4333,,933150.0,
+2020 to 2021,Quarter 3: October to December,2020-2021/q3,non-great-britain,car,3,,3,,1.0,,0,,0,,,x,0,,,x,0,,0,,,x,,x,,x
+2020 to 2021,Quarter 3: October to December,2020-2021/q3,non-great-britain,light-goods-vehicle,213,,76,,0.3568,,207,,1,,0.0048,,19,,0.0917999999999999,,206,,134,,0.6505,,165,,24950.0,
+2020 to 2021,Quarter 3: October to December,2020-2021/q3,non-great-britain,non-testable,43,,15,,0.3488,,49,,0,,0.0,,0,,0.0,,26,,0,,0.0,,,x,,x
+2020 to 2021,Quarter 3: October to December,2020-2021/q3,non-great-britain,taxi,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x
+2020 to 2021,Quarter 3: October to December,2020-2021/q3,non-great-britain,public-service-vehicle,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x
+2020 to 2021,Quarter 3: October to December,2020-2021/q3,non-great-britain,trailer,6684,,1879,,0.2811,,0,,0,,,x,0,,,x,33,,0,,0.0,,1,,100.0,
+2020 to 2021,Quarter 3: October to December,2020-2021/q3,non-great-britain,subtotal,13697,,3273,,0.239,,9365,,256,,0.0273,,243,,0.0259,,798,,376,,0.4711999999999999,,4499,,958200.0,
+2020 to 2021,Quarter 3: October to December,2020-2021/q3,total,2020-to-2021-quarter-3,22034,,5527,,0.2507999999999999,,14425,,363,,0.0252,,341,,0.0236,,2277,,1163,,0.5108,,5531,,1169350.0,
+2020 to 2021,Quarter 2: July to September,2020-2021/q2,great-britain,heavy-goods-vehicle-hgv,4386,,919,,0.2095,,3792,,101,,0.0266,,75,,0.0197999999999999,,490,,200,,0.4082,,406,,79050.0,
+2020 to 2021,Quarter 2: July to September,2020-2021/q2,great-britain,car,59,,18,,0.3051,,12,,1,,0.0833,,2,,0.1667,,7,,3,,0.4286,,3,,650.0,
+2020 to 2021,Quarter 2: July to September,2020-2021/q2,great-britain,light-goods-vehicle,794,,361,,0.4547,,713,,11,,0.0154,,36,,0.0504999999999999,,682,,506,,0.7419,,320,,74600.0,
+2020 to 2021,Quarter 2: July to September,2020-2021/q2,great-britain,non-testable,345,,163,,0.4725,,260,,0,,0.0,,1,,0.0038,,127,,3,,0.0236,,1,,300.0,
+2020 to 2021,Quarter 2: July to September,2020-2021/q2,great-britain,taxi,2,,1,,0.5,,0,,0,,,x,0,,,x,0,,0,,,x,0,,,x
+2020 to 2021,Quarter 2: July to September,2020-2021/q2,great-britain,public-service-vehicle,143,,14,,0.0978999999999999,,2,,0,,0.0,,0,,0.0,,0,,0,,,x,0,,,x
+2020 to 2021,Quarter 2: July to September,2020-2021/q2,great-britain,trailer,2096,,564,,0.2691,,0,,0,,,x,0,,,x,11,,0,,0.0,,0,,,x
+2020 to 2021,Quarter 2: July to September,2020-2021/q2,great-britain,subtotal,7825,,2040,,0.2607,,4779,,113,,0.0236,,114,,0.0239,,1317,,712,,0.5406,,730,,154600.0,
+2020 to 2021,Quarter 2: July to September,2020-2021/q2,non-great-britain,heavy-goods-vehicle-hgv,7038,,1248,,0.1773,,8986,,195,,0.0217,,210,,0.0233999999999999,,460,,233,,0.5065,,3474,,712800.0,
+2020 to 2021,Quarter 2: July to September,2020-2021/q2,non-great-britain,car,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x
+2020 to 2021,Quarter 2: July to September,2020-2021/q2,non-great-britain,light-goods-vehicle,140,,45,,0.3214,,87,,3,,0.0345,,23,,0.2644,,79,,59,,0.7468,,79,,12600.0,
+2020 to 2021,Quarter 2: July to September,2020-2021/q2,non-great-britain,non-testable,39,,20,,0.5128,,69,,0,,0.0,,0,,0.0,,40,,0,,0.0,,0,,,x
+2020 to 2021,Quarter 2: July to September,2020-2021/q2,non-great-britain,taxi,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x
+2020 to 2021,Quarter 2: July to September,2020-2021/q2,non-great-britain,public-service-vehicle,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x
+2020 to 2021,Quarter 2: July to September,2020-2021/q2,non-great-britain,trailer,6906,,1864,,0.2699,,0,,0,,,x,0,,,x,25,,0,,0.0,,0,,,x
+2020 to 2021,Quarter 2: July to September,2020-2021/q2,non-great-britain,subtotal,14123,,3177,,0.225,,9142,,198,,0.0217,,233,,0.0255,,604,,292,,0.4834,,3553,,725400.0,
+2020 to 2021,Quarter 2: July to September,2020-2021/q2,total,2020-to-2021-quarter-2,21948,,5217,,0.2377,,13921,,311,,0.0223,,347,,0.0249,,1921,,1004,,0.5226,,4283,,880000.0,
+2020 to 2021,Quarter 1: April to June,2020-2021/q1,great-britain,heavy-goods-vehicle-hgv,3232,,770,,0.2382,,2496,,29,,0.0116,,4,,0.0016,,127,,70,,0.5512,,2,,600.0,
+2020 to 2021,Quarter 1: April to June,2020-2021/q1,great-britain,car,32,,4,,0.125,,0,,0,,,x,0,,,x,13,,1,,0.0769,,0,,,x
+2020 to 2021,Quarter 1: April to June,2020-2021/q1,great-britain,light-goods-vehicle,402,,163,,0.4054999999999999,,116,,2,,0.0172,,9,,0.0776,,204,,140,,0.6862999999999999,,1,,300.0,
+2020 to 2021,Quarter 1: April to June,2020-2021/q1,great-britain,non-testable,194,,95,,0.4896999999999999,,64,,0,,0.0,,0,,0.0,,31,,1,,0.0323,,0,,,x
+2020 to 2021,Quarter 1: April to June,2020-2021/q1,great-britain,public-service-vehicle,2,,2,,1.0,,1,,0,,0.0,,0,,0.0,,0,,0,,,x,0,,,x
+2020 to 2021,Quarter 1: April to June,2020-2021/q1,great-britain,trailer,1640,,557,,0.3396,,0,,0,,,x,0,,,x,17,,0,,0.0,,0,,,x
+2020 to 2021,Quarter 1: April to June,2020-2021/q1,great-britain,subtotal,5502,,1591,,0.2892,,2677,,31,,0.0116,,13,,0.0049,,392,,212,,0.5408,,3,,900.0,
+2020 to 2021,Quarter 1: April to June,2020-2021/q1,non-great-britain,heavy-goods-vehicle-hgv,4876,,721,,0.1479,,2157,,24,,0.0111,,27,,0.0125,,38,,23,,0.6053000000000001,,14,,2500.0,
+2020 to 2021,Quarter 1: April to June,2020-2021/q1,non-great-britain,car,2,,0,,0.0,,0,,0,,,x,0,,,x,0,,0,,,x,,x,,x
+2020 to 2021,Quarter 1: April to June,2020-2021/q1,non-great-britain,light-goods-vehicle,87,,39,,0.4483,,15,,1,,0.0667,,0,,0.0,,18,,16,,0.8889,,0,,,x
+2020 to 2021,Quarter 1: April to June,2020-2021/q1,non-great-britain,non-testable,24,,13,,0.5417000000000001,,8,,0,,0.0,,0,,0.0,,4,,0,,0.0,,0,,,x
+2020 to 2021,Quarter 1: April to June,2020-2021/q1,non-great-britain,public-service-vehicle,0,,0,,,x,0,,0,,,x,0,,,x,0,,0,,,x,0,,,x
+2020 to 2021,Quarter 1: April to June,2020-2021/q1,non-great-britain,trailer,4731,,1254,,0.2651,,0,,0,,,x,0,,,x,13,,0,,0.0,,0,,,x
+2020 to 2021,Quarter 1: April to June,2020-2021/q1,non-great-britain,subtotal,9720,,2027,,0.2085,,2180,,25,,0.0115,,27,,0.0124,,73,,39,,0.5342,,14,,2500.0,
+2020 to 2021,Quarter 1: April to June,2020-2021/q1,total,2020-to-2021-quarter-1,15222,,3618,,0.2377,,4857,,56,,0.0115,,40,,0.0081999999999999,,465,,251,,0.5398,,17,,3400.0,
+2019 to 2020,Quarter 4: January to March,2019-2020/q4,great-britain,heavy-goods-vehicle-hgv,3999,,753,,0.188,,3084,,65,,0.021,,67,,0.022,,345,,133,,0.386,,325,,57400.0,
+2019 to 2020,Quarter 4: January to March,2019-2020/q4,great-britain,light-goods-vehicle,2363,,1030,,0.436,,1284,,17,,0.013,,67,,0.052,,1014,,652,,0.643,,393,,78550.0,
+2019 to 2020,Quarter 4: January to March,2019-2020/q4,great-britain,non-testable,841,,323,,0.384,,506,,0,,0.0,,0,,0.0,,191,,1,,0.005,,3,,250.0,
+2019 to 2020,Quarter 4: January to March,2019-2020/q4,great-britain,public-service-vehicle,742,,142,,0.191,,354,,3,,0.008,,8,,0.023,,1,,0,,0.0,,9,,1500.0,
+2019 to 2020,Quarter 4: January to March,2019-2020/q4,great-britain,trailer,1562,,362,,0.2319999999999999,,0,,0,,,x,0,,,x,7,,0,,0.0,,,x,,x
+2019 to 2020,Quarter 4: January to March,2019-2020/q4,great-britain,subtotal,9507,,2610,,0.275,,5228,,85,,0.016,,142,,0.027,,1558,,786,,0.504,,730,,137700.0,
+2019 to 2020,Quarter 4: January to March,2019-2020/q4,non-great-britain,heavy-goods-vehicle-hgv,6840,,1393,,0.204,,8637,,169,,0.02,,228,,0.0264,,399,,190,,0.476,,4240,,1012250.0,
+2019 to 2020,Quarter 4: January to March,2019-2020/q4,non-great-britain,light-goods-vehicle,238,,78,,0.3279999999999999,,163,,7,,0.043,,46,,0.2822,,127,,87,,0.685,,192,,40250.0,
+2019 to 2020,Quarter 4: January to March,2019-2020/q4,non-great-britain,non-testable,89,,34,,0.382,,108,,0,,0.0,,0,,,x,53,,0,,0.0,,19,,7200.0,
+2019 to 2020,Quarter 4: January to March,2019-2020/q4,non-great-britain,public-service-vehicle,13,,4,,0.308,,18,,5,,0.278,,0,,,x,6,,4,,0.667,,,x,,x
+2019 to 2020,Quarter 4: January to March,2019-2020/q4,non-great-britain,trailer,6491,,2117,,0.326,,0,,0,,,x,0,,,x,13,,0,,0.0,,2,,400.0,
+2019 to 2020,Quarter 4: January to March,2019-2020/q4,non-great-britain,subtotal,13671,,3626,,0.265,,8926,,181,,0.02,,274,,0.031,,598,,281,,0.47,,4453,,1060100.0,
+2019 to 2020,Quarter 4: January to March,2019-2020/q4,total,2019-to-2020-quarter-4,23178,,6236,,0.2689999999999999,,14154,,266,,0.019,,416,,0.0289999999999999,,2156,,1067,,0.495,,5183,,1197800.0,
+2019 to 2020,Quarter 3: October to December,2019-2020/q3,great-britain,heavy-goods-vehicle-hgv,4676,,910,,0.195,,3656,,111,,0.03,,65,,0.018,,437,,142,,0.325,,575,,99050.0,
+2019 to 2020,Quarter 3: October to December,2019-2020/q3,great-britain,light-goods-vehicle,2387,,1081,,0.4529999999999999,,944,,16,,0.017,,83,,0.088,,734,,469,,0.639,,294,,58450.0,
+2019 to 2020,Quarter 3: October to December,2019-2020/q3,great-britain,non-testable,851,,340,,0.4,,449,,0,,0.0,,0,,0.0,,145,,0,,0.0,,,x,,x
+2019 to 2020,Quarter 3: October to December,2019-2020/q3,great-britain,public-service-vehicle,1197,,151,,0.126,,731,,7,,0.01,,8,,0.011,,1,,0,,0.0,,12,,2500.0,
+2019 to 2020,Quarter 3: October to December,2019-2020/q3,great-britain,trailer,1873,,403,,0.215,,0,,0,,,x,0,,,x,3,,0,,0.0,,,x,,x
+2019 to 2020,Quarter 3: October to December,2019-2020/q3,great-britain,subtotal,10984,,2885,,0.263,,5780,,134,,0.023,,156,,0.027,,1320,,611,,0.4629999999999999,,881,,160000.0,
+2019 to 2020,Quarter 3: October to December,2019-2020/q3,non-great-britain,heavy-goods-vehicle-hgv,7226,,1480,,0.205,,9944,,295,,0.03,,256,,0.0256999999999999,,560,,252,,0.45,,5304,,1185250.0,
+2019 to 2020,Quarter 3: October to December,2019-2020/q3,non-great-britain,light-goods-vehicle,159,,54,,0.34,,137,,1,,0.0069999999999999,,35,,0.2555,,115,,84,,0.73,,139,,23750.0,
+2019 to 2020,Quarter 3: October to December,2019-2020/q3,non-great-britain,non-testable,81,,34,,0.42,,109,,0,,0.0,,0,,,x,63,,0,,0.0,,,x,,x
+2019 to 2020,Quarter 3: October to December,2019-2020/q3,non-great-britain,public-service-vehicle,5,,1,,0.2,,26,,2,,0.077,,0,,,x,1,,1,,1.0,,5,,1250.0,
+2019 to 2020,Quarter 3: October to December,2019-2020/q3,non-great-britain,trailer,6902,,2145,,0.311,,0,,0,,,x,0,,,x,15,,0,,0.0,,,x,,x
+2019 to 2020,Quarter 3: October to December,2019-2020/q3,non-great-britain,subtotal,14373,,3714,,0.258,,10216,,298,,0.0289999999999999,,291,,0.0279999999999999,,754,,337,,0.447,,5448,,1210250.0,
+2019 to 2020,Quarter 3: October to December,2019-2020/q3,total,2019-to-2020-quarter-3,25357,,6599,,0.26,,15996,,432,,0.027,,447,,0.0279999999999999,,2074,,948,,0.457,,6329,,1370250.0,
+2019 to 2020,Quarter 2: July to September,2019-2020/q2,great-britain,heavy-goods-vehicle-hgv,4752,,900,,0.1894,,4152,,122,,0.0294,,91,,0.0219,,620,,178,,0.2871,,574,,106850.0,
+2019 to 2020,Quarter 2: July to September,2019-2020/q2,great-britain,light-goods-vehicle,3235,,1574,,0.4866,,1266,,14,,0.0111,,68,,0.0537,,966,,660,,0.6831999999999999,,459,,93000.0,
+2019 to 2020,Quarter 2: July to September,2019-2020/q2,great-britain,non-testable,694,,299,,0.4307999999999999,,487,,0,,0.0,,1,,0.0021,,179,,2,,0.0112,,6,,1100.0,
+2019 to 2020,Quarter 2: July to September,2019-2020/q2,great-britain,public-service-vehicle,1612,,258,,0.16,,975,,29,,0.0297,,32,,0.0327999999999999,,8,,3,,0.375,,60,,13400.0,
+2019 to 2020,Quarter 2: July to September,2019-2020/q2,great-britain,trailer,1942,,429,,0.2208999999999999,,0,,0,,,x,0,,,x,0,,0,,,x,,x,,x
+2019 to 2020,Quarter 2: July to September,2019-2020/q2,great-britain,subtotal,12235,,3460,,0.2828,,6880,,165,,0.024,,192,,0.0279,,1773,,843,,,x,1099,,214350.0,
+2019 to 2020,Quarter 2: July to September,2019-2020/q2,non-great-britain,heavy-goods-vehicle-hgv,6999,,1293,,0.1846999999999999,,9511,,253,,0.0266,,244,,0.0256999999999999,,611,,284,,0.4648,,5218,,1157700.0,
+2019 to 2020,Quarter 2: July to September,2019-2020/q2,non-great-britain,light-goods-vehicle,138,,63,,0.4564999999999999,,137,,4,,0.0292,,34,,0.2482,,119,,91,,0.7646999999999999,,145,,24900.0,
+2019 to 2020,Quarter 2: July to September,2019-2020/q2,non-great-britain,non-testable,69,,22,,0.3188,,110,,0,,0.0,,0,,0.0,,63,,0,,0.0,,,x,,x
+2019 to 2020,Quarter 2: July to September,2019-2020/q2,non-great-britain,public-service-vehicle,55,,10,,0.1818,,89,,9,,0.1011,,4,,0.0449,,4,,2,,0.5,,29,,6350.0,
+2019 to 2020,Quarter 2: July to September,2019-2020/q2,non-great-britain,trailer,6687,,2008,,0.3003,,0,,0,,,x,0,,,x,0,,0,,,x,,x,,x
+2019 to 2020,Quarter 2: July to September,2019-2020/q2,non-great-britain,subtotal,13948,,3396,,0.2435,,9847,,266,,0.027,,282,,0.0286,,797,,377,,0.473,,5392,,1188950.0,
+2019 to 2020,Quarter 2: July to September,2019-2020/q2,total,2019-to-2020-quarter-2,26183,,6856,,0.2618,,16727,,431,,0.0258,,474,,0.0283,,2570,,1220,,0.4747,,6491,,1403300.0,
+2019 to 2020,Quarter 1: April to June,2019-2020/q1,great-britain,heavy-goods-vehicle-hgv,5998,,1277,,0.213,,5314,,164,,0.031,,109,,0.021,,785,,236,,0.301,,794,,141700.0,
+2019 to 2020,Quarter 1: April to June,2019-2020/q1,great-britain,light-goods-vehicle,3039,,1535,,0.505,,1222,,40,,0.033,,91,,0.074,,915,,591,,0.6459999999999999,,430,,87550.0,
+2019 to 2020,Quarter 1: April to June,2019-2020/q1,great-britain,non-testable,619,,351,,0.5670000000000001,,501,,1,,0.002,,1,,0.002,,174,,0,,0.0,,1,,100.0,
+2019 to 2020,Quarter 1: April to June,2019-2020/q1,great-britain,public-service-vehicle,1931,,393,,0.204,,1070,,26,,0.024,,28,,0.026,,0,,0,,,x,67,,14300.0,
+2019 to 2020,Quarter 1: April to June,2019-2020/q1,great-britain,trailer,2390,,620,,0.259,,0,,0,,,x,0,,,x,0,,0,,,x,,x,,x
+2019 to 2020,Quarter 1: April to June,2019-2020/q1,great-britain,subtotal,13977,,4176,,0.299,,8107,,231,,0.0279999999999999,,229,,0.0279999999999999,,1874,,827,,0.441,,,x,,x
+2019 to 2020,Quarter 1: April to June,2019-2020/q1,non-great-britain,heavy-goods-vehicle-hgv,8856,,1754,,0.198,,10847,,314,,0.0289999999999999,,317,,0.0289999999999999,,744,,281,,0.3779999999999999,,6430,,1480200.0,
+2019 to 2020,Quarter 1: April to June,2019-2020/q1,non-great-britain,light-goods-vehicle,178,,70,,0.3929999999999999,,163,,9,,0.055,,41,,0.252,,125,,90,,0.72,,170,,31900.0,
+2019 to 2020,Quarter 1: April to June,2019-2020/q1,non-great-britain,non-testable,76,,29,,0.382,,135,,0,,0.0,,0,,0.0,,61,,0,,0.0,,,x,,x
+2019 to 2020,Quarter 1: April to June,2019-2020/q1,non-great-britain,public-service-vehicle,70,,18,,0.257,,130,,6,,0.046,,4,,0.031,,4,,3,,0.75,,39,,9350.0,
+2019 to 2020,Quarter 1: April to June,2019-2020/q1,non-great-britain,trailer,8473,,2817,,0.332,,0,,0,,,x,0,,,x,0,,0,,,x,,x,,x
+2019 to 2020,Quarter 1: April to June,2019-2020/q1,non-great-britain,subtotal,17653,,4688,,0.266,,11275,,329,,0.0289999999999999,,362,,0.032,,934,,374,,0.4,,,x,,x
+2019 to 2020,Quarter 1: April to June,2019-2020/q1,total,2019-to-2020-quarter-1,31630,,8864,,0.28,,19382,,560,,0.0289999999999999,,591,,0.03,,2808,,1201,,0.428,,7931,,1765100.0,
+2018 to 2019,Total,2018-2019,great-britain,heavy-goods-vehicle-hgv,23299,,5872,,0.252,,23152,,861,,0.037,,564,,0.024,,2927,,1034,,0.353,,3844,,682200.0,
+2018 to 2019,Total,2018-2019,great-britain,light-goods-vehicle,12159,,6038,,0.497,,4682,,99,,0.021,,352,,0.075,,3461,,2431,,0.7020000000000001,,1785,,355800.0,
+2018 to 2019,Total,2018-2019,great-britain,non-testable,2831,,1427,,0.504,,2094,,2,,0.001,,0,,0.0,,668,,3,,0.004,,32,,3200.0,
+2018 to 2019,Total,2018-2019,great-britain,public-service-vehicle,7201,,1247,,0.173,,3650,,127,,0.035,,86,,0.024,,9,,4,,0.444,,220,,42450.0,
+2018 to 2019,Total,2018-2019,great-britain,trailer,9826,,2750,,0.28,,0,,0,,,x,0,,,x,0,,0,,,x,,x,,x
+2018 to 2019,Total,2018-2019,great-britain,subtotal,55316,,17334,,0.313,,33578,,1089,,0.032,,1002,,0.03,,7065,,3472,,0.491,,5881,,1083650.0,
+2018 to 2019,Total,2018-2019,non-great-britain,heavy-goods-vehicle-hgv,31636,,7171,,0.2269999999999999,,44296,,1450,,0.033,,1318,,0.03,,2715,,1273,,0.469,,26063,,5769050.0,
+2018 to 2019,Total,2018-2019,non-great-britain,light-goods-vehicle,734,,322,,0.439,,774,,24,,0.031,,191,,0.247,,638,,473,,0.741,,844,,142250.0,
+2018 to 2019,Total,2018-2019,non-great-britain,non-testable,324,,140,,0.432,,563,,1,,0.002,,1,,0.002,,311,,0,,0.0,,5,,800.0,
+2018 to 2019,Total,2018-2019,non-great-britain,public-service-vehicle,156,,53,,0.34,,275,,11,,0.04,,8,,0.0289999999999999,,17,,13,,0.765,,119,,30350.0,
+2018 to 2019,Total,2018-2019,non-great-britain,trailer,30680,,10724,,0.35,,0,,0,,,x,0,,,x,0,,0,,,x,,x,,x
+2018 to 2019,Total,2018-2019,non-great-britain,subtotal,63530,,18410,,0.29,,45908,,1486,,0.032,,1518,,0.033,,3681,,1759,,0.478,,27031,,5942450.0,
+2018 to 2019,Total,2018-2019,total,total,118846,,35744,,0.301,,79486,,2575,,0.032,,2520,,0.032,,10746,,5231,,0.487,,32912,,7026100.0,
+2017 to 2018,Total,2017-2018,great-britain,heavy-goods-vehicle-hgv,28747,,7111,,0.248,,28061,,1195,,0.043,,780,,0.0279999999999999,,3063,,1131,,0.369,,3405,,480400.0,
+2017 to 2018,Total,2017-2018,great-britain,light-goods-vehicle,13357,,6256,,0.469,,4838,,115,,0.024,,383,,0.079,,2993,,2180,,0.7290000000000001,,1668,,327200.0,
+2017 to 2018,Total,2017-2018,great-britain,non-testable,3032,,1723,,0.569,,2161,,0,,0.0,,5,,0.003,,650,,8,,0.013,,53,,5250.0,
+2017 to 2018,Total,2017-2018,great-britain,public-service-vehicle,9311,,1524,,0.1639999999999999,,5368,,163,,0.031,,143,,0.027,,16,,3,,0.188,,207,,27700.0,
+2017 to 2018,Total,2017-2018,great-britain,trailer,11059,,2858,,0.259,,0,,0,,0.0,,,x,0.0,,0,,0,,0.0,,,x,,x
+2017 to 2018,Total,2017-2018,great-britain,subtotal,65506,,19472,,0.297,,40428,,1473,,0.037,,1311,,0.033,,6722,,3322,,0.494,,5333,,840550.0,
+2017 to 2018,Total,2017-2018,non-great-britain,heavy-goods-vehicle-hgv,34707,,8240,,0.238,,46432,,2198,,0.048,,1998,,0.043,,2747,,1435,,0.523,,15105,,3077850.0,
+2017 to 2018,Total,2017-2018,non-great-britain,light-goods-vehicle,578,,253,,0.4379999999999999,,606,,21,,0.035,,163,,0.2689999999999999,,398,,303,,0.762,,536,,113050.0,
+2017 to 2018,Total,2017-2018,non-great-britain,non-testable,223,,88,,0.395,,407,,0,,0.0,,,x,0.0,,171,,0,,0.0,,1,,100.0,
+2017 to 2018,Total,2017-2018,non-great-britain,public-service-vehicle,191,,25,,0.131,,331,,28,,0.085,,6,,0.018,,5,,4,,0.8,,50,,11300.0,
+2017 to 2018,Total,2017-2018,non-great-britain,trailer,33730,,10943,,0.325,,0,,0,,0.0,,,x,0.0,,0,,0,,0.0,,,x,,x
+2017 to 2018,Total,2017-2018,non-great-britain,subtotal,69429,,19549,,0.282,,47776,,2247,,0.047,,2167,,0.046,,3321,,1742,,0.525,,15692,,3202300.0,
+2017 to 2018,Total,2017-2018,total,total,134935,,39021,,0.289,,88204,,3720,,0.042,,3478,,0.04,,10043,,5064,,0.504,,,x,4042850.0,
+2016 to 2017,Total,2016-2017,great-britain,heavy-goods-vehicle-hgv,26671,,7411,,0.278,,28791,,1478,,0.051,,978,,0.034,,2815,,1101,,0.391,,3772,,506700.0,
+2016 to 2017,Total,2016-2017,great-britain,light-goods-vehicle,9512,,5288,,0.556,,2845,,86,,0.03,,281,,0.099,,1946,,1505,,0.773,,1132,,217300.0,
+2016 to 2017,Total,2016-2017,great-britain,non-testable,2314,,1329,,0.574,,1740,,2,,0.001,,10,,0.006,,504,,7,,0.0139999999999999,,33,,4350.0,
+2016 to 2017,Total,2016-2017,great-britain,public-service-vehicle,11116,,1703,,0.153,,4363,,161,,0.037,,120,,0.0279999999999999,,9,,4,,0.444,,203,,26400.0,
+2016 to 2017,Total,2016-2017,great-britain,trailer,9606,,2733,,0.285,,0,,0,,,x,,x,,x,0,,0,,,x,,x,,x
+2016 to 2017,Total,2016-2017,great-britain,subtotal,59219,,18464,,0.312,,37739,,1727,,0.046,,1389,,0.037,,5274,,2617,,0.496,,5140,,754750.0,
+2016 to 2017,Total,2016-2017,non-great-britain,heavy-goods-vehicle-hgv,38019,,9994,,0.263,,50847,,2987,,0.059,,2992,,0.059,,2641,,1509,,0.5710000000000001,,16998,,3368350.0,
+2016 to 2017,Total,2016-2017,non-great-britain,light-goods-vehicle,275,,146,,0.531,,320,,30,,0.094,,131,,0.409,,208,,173,,0.8320000000000001,,355,,71100.0,
+2016 to 2017,Total,2016-2017,non-great-britain,non-testable,176,,84,,0.477,,356,,0,,0.0,,,x,0.0,,145,,6,,0.0,,,x,,x
+2016 to 2017,Total,2016-2017,non-great-britain,public-service-vehicle,208,,57,,0.2739999999999999,,306,,15,,0.049,,9,,0.0289999999999999,,4,,4,,1.0,,44,,13200.0,
+2016 to 2017,Total,2016-2017,non-great-britain,trailer,36421,,12675,,0.348,,0,,0,,,x,,x,,x,0,,0,,,x,,x,,x
+2016 to 2017,Total,2016-2017,non-great-britain,subtotal,75099,,22956,,0.306,,51829,,3032,,0.059,,3132,,0.06,,2998,,1692,,0.564,,17397,,3452650.0,
+2016 to 2017,Total,2016-2017,total,total,134318,,41420,,0.308,,89568,,4759,,0.053,,4521,,0.051,,8272,,4309,,0.521,,22537,,4207400.0,
+2015 to 2016,Total,2015-2016,great-britain,heavy-goods-vehicle-hgv,29030,,8734,,0.301,,32909,,2331,,0.071,,1517,,0.046,,2567,,1168,,0.455,,4989,,626400.0,
+2015 to 2016,Total,2015-2016,great-britain,public-service-vehicle,8485,,1738,,0.205,,5161,,226,,0.044,,160,,0.031,,11,,3,,0.273,,293,,41000.0,
+2015 to 2016,Total,2015-2016,great-britain,non-testable,2504,,1538,,0.614,,1865,,1,,0.001,,10,,0.005,,470,,5,,0.011,,40,,4750.0,
+2015 to 2016,Total,2015-2016,great-britain,light-goods-vehicle,8429,,5208,,0.618,,2708,,105,,0.039,,357,,0.132,,2158,,1662,,0.77,,1220,,231000.0,
+2015 to 2016,Total,2015-2016,great-britain,trailer,10461,,3136,,0.3,,0,,0,,,x,,x,,x,0,,0,,,x,,x,,x
+2015 to 2016,Total,2015-2016,great-britain,subtotal,58909,,20354,,0.346,,42643,,2663,,0.062,,2044,,0.048,,5206,,2838,,0.545,,6542,,903150.0,
+2015 to 2016,Total,2015-2016,non-great-britain,heavy-goods-vehicle-hgv,35538,,11277,,0.317,,51355,,4231,,0.0819999999999999,,3974,,0.077,,3063,,1741,,0.568,,17656,,3380700.0,
+2015 to 2016,Total,2015-2016,non-great-britain,public-service-vehicle,216,,56,,0.259,,319,,25,,0.078,,7,,0.022,,1,,1,,1.0,,50,,10300.0,
+2015 to 2016,Total,2015-2016,non-great-britain,non-testable,147,,76,,0.517,,393,,0,,0.0,,1,,0.003,,149,,0,,0.0,,,x,,x
+2015 to 2016,Total,2015-2016,non-great-britain,light-goods-vehicle,273,,178,,0.652,,381,,38,,0.1,,174,,0.457,,265,,216,,0.815,,407,,86100.0,
+2015 to 2016,Total,2015-2016,non-great-britain,trailer,33798,,13925,,0.412,,0,,0,,,x,,x,,x,0,,0,,,x,,x,,x
+2015 to 2016,Total,2015-2016,non-great-britain,subtotal,69972,,25512,,0.365,,52448,,4294,,0.0819999999999999,,4156,,0.079,,3478,,1958,,0.563,,18113,,3477100.0,
+2015 to 2016,Total,2015-2016,total,total,128881,,45866,,0.356,,95091,,6957,,0.073,,6200,,0.065,,8684,,4796,,0.552,,24655,,4380250.0,
+2014 to 2015,Total,2014-2015,great-britain,heavy-goods-vehicle-hgv,37203,,11438,,0.307,,37101,,2717,,0.073,,1811,,0.049,,2639,,1308,,0.496,,5173,,680350.0,
+2014 to 2015,Total,2014-2015,great-britain,public-service-vehicle,11342,,1997,,0.176,,4743,,284,,0.06,,208,,0.044,,7,,6,,0.857,,356,,50950.0,
+2014 to 2015,Total,2014-2015,great-britain,non-testable,3732,,2352,,0.63,,2284,,5,,0.002,,10,,0.004,,602,,17,,0.0279999999999999,,69,,7500.0,
+2014 to 2015,Total,2014-2015,great-britain,light-goods-vehicle,12749,,7626,,0.598,,3225,,146,,0.045,,483,,0.15,,2434,,1918,,0.7879999999999999,,1443,,262300.0,
+2014 to 2015,Total,2014-2015,great-britain,trailer,13270,,4056,,0.306,,0,,0,,,x,,x,,x,0,,0,,,x,,x,,x
+2014 to 2015,Total,2014-2015,great-britain,subtotal,78296,,27469,,0.351,,47353,,3152,,0.067,,2512,,0.053,,5682,,3249,,0.5720000000000001,,7041,,1001100.0,
+2014 to 2015,Total,2014-2015,non-great-britain,heavy-goods-vehicle-hgv,36212,,11279,,0.311,,45570,,3653,,0.08,,3547,,0.078,,2719,,1477,,0.5429999999999999,,15273,,2746280.0,
+2014 to 2015,Total,2014-2015,non-great-britain,public-service-vehicle,203,,56,,0.276,,283,,29,,0.102,,16,,0.057,,2,,2,,1.0,,52,,9950.0,
+2014 to 2015,Total,2014-2015,non-great-britain,non-testable,184,,99,,0.5379999999999999,,300,,0,,0.0,,,x,0.0,,86,,1,,0.012,,3,,600.0,
+2014 to 2015,Total,2014-2015,non-great-britain,light-goods-vehicle,406,,234,,0.5760000000000001,,313,,24,,0.077,,106,,0.3389999999999999,,216,,178,,0.8240000000000001,,289,,68500.0,
+2014 to 2015,Total,2014-2015,non-great-britain,trailer,34392,,14230,,0.414,,0,,0,,,x,,x,,x,0,,0,,,x,,x,,x
+2014 to 2015,Total,2014-2015,non-great-britain,subtotal,71397,,25898,,0.363,,46466,,3706,,0.08,,3669,,0.079,,3023,,1658,,0.5479999999999999,,15617,,2825330.0,
+2014 to 2015,Total,2014-2015,total,total,149693,,53367,,0.357,,93819,,6858,,0.073,,6181,,0.066,,8705,,4907,,0.564,,22658,,3826430.0,
+2013 to 2014,Total,2013-2014,great-britain,heavy-goods-vehicle-hgv,38816,,12089,,0.311,,39322,,2964,,0.075,,2110,,0.054,,3097,,1583,,0.511,,4829,,646220.0,
+2013 to 2014,Total,2013-2014,great-britain,public-service-vehicle,14786,,2972,,0.201,,7539,,356,,0.047,,281,,0.037,,27,,6,,0.222,,377,,49370.0,
+2013 to 2014,Total,2013-2014,great-britain,non-testable,4836,,3171,,0.6559999999999999,,2878,,0,,0.0,,4,,0.001,,699,,9,,0.013,,79,,6650.0,
+2013 to 2014,Total,2013-2014,great-britain,light-goods-vehicle,20520,,11657,,0.568,,4983,,183,,0.037,,559,,0.1119999999999999,,3271,,2540,,0.777,,1808,,303800.0,
+2013 to 2014,Total,2013-2014,great-britain,trailer,13481,,4286,,0.318,,0,,0,,,x,,x,,x,0,,0,,,x,,x,,x
+2013 to 2014,Total,2013-2014,great-britain,subtotal,92439,,34175,,0.37,,54722,,3503,,0.064,,2954,,0.054,,7094,,4138,,0.583,,7093,,1006040.0,
+2013 to 2014,Total,2013-2014,non-great-britain,heavy-goods-vehicle-hgv,32271,,10696,,0.331,,39210,,3265,,0.083,,2831,,0.072,,2720,,1475,,0.542,,10749,,1449160.0,
+2013 to 2014,Total,2013-2014,non-great-britain,public-service-vehicle,257,,79,,0.307,,427,,38,,0.089,,16,,0.038,,11,,7,,0.636,,62,,10870.0,
+2013 to 2014,Total,2013-2014,non-great-britain,non-testable,195,,101,,0.518,,261,,0,,0.0,,,x,0.0,,81,,0,,0.0,,5,,400.0,
+2013 to 2014,Total,2013-2014,non-great-britain,light-goods-vehicle,496,,257,,0.518,,391,,15,,0.038,,73,,0.187,,314,,257,,0.818,,365,,64590.0,
+2013 to 2014,Total,2013-2014,non-great-britain,trailer,30537,,13568,,0.444,,0,,0,,,x,,x,,x,0,,0,,,x,,x,,x
+2013 to 2014,Total,2013-2014,non-great-britain,subtotal,63756,,24701,,0.387,,40289,,3318,,0.0819999999999999,,2920,,0.073,,3126,,1739,,0.556,,11181,,1525020.0,
+2013 to 2014,Total,2013-2014,total,total,156195,,58876,,0.377,,95011,,6821,,0.072,,5874,,0.062,,10220,,5877,,0.575,,18274,,2531060.0,

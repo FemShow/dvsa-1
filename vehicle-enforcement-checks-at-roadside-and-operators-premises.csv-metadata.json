@@ -1,0 +1,2711 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dataset",
+    "tables": [
+        {
+            "url": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv",
+            "tableSchema": {
+                "columns": [
+                    {
+                        "titles": "Fin_yr",
+                        "name": "fin_yr",
+                        "suppressOutput": true
+                    },
+                    {
+                        "titles": "Period",
+                        "name": "period",
+                        "suppressOutput": true
+                    },
+                    {
+                        "titles": "Fin-period",
+                        "name": "fin_period",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/government-quarter",
+                        "valueUrl": "government-quarter.csv#{+fin_period}",
+                        "required": true
+                    },
+                    {
+                        "titles": "GB_or_nonGB",
+                        "name": "gb_or_nongb",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/great-britain-or-non-great-britain",
+                        "valueUrl": "great-britain-or-non-great-britain.csv#{+gb_or_nongb}",
+                        "required": true
+                    },
+                    {
+                        "titles": "Veh_grp",
+                        "name": "veh_grp",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/vehicle-group",
+                        "valueUrl": "vehicle-group.csv#{+veh_grp}",
+                        "required": true
+                    },
+                    {
+                        "titles": "Mech_chcks",
+                        "name": "mech_chcks",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-checks",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/mechanical-checks",
+                        "datatype": "integer",
+                        "required": false
+                    },
+                    {
+                        "titles": "Mech_chcks-obs-status",
+                        "name": "mech_chcks_obs_status",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-checks",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/{+mech_chcks_obs_status}",
+                        "required": false
+                    },
+                    {
+                        "titles": "Mch_prhb_issd",
+                        "name": "mch_prhb_issd",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-prohibitions-issued",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/mechanical-prohibitions-issued",
+                        "datatype": "integer",
+                        "required": false
+                    },
+                    {
+                        "titles": "Mch_prhb_issd-obs-status",
+                        "name": "mch_prhb_issd_obs_status",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-prohibitions-issued",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/{+mch_prhb_issd_obs_status}",
+                        "required": false
+                    },
+                    {
+                        "titles": "Mch_prhb_rte",
+                        "name": "mch_prhb_rte",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-prohibition-rate",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/mechanical-prohibition-rate",
+                        "datatype": "float",
+                        "required": false
+                    },
+                    {
+                        "titles": "Mch_prhb_rte-obs-status",
+                        "name": "mch_prhb_rte_obs_status",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-prohibition-rate",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/{+mch_prhb_rte_obs_status}",
+                        "required": false
+                    },
+                    {
+                        "titles": "Trffc_chcks",
+                        "name": "trffc_chcks",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@traffic-checks",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/traffic-checks",
+                        "datatype": "integer",
+                        "required": false
+                    },
+                    {
+                        "titles": "Trffc_chcks-obs-status",
+                        "name": "trffc_chcks_obs_status",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@traffic-checks",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/{+trffc_chcks_obs_status}",
+                        "required": false
+                    },
+                    {
+                        "titles": "Drvrs_hrs_prhb",
+                        "name": "drvrs_hrs_prhb",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@drivers-hours-prohibitions-issued",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/drivers-hours-prohibitions-issued",
+                        "datatype": "integer",
+                        "required": false
+                    },
+                    {
+                        "titles": "Drvrs_hrs_prhb-obs-status",
+                        "name": "drvrs_hrs_prhb_obs_status",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@drivers-hours-prohibitions-issued",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/{+drvrs_hrs_prhb_obs_status}",
+                        "required": false
+                    },
+                    {
+                        "titles": "Drvrs_hrs_p_rte",
+                        "name": "drvrs_hrs_p_rte",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@drivers-hours-prohibition-rate",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/drivers-hours-prohibition-rate",
+                        "datatype": "float",
+                        "required": false
+                    },
+                    {
+                        "titles": "Drvrs_hrs_p_rte-obs-status",
+                        "name": "drvrs_hrs_p_rte_obs_status",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@drivers-hours-prohibition-rate",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/{+drvrs_hrs_p_rte_obs_status}",
+                        "required": false
+                    },
+                    {
+                        "titles": "Off_prhb",
+                        "name": "off_prhb",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@offence-prohibition",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/offence-prohibition",
+                        "datatype": "integer",
+                        "required": false
+                    },
+                    {
+                        "titles": "Off_prhb-obs-status",
+                        "name": "off_prhb_obs_status",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@offence-prohibition",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/{+off_prhb_obs_status}",
+                        "required": false
+                    },
+                    {
+                        "titles": "Off_prhb_rte",
+                        "name": "off_prhb_rte",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@offence-prohibition-rate",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/offence-prohibition-rate",
+                        "datatype": "float",
+                        "required": false
+                    },
+                    {
+                        "titles": "Off_prhb_rte-obs-status",
+                        "name": "off_prhb_rte_obs_status",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@offence-prohibition-rate",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/{+off_prhb_rte_obs_status}",
+                        "required": false
+                    },
+                    {
+                        "titles": "Wght_chcks",
+                        "name": "wght_chcks",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@weight-checks",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/weight-checks",
+                        "datatype": "integer",
+                        "required": false
+                    },
+                    {
+                        "titles": "Wght_chcks-obs-status",
+                        "name": "wght_chcks_obs_status",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@weight-checks",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/{+wght_chcks_obs_status}",
+                        "required": false
+                    },
+                    {
+                        "titles": "Ovrld_prhb_issd",
+                        "name": "ovrld_prhb_issd",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@overload-prohibitions-issued",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/overload-prohibitions-issued",
+                        "datatype": "integer",
+                        "required": false
+                    },
+                    {
+                        "titles": "Ovrld_prhb_issd-obs-status",
+                        "name": "ovrld_prhb_issd_obs_status",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@overload-prohibitions-issued",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/{+ovrld_prhb_issd_obs_status}",
+                        "required": false
+                    },
+                    {
+                        "titles": "Ovrld_prhb_rte",
+                        "name": "ovrld_prhb_rte",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@overload-prohibition-rate",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/overload-prohibition-rate",
+                        "datatype": "float",
+                        "required": false
+                    },
+                    {
+                        "titles": "Ovrld_prhb_rte-obs-status",
+                        "name": "ovrld_prhb_rte_obs_status",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@overload-prohibition-rate",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/{+ovrld_prhb_rte_obs_status}",
+                        "required": false
+                    },
+                    {
+                        "titles": "Fxd_pnlties",
+                        "name": "fxd_pnlties",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@fixed-penalties",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/fixed-penalties",
+                        "datatype": "integer",
+                        "required": false
+                    },
+                    {
+                        "titles": "Fxd_pnlties-obs-status",
+                        "name": "fxd_pnlties_obs_status",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@fixed-penalties",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/{+fxd_pnlties_obs_status}",
+                        "required": false
+                    },
+                    {
+                        "titles": "Pnlty_amnt",
+                        "name": "pnlty_amnt",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@penalty-amount",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/penalty-amount",
+                        "datatype": "float",
+                        "required": false
+                    },
+                    {
+                        "titles": "Pnlty_amnt-obs-status",
+                        "name": "pnlty_amnt_obs_status",
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@penalty-amount",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/{+pnlty_amnt_obs_status}",
+                        "required": false
+                    },
+                    {
+                        "name": "virt_slice",
+                        "virtual": true,
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "qb:Slice"
+                    },
+                    {
+                        "name": "virt_slice_structure",
+                        "virtual": true,
+                        "propertyUrl": "qb:sliceStructure",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#slice/cross-measures"
+                    },
+                    {
+                        "name": "virt_obs_mech_chcks",
+                        "virtual": true,
+                        "propertyUrl": "qb:observation",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-checks"
+                    },
+                    {
+                        "name": "virt_obs_mech_chcks_meas",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-checks",
+                        "propertyUrl": "qb:measureType",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/mechanical-checks"
+                    },
+                    {
+                        "name": "virt_obs_mech_chcks_unit",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-checks",
+                        "propertyUrl": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#unit/number"
+                    },
+                    {
+                        "name": "virt_dim_mech_chcks_fin_period",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-checks",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/government-quarter",
+                        "valueUrl": "government-quarter.csv#{+fin_period}"
+                    },
+                    {
+                        "name": "virt_dim_mech_chcks_gb_or_nongb",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-checks",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/great-britain-or-non-great-britain",
+                        "valueUrl": "great-britain-or-non-great-britain.csv#{+gb_or_nongb}"
+                    },
+                    {
+                        "name": "virt_dim_mech_chcks_veh_grp",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-checks",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/vehicle-group",
+                        "valueUrl": "vehicle-group.csv#{+veh_grp}"
+                    },
+                    {
+                        "name": "virt_obs_mech_chcks_type",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-checks",
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "qb:Observation"
+                    },
+                    {
+                        "name": "virt_dataSet_mech_chcks",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-checks",
+                        "propertyUrl": "qb:dataSet",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dataset"
+                    },
+                    {
+                        "name": "virt_obs_mch_prhb_issd",
+                        "virtual": true,
+                        "propertyUrl": "qb:observation",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-prohibitions-issued"
+                    },
+                    {
+                        "name": "virt_obs_mch_prhb_issd_meas",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-prohibitions-issued",
+                        "propertyUrl": "qb:measureType",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/mechanical-prohibitions-issued"
+                    },
+                    {
+                        "name": "virt_obs_mch_prhb_issd_unit",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-prohibitions-issued",
+                        "propertyUrl": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#unit/number"
+                    },
+                    {
+                        "name": "virt_dim_mch_prhb_issd_fin_period",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-prohibitions-issued",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/government-quarter",
+                        "valueUrl": "government-quarter.csv#{+fin_period}"
+                    },
+                    {
+                        "name": "virt_dim_mch_prhb_issd_gb_or_nongb",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-prohibitions-issued",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/great-britain-or-non-great-britain",
+                        "valueUrl": "great-britain-or-non-great-britain.csv#{+gb_or_nongb}"
+                    },
+                    {
+                        "name": "virt_dim_mch_prhb_issd_veh_grp",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-prohibitions-issued",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/vehicle-group",
+                        "valueUrl": "vehicle-group.csv#{+veh_grp}"
+                    },
+                    {
+                        "name": "virt_obs_mch_prhb_issd_type",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-prohibitions-issued",
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "qb:Observation"
+                    },
+                    {
+                        "name": "virt_dataSet_mch_prhb_issd",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-prohibitions-issued",
+                        "propertyUrl": "qb:dataSet",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dataset"
+                    },
+                    {
+                        "name": "virt_obs_mch_prhb_rte",
+                        "virtual": true,
+                        "propertyUrl": "qb:observation",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-prohibition-rate"
+                    },
+                    {
+                        "name": "virt_obs_mch_prhb_rte_meas",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-prohibition-rate",
+                        "propertyUrl": "qb:measureType",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/mechanical-prohibition-rate"
+                    },
+                    {
+                        "name": "virt_obs_mch_prhb_rte_unit",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-prohibition-rate",
+                        "propertyUrl": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#unit/percentage"
+                    },
+                    {
+                        "name": "virt_dim_mch_prhb_rte_fin_period",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-prohibition-rate",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/government-quarter",
+                        "valueUrl": "government-quarter.csv#{+fin_period}"
+                    },
+                    {
+                        "name": "virt_dim_mch_prhb_rte_gb_or_nongb",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-prohibition-rate",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/great-britain-or-non-great-britain",
+                        "valueUrl": "great-britain-or-non-great-britain.csv#{+gb_or_nongb}"
+                    },
+                    {
+                        "name": "virt_dim_mch_prhb_rte_veh_grp",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-prohibition-rate",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/vehicle-group",
+                        "valueUrl": "vehicle-group.csv#{+veh_grp}"
+                    },
+                    {
+                        "name": "virt_obs_mch_prhb_rte_type",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-prohibition-rate",
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "qb:Observation"
+                    },
+                    {
+                        "name": "virt_dataSet_mch_prhb_rte",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@mechanical-prohibition-rate",
+                        "propertyUrl": "qb:dataSet",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dataset"
+                    },
+                    {
+                        "name": "virt_obs_trffc_chcks",
+                        "virtual": true,
+                        "propertyUrl": "qb:observation",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@traffic-checks"
+                    },
+                    {
+                        "name": "virt_obs_trffc_chcks_meas",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@traffic-checks",
+                        "propertyUrl": "qb:measureType",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/traffic-checks"
+                    },
+                    {
+                        "name": "virt_obs_trffc_chcks_unit",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@traffic-checks",
+                        "propertyUrl": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#unit/number"
+                    },
+                    {
+                        "name": "virt_dim_trffc_chcks_fin_period",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@traffic-checks",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/government-quarter",
+                        "valueUrl": "government-quarter.csv#{+fin_period}"
+                    },
+                    {
+                        "name": "virt_dim_trffc_chcks_gb_or_nongb",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@traffic-checks",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/great-britain-or-non-great-britain",
+                        "valueUrl": "great-britain-or-non-great-britain.csv#{+gb_or_nongb}"
+                    },
+                    {
+                        "name": "virt_dim_trffc_chcks_veh_grp",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@traffic-checks",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/vehicle-group",
+                        "valueUrl": "vehicle-group.csv#{+veh_grp}"
+                    },
+                    {
+                        "name": "virt_obs_trffc_chcks_type",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@traffic-checks",
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "qb:Observation"
+                    },
+                    {
+                        "name": "virt_dataSet_trffc_chcks",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@traffic-checks",
+                        "propertyUrl": "qb:dataSet",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dataset"
+                    },
+                    {
+                        "name": "virt_obs_drvrs_hrs_prhb",
+                        "virtual": true,
+                        "propertyUrl": "qb:observation",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@drivers-hours-prohibitions-issued"
+                    },
+                    {
+                        "name": "virt_obs_drvrs_hrs_prhb_meas",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@drivers-hours-prohibitions-issued",
+                        "propertyUrl": "qb:measureType",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/drivers-hours-prohibitions-issued"
+                    },
+                    {
+                        "name": "virt_obs_drvrs_hrs_prhb_unit",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@drivers-hours-prohibitions-issued",
+                        "propertyUrl": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#unit/number"
+                    },
+                    {
+                        "name": "virt_dim_drvrs_hrs_prhb_fin_period",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@drivers-hours-prohibitions-issued",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/government-quarter",
+                        "valueUrl": "government-quarter.csv#{+fin_period}"
+                    },
+                    {
+                        "name": "virt_dim_drvrs_hrs_prhb_gb_or_nongb",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@drivers-hours-prohibitions-issued",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/great-britain-or-non-great-britain",
+                        "valueUrl": "great-britain-or-non-great-britain.csv#{+gb_or_nongb}"
+                    },
+                    {
+                        "name": "virt_dim_drvrs_hrs_prhb_veh_grp",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@drivers-hours-prohibitions-issued",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/vehicle-group",
+                        "valueUrl": "vehicle-group.csv#{+veh_grp}"
+                    },
+                    {
+                        "name": "virt_obs_drvrs_hrs_prhb_type",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@drivers-hours-prohibitions-issued",
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "qb:Observation"
+                    },
+                    {
+                        "name": "virt_dataSet_drvrs_hrs_prhb",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@drivers-hours-prohibitions-issued",
+                        "propertyUrl": "qb:dataSet",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dataset"
+                    },
+                    {
+                        "name": "virt_obs_drvrs_hrs_p_rte",
+                        "virtual": true,
+                        "propertyUrl": "qb:observation",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@drivers-hours-prohibition-rate"
+                    },
+                    {
+                        "name": "virt_obs_drvrs_hrs_p_rte_meas",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@drivers-hours-prohibition-rate",
+                        "propertyUrl": "qb:measureType",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/drivers-hours-prohibition-rate"
+                    },
+                    {
+                        "name": "virt_obs_drvrs_hrs_p_rte_unit",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@drivers-hours-prohibition-rate",
+                        "propertyUrl": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#unit/percent"
+                    },
+                    {
+                        "name": "virt_dim_drvrs_hrs_p_rte_fin_period",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@drivers-hours-prohibition-rate",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/government-quarter",
+                        "valueUrl": "government-quarter.csv#{+fin_period}"
+                    },
+                    {
+                        "name": "virt_dim_drvrs_hrs_p_rte_gb_or_nongb",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@drivers-hours-prohibition-rate",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/great-britain-or-non-great-britain",
+                        "valueUrl": "great-britain-or-non-great-britain.csv#{+gb_or_nongb}"
+                    },
+                    {
+                        "name": "virt_dim_drvrs_hrs_p_rte_veh_grp",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@drivers-hours-prohibition-rate",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/vehicle-group",
+                        "valueUrl": "vehicle-group.csv#{+veh_grp}"
+                    },
+                    {
+                        "name": "virt_obs_drvrs_hrs_p_rte_type",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@drivers-hours-prohibition-rate",
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "qb:Observation"
+                    },
+                    {
+                        "name": "virt_dataSet_drvrs_hrs_p_rte",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@drivers-hours-prohibition-rate",
+                        "propertyUrl": "qb:dataSet",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dataset"
+                    },
+                    {
+                        "name": "virt_obs_off_prhb",
+                        "virtual": true,
+                        "propertyUrl": "qb:observation",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@offence-prohibition"
+                    },
+                    {
+                        "name": "virt_obs_off_prhb_meas",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@offence-prohibition",
+                        "propertyUrl": "qb:measureType",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/offence-prohibition"
+                    },
+                    {
+                        "name": "virt_obs_off_prhb_unit",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@offence-prohibition",
+                        "propertyUrl": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#unit/number"
+                    },
+                    {
+                        "name": "virt_dim_off_prhb_fin_period",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@offence-prohibition",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/government-quarter",
+                        "valueUrl": "government-quarter.csv#{+fin_period}"
+                    },
+                    {
+                        "name": "virt_dim_off_prhb_gb_or_nongb",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@offence-prohibition",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/great-britain-or-non-great-britain",
+                        "valueUrl": "great-britain-or-non-great-britain.csv#{+gb_or_nongb}"
+                    },
+                    {
+                        "name": "virt_dim_off_prhb_veh_grp",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@offence-prohibition",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/vehicle-group",
+                        "valueUrl": "vehicle-group.csv#{+veh_grp}"
+                    },
+                    {
+                        "name": "virt_obs_off_prhb_type",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@offence-prohibition",
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "qb:Observation"
+                    },
+                    {
+                        "name": "virt_dataSet_off_prhb",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@offence-prohibition",
+                        "propertyUrl": "qb:dataSet",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dataset"
+                    },
+                    {
+                        "name": "virt_obs_off_prhb_rte",
+                        "virtual": true,
+                        "propertyUrl": "qb:observation",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@offence-prohibition-rate"
+                    },
+                    {
+                        "name": "virt_obs_off_prhb_rte_meas",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@offence-prohibition-rate",
+                        "propertyUrl": "qb:measureType",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/offence-prohibition-rate"
+                    },
+                    {
+                        "name": "virt_obs_off_prhb_rte_unit",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@offence-prohibition-rate",
+                        "propertyUrl": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#unit/percent"
+                    },
+                    {
+                        "name": "virt_dim_off_prhb_rte_fin_period",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@offence-prohibition-rate",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/government-quarter",
+                        "valueUrl": "government-quarter.csv#{+fin_period}"
+                    },
+                    {
+                        "name": "virt_dim_off_prhb_rte_gb_or_nongb",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@offence-prohibition-rate",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/great-britain-or-non-great-britain",
+                        "valueUrl": "great-britain-or-non-great-britain.csv#{+gb_or_nongb}"
+                    },
+                    {
+                        "name": "virt_dim_off_prhb_rte_veh_grp",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@offence-prohibition-rate",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/vehicle-group",
+                        "valueUrl": "vehicle-group.csv#{+veh_grp}"
+                    },
+                    {
+                        "name": "virt_obs_off_prhb_rte_type",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@offence-prohibition-rate",
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "qb:Observation"
+                    },
+                    {
+                        "name": "virt_dataSet_off_prhb_rte",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@offence-prohibition-rate",
+                        "propertyUrl": "qb:dataSet",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dataset"
+                    },
+                    {
+                        "name": "virt_obs_wght_chcks",
+                        "virtual": true,
+                        "propertyUrl": "qb:observation",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@weight-checks"
+                    },
+                    {
+                        "name": "virt_obs_wght_chcks_meas",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@weight-checks",
+                        "propertyUrl": "qb:measureType",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/weight-checks"
+                    },
+                    {
+                        "name": "virt_obs_wght_chcks_unit",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@weight-checks",
+                        "propertyUrl": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#unit/number"
+                    },
+                    {
+                        "name": "virt_dim_wght_chcks_fin_period",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@weight-checks",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/government-quarter",
+                        "valueUrl": "government-quarter.csv#{+fin_period}"
+                    },
+                    {
+                        "name": "virt_dim_wght_chcks_gb_or_nongb",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@weight-checks",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/great-britain-or-non-great-britain",
+                        "valueUrl": "great-britain-or-non-great-britain.csv#{+gb_or_nongb}"
+                    },
+                    {
+                        "name": "virt_dim_wght_chcks_veh_grp",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@weight-checks",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/vehicle-group",
+                        "valueUrl": "vehicle-group.csv#{+veh_grp}"
+                    },
+                    {
+                        "name": "virt_obs_wght_chcks_type",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@weight-checks",
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "qb:Observation"
+                    },
+                    {
+                        "name": "virt_dataSet_wght_chcks",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@weight-checks",
+                        "propertyUrl": "qb:dataSet",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dataset"
+                    },
+                    {
+                        "name": "virt_obs_ovrld_prhb_issd",
+                        "virtual": true,
+                        "propertyUrl": "qb:observation",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@overload-prohibitions-issued"
+                    },
+                    {
+                        "name": "virt_obs_ovrld_prhb_issd_meas",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@overload-prohibitions-issued",
+                        "propertyUrl": "qb:measureType",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/overload-prohibitions-issued"
+                    },
+                    {
+                        "name": "virt_obs_ovrld_prhb_issd_unit",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@overload-prohibitions-issued",
+                        "propertyUrl": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#unit/number"
+                    },
+                    {
+                        "name": "virt_dim_ovrld_prhb_issd_fin_period",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@overload-prohibitions-issued",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/government-quarter",
+                        "valueUrl": "government-quarter.csv#{+fin_period}"
+                    },
+                    {
+                        "name": "virt_dim_ovrld_prhb_issd_gb_or_nongb",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@overload-prohibitions-issued",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/great-britain-or-non-great-britain",
+                        "valueUrl": "great-britain-or-non-great-britain.csv#{+gb_or_nongb}"
+                    },
+                    {
+                        "name": "virt_dim_ovrld_prhb_issd_veh_grp",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@overload-prohibitions-issued",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/vehicle-group",
+                        "valueUrl": "vehicle-group.csv#{+veh_grp}"
+                    },
+                    {
+                        "name": "virt_obs_ovrld_prhb_issd_type",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@overload-prohibitions-issued",
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "qb:Observation"
+                    },
+                    {
+                        "name": "virt_dataSet_ovrld_prhb_issd",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@overload-prohibitions-issued",
+                        "propertyUrl": "qb:dataSet",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dataset"
+                    },
+                    {
+                        "name": "virt_obs_ovrld_prhb_rte",
+                        "virtual": true,
+                        "propertyUrl": "qb:observation",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@overload-prohibition-rate"
+                    },
+                    {
+                        "name": "virt_obs_ovrld_prhb_rte_meas",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@overload-prohibition-rate",
+                        "propertyUrl": "qb:measureType",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/overload-prohibition-rate"
+                    },
+                    {
+                        "name": "virt_obs_ovrld_prhb_rte_unit",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@overload-prohibition-rate",
+                        "propertyUrl": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#unit/percent"
+                    },
+                    {
+                        "name": "virt_dim_ovrld_prhb_rte_fin_period",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@overload-prohibition-rate",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/government-quarter",
+                        "valueUrl": "government-quarter.csv#{+fin_period}"
+                    },
+                    {
+                        "name": "virt_dim_ovrld_prhb_rte_gb_or_nongb",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@overload-prohibition-rate",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/great-britain-or-non-great-britain",
+                        "valueUrl": "great-britain-or-non-great-britain.csv#{+gb_or_nongb}"
+                    },
+                    {
+                        "name": "virt_dim_ovrld_prhb_rte_veh_grp",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@overload-prohibition-rate",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/vehicle-group",
+                        "valueUrl": "vehicle-group.csv#{+veh_grp}"
+                    },
+                    {
+                        "name": "virt_obs_ovrld_prhb_rte_type",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@overload-prohibition-rate",
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "qb:Observation"
+                    },
+                    {
+                        "name": "virt_dataSet_ovrld_prhb_rte",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@overload-prohibition-rate",
+                        "propertyUrl": "qb:dataSet",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dataset"
+                    },
+                    {
+                        "name": "virt_obs_fxd_pnlties",
+                        "virtual": true,
+                        "propertyUrl": "qb:observation",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@fixed-penalties"
+                    },
+                    {
+                        "name": "virt_obs_fxd_pnlties_meas",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@fixed-penalties",
+                        "propertyUrl": "qb:measureType",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/fixed-penalties"
+                    },
+                    {
+                        "name": "virt_obs_fxd_pnlties_unit",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@fixed-penalties",
+                        "propertyUrl": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#unit/number"
+                    },
+                    {
+                        "name": "virt_dim_fxd_pnlties_fin_period",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@fixed-penalties",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/government-quarter",
+                        "valueUrl": "government-quarter.csv#{+fin_period}"
+                    },
+                    {
+                        "name": "virt_dim_fxd_pnlties_gb_or_nongb",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@fixed-penalties",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/great-britain-or-non-great-britain",
+                        "valueUrl": "great-britain-or-non-great-britain.csv#{+gb_or_nongb}"
+                    },
+                    {
+                        "name": "virt_dim_fxd_pnlties_veh_grp",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@fixed-penalties",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/vehicle-group",
+                        "valueUrl": "vehicle-group.csv#{+veh_grp}"
+                    },
+                    {
+                        "name": "virt_obs_fxd_pnlties_type",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@fixed-penalties",
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "qb:Observation"
+                    },
+                    {
+                        "name": "virt_dataSet_fxd_pnlties",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@fixed-penalties",
+                        "propertyUrl": "qb:dataSet",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dataset"
+                    },
+                    {
+                        "name": "virt_obs_pnlty_amnt",
+                        "virtual": true,
+                        "propertyUrl": "qb:observation",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@penalty-amount"
+                    },
+                    {
+                        "name": "virt_obs_pnlty_amnt_meas",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@penalty-amount",
+                        "propertyUrl": "qb:measureType",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/penalty-amount"
+                    },
+                    {
+                        "name": "virt_obs_pnlty_amnt_unit",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@penalty-amount",
+                        "propertyUrl": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#unit/gbp"
+                    },
+                    {
+                        "name": "virt_dim_pnlty_amnt_fin_period",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@penalty-amount",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/government-quarter",
+                        "valueUrl": "government-quarter.csv#{+fin_period}"
+                    },
+                    {
+                        "name": "virt_dim_pnlty_amnt_gb_or_nongb",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@penalty-amount",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/great-britain-or-non-great-britain",
+                        "valueUrl": "great-britain-or-non-great-britain.csv#{+gb_or_nongb}"
+                    },
+                    {
+                        "name": "virt_dim_pnlty_amnt_veh_grp",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@penalty-amount",
+                        "propertyUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/vehicle-group",
+                        "valueUrl": "vehicle-group.csv#{+veh_grp}"
+                    },
+                    {
+                        "name": "virt_obs_pnlty_amnt_type",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@penalty-amount",
+                        "propertyUrl": "rdf:type",
+                        "valueUrl": "qb:Observation"
+                    },
+                    {
+                        "name": "virt_dataSet_pnlty_amnt",
+                        "virtual": true,
+                        "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#obs/{fin_period},{gb_or_nongb},{veh_grp}@penalty-amount",
+                        "propertyUrl": "qb:dataSet",
+                        "valueUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dataset"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": "fin_period",
+                        "reference": {
+                            "resource": "government-quarter.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "gb_or_nongb",
+                        "reference": {
+                            "resource": "great-britain-or-non-great-britain.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    },
+                    {
+                        "columnReference": "veh_grp",
+                        "reference": {
+                            "resource": "vehicle-group.csv",
+                            "columnReference": "uri_identifier"
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "fin_period",
+                    "gb_or_nongb",
+                    "veh_grp"
+                ],
+                "aboutUrl": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#slice/{fin_period},{gb_or_nongb},{veh_grp}"
+            }
+        },
+        {
+            "url": "government-quarter.csv",
+            "tableSchema": "government-quarter.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "great-britain-or-non-great-britain.csv",
+            "tableSchema": "great-britain-or-non-great-britain.table.json",
+            "suppressOutput": true
+        },
+        {
+            "url": "vehicle-group.csv",
+            "tableSchema": "vehicle-group.table.json",
+            "suppressOutput": true
+        }
+    ],
+    "rdfs:seeAlso": [
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/mechanical-prohibitions-issued",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/mechanical-prohibitions-issued"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/mechanical-prohibitions-issued"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 9
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/mechanical-prohibition-rate",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#MeasureProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "Percentage rate of mechanical prohibitions issued"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Mechanical prohibition rate"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dataset",
+            "@type": [
+                "http://www.w3.org/ns/dcat#Dataset",
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#Attachable",
+                "http://purl.org/linked-data/cube#DataSet"
+            ],
+            "http://purl.org/dc/terms/creator": [
+                {
+                    "@id": "https://www.gov.uk/government/organisations/driver-and-vehicle-standards-agency"
+                }
+            ],
+            "http://purl.org/dc/terms/description": [
+                {
+                    "@type": "https://www.w3.org/ns/iana/media-types/text/markdown#Resource",
+                    "@value": "Commercial drivers, might be asked to stop by the police or a DVSA officer. Lorries, buses and coaches can also be stopped. The police and DVSA have the power to carry out spot checks vehicles and issue prohibitions if necessary. A prohibition prevents drivers from driving until they get the problem with their vehicle fixed. Police and DVSA officers can also issue fixed penalties if a driver commits an offence. Some of these are graduated depending on the circumstances and seriousness of the offence. Light goods vehicles (LGVs) shown in the tables include light goods vehicles, cars, motorcycles, taxis, private hire cars and non-testable vehicles (eg mobile cranes, diggers and non-HGV trailers). The figures exclude vehicles that were sifted."
+                }
+            ],
+            "http://purl.org/dc/terms/identifier": [
+                {
+                    "@value": "Vehicle enforcement checks at roadside and operators\u2019 premises"
+                }
+            ],
+            "http://purl.org/dc/terms/issued": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "@value": "2023-10-23T17:04:53.187152"
+                }
+            ],
+            "http://purl.org/dc/terms/license": [
+                {
+                    "@id": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+                }
+            ],
+            "http://purl.org/dc/terms/modified": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "@value": "2023-10-23T17:04:53.187152"
+                }
+            ],
+            "http://purl.org/dc/terms/publisher": [
+                {
+                    "@id": "https://www.gov.uk/government/organisations/driver-and-vehicle-standards-agency"
+                }
+            ],
+            "http://purl.org/dc/terms/title": [
+                {
+                    "@language": "en",
+                    "@value": "Vehicle enforcement checks at roadside and operators\u2019 premises"
+                }
+            ],
+            "http://purl.org/linked-data/cube#structure": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#structure"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "Vehicle enforcement checks at roadside and operators\u2019 premises This isn\u2019t classed as an \u2018official statistic\u2019. This dataset is not subject to scrutiny and assessment by the UK Statistics Authority."
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Vehicle enforcement checks at roadside and operators\u2019 premises"
+                }
+            ],
+            "http://www.w3.org/ns/dcat#keyword": [
+                {
+                    "@language": "en",
+                    "@value": "vans"
+                },
+                {
+                    "@language": "en",
+                    "@value": "checks"
+                },
+                {
+                    "@language": "en",
+                    "@value": "taxis"
+                },
+                {
+                    "@language": "en",
+                    "@value": "lorries"
+                },
+                {
+                    "@language": "en",
+                    "@value": "motorcycles"
+                },
+                {
+                    "@language": "en",
+                    "@value": "prohibitions"
+                },
+                {
+                    "@language": "en",
+                    "@value": "licence"
+                },
+                {
+                    "@language": "en",
+                    "@value": "cars"
+                },
+                {
+                    "@language": "en",
+                    "@value": "cranes"
+                },
+                {
+                    "@language": "en",
+                    "@value": "diggers"
+                },
+                {
+                    "@language": "en",
+                    "@value": "buses"
+                },
+                {
+                    "@language": "en",
+                    "@value": "penalties"
+                }
+            ],
+            "http://www.w3.org/ns/dcat#theme": [
+                {
+                    "@id": "https://www.ons.gov.uk/economy/economicoutputandproductivity"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasGeneratedBy": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#csvcubed-build-activity"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/vehicle-group",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/vehicle-group"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/vehicle-group"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 3
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status",
+            "@type": [
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Observation Status"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/mechanical-checks",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#MeasureProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "The number of mechanical spot checks on vehicles"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Mechanical checks"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#count"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/drivers-hours-prohibitions-issued",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#MeasureProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "The number of driver prohibition hours issued"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Drivers' hours prohibitions issued"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#count"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/overload-prohibitions-issued",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/overload-prohibitions-issued"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/overload-prohibitions-issued"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 33
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/overload-prohibitions-issued",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#MeasureProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "The number of overload prohibitions issued"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Overload prohibitions issued"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#count"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/offence-prohibition",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/offence-prohibition"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/offence-prohibition"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 24
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/penalty-amount",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#MeasureProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "Amount of penalty amount charged"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Penalty amount"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#monetary-count"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/penalty-amount",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/penalty-amount"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/penalty-amount"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 42
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/government-quarter",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/government-quarter"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/government-quarter"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/overload-prohibition-rate",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/overload-prohibition-rate"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/overload-prohibition-rate"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 36
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/measure-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 32
+                },
+                {
+                    "@value": 20
+                },
+                {
+                    "@value": 14
+                },
+                {
+                    "@value": 38
+                },
+                {
+                    "@value": 29
+                },
+                {
+                    "@value": 4
+                },
+                {
+                    "@value": 23
+                },
+                {
+                    "@value": 11
+                },
+                {
+                    "@value": 26
+                },
+                {
+                    "@value": 8
+                },
+                {
+                    "@value": 35
+                },
+                {
+                    "@value": 41
+                },
+                {
+                    "@value": 17
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/drivers-hours-prohibition-rate",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#MeasureProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "Percentage rate of drivers' hours prohibitions issued"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Drivers' hours prohibition rate"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/observation-status",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 25
+                },
+                {
+                    "@value": 37
+                },
+                {
+                    "@value": 16
+                },
+                {
+                    "@value": 22
+                },
+                {
+                    "@value": 7
+                },
+                {
+                    "@value": 43
+                },
+                {
+                    "@value": 19
+                },
+                {
+                    "@value": 10
+                },
+                {
+                    "@value": 34
+                },
+                {
+                    "@value": 40
+                },
+                {
+                    "@value": 28
+                },
+                {
+                    "@value": 31
+                },
+                {
+                    "@value": 13
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#class/great-britain-or-non-great-britain",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/government-quarter",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "government-quarter.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Government Quarter"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#class/government-quarter"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/overload-prohibition-rate",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#MeasureProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "Percentage rate of overload prohibitions issued"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Overload prohibition rate"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/offence-prohibition-rate",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#MeasureProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "Percentage rate of offence prohibitions issued"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Offence prohibition rate"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/fixed-penalties",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/fixed-penalties"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/fixed-penalties"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 39
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#slice/cross-measures",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#SliceKey"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/government-quarter"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/vehicle-group"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/great-britain-or-non-great-britain"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#class/government-quarter",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#class/vehicle-group",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/offence-prohibition",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#MeasureProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "The number of offence prohibition issued"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Offence prohibition"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#count"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/great-britain-or-non-great-britain",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "great-britain-or-non-great-britain.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Great Britain or Non-Great Britain"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#class/great-britain-or-non-great-britain"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/vehicle-group",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "vehicle-group.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Vehicle group"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#class/vehicle-group"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/fixed-penalties",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#MeasureProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "The number of fixed penalties issued"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Fixed penalties"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#count"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/unit",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/traffic-checks",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#MeasureProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "The number of traffic spot checks on vehicles"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Traffic checks"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#count"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/mechanical-prohibitions-issued",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#MeasureProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "The number of mechanical prohibitions issued"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Mechanical prohibitions issued"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#count"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#structure",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/observation-status"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/penalty-amount"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/measure-type"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/government-quarter"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/drivers-hours-prohibition-rate"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/mechanical-checks"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/overload-prohibitions-issued"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/offence-prohibition"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/fixed-penalties"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/mechanical-prohibitions-issued"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/mechanical-prohibition-rate"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/offence-prohibition-rate"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/weight-checks"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/vehicle-group"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/drivers-hours-prohibitions-issued"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/traffic-checks"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/great-britain-or-non-great-britain"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/overload-prohibition-rate"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/unit"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/offence-prohibition-rate"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/mechanical-prohibition-rate"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/weight-checks"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/offence-prohibition"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/overload-prohibitions-issued"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/traffic-checks"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/fixed-penalties"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/government-quarter"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/vehicle-group"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/mechanical-checks"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/drivers-hours-prohibitions-issued"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/mechanical-prohibitions-issued"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/drivers-hours-prohibition-rate"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/overload-prohibition-rate"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/great-britain-or-non-great-britain"
+                },
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/penalty-amount"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#slice/cross-measures"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/ns/prov#Activity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.4"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/weight-checks",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/weight-checks"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/weight-checks"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 30
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/weight-checks",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#MeasureProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "The number of weight checks carried out"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Weight checks"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#count"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/great-britain-or-non-great-britain",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/great-britain-or-non-great-britain"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dimension/great-britain-or-non-great-britain"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/offence-prohibition-rate",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/offence-prohibition-rate"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/offence-prohibition-rate"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 27
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/drivers-hours-prohibition-rate",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/drivers-hours-prohibition-rate"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/drivers-hours-prohibition-rate"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 21
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/mechanical-checks",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/mechanical-checks"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/mechanical-checks"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 6
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/mechanical-prohibition-rate",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/mechanical-prohibition-rate"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/mechanical-prohibition-rate"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 12
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/drivers-hours-prohibitions-issued",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/drivers-hours-prohibitions-issued"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/drivers-hours-prohibitions-issued"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 18
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#component/traffic-checks",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/traffic-checks"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#measure/traffic-checks"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 15
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dependency/government-quarter",
+            "@type": [
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./government-quarter.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "government-quarter.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dependency/great-britain-or-non-great-britain",
+            "@type": [
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./great-britain-or-non-great-britain.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "great-britain-or-non-great-britain.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#dependency/vehicle-group",
+            "@type": [
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://rdfs.org/ns/void#dataDump": [
+                {
+                    "@id": "./vehicle-group.csv-metadata.json"
+                }
+            ],
+            "http://rdfs.org/ns/void#uriSpace": [
+                {
+                    "@value": "vehicle-group.csv#"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/x",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "x"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/x",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "x"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/x",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "x"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/x",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "x"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/x",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "x"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/x",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "x"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/x",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "x"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/x",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "x"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/x",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "x"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/x",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "x"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/x",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "x"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/x",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "x"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#attribute/observation-status/x",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "x"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#unit/percentage",
+            "@type": [
+                "http://qudt.org/schema/qudt/Unit",
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://qudt.org/schema/qudt/isScalingOf": [
+                {
+                    "@id": "http://qudt.org/vocab/unit/PERCENT"
+                }
+            ],
+            "http://www.ontology-of-units-of-measure.org/resource/om-2/hasFactor": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#float",
+                    "@value": "1.0"
+                }
+            ],
+            "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit": [
+                {
+                    "@id": "http://qudt.org/vocab/unit/PERCENT"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+                {
+                    "@id": "http://qudt.org/vocab/unit/PERCENT"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Percentage"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#unit/number",
+            "@type": [
+                "http://qudt.org/schema/qudt/Unit",
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://qudt.org/schema/qudt/isScalingOf": [
+                {
+                    "@id": "http://qudt.org/vocab/unit/NUM"
+                }
+            ],
+            "http://www.ontology-of-units-of-measure.org/resource/om-2/hasFactor": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#float",
+                    "@value": "1.0"
+                }
+            ],
+            "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit": [
+                {
+                    "@id": "http://qudt.org/vocab/unit/NUM"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+                {
+                    "@id": "http://qudt.org/vocab/unit/NUM"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "number"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#unit/percent",
+            "@type": [
+                "http://qudt.org/schema/qudt/Unit",
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://qudt.org/schema/qudt/isScalingOf": [
+                {
+                    "@id": "http://qudt.org/vocab/unit/PERCENT"
+                }
+            ],
+            "http://www.ontology-of-units-of-measure.org/resource/om-2/hasFactor": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#float",
+                    "@value": "1.0"
+                }
+            ],
+            "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit": [
+                {
+                    "@id": "http://qudt.org/vocab/unit/PERCENT"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+                {
+                    "@id": "http://qudt.org/vocab/unit/PERCENT"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Percent"
+                }
+            ]
+        },
+        {
+            "@id": "vehicle-enforcement-checks-at-roadside-and-operators-premises.csv#unit/gbp",
+            "@type": [
+                "http://qudt.org/schema/qudt/Unit",
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://qudt.org/schema/qudt/isScalingOf": [
+                {
+                    "@id": "http://qudt.org/vocab/unit/PoundSterling"
+                }
+            ],
+            "http://www.ontology-of-units-of-measure.org/resource/om-2/hasFactor": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#float",
+                    "@value": "1.0"
+                }
+            ],
+            "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit": [
+                {
+                    "@id": "http://qudt.org/vocab/unit/PoundSterling"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+                {
+                    "@id": "http://qudt.org/vocab/unit/PoundSterling"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "GBP"
+                }
+            ]
+        }
+    ]
+}
