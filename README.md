@@ -27,3 +27,14 @@ Overload prohibition rate: incorrect measure extended (this is a percentage whic
 Fixed penalties: correct measure extended, correct unit extended but poor label (integer is a data_type not a unit, the label should be "number")
 Fixed penalties amount: correct measure extended, incorrect unit extended (this is a currency which is GBP, not NUM) and also the label is down as "Currency" which should be "Pounds Sterling".
 All the measures' descriptions finish with "during the quarter" which is implied by the refPeriod, this should be omitted from the description. (describe)
+
+
+
+Creating a theme
+https://beta.gss-data.org.uk/concept-scheme/concepts?uri=http%3A%2F%2Fgss-data.org.uk%2Fdef%2Fconcept-scheme%2Fons-topics%2Fdataset
+
+Click on the above link,
+It takes you to the ONS Topics taxonomy page
+to create a themw start your URI with https://wwww.ons.gov.uk/
+choose the first level clssificaton you want
+Vist the website https://wwww.ons.gov.uk/ select the appropriate theme and the copy the hyperlink.
