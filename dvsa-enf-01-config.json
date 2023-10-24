@@ -1,0 +1,260 @@
+{
+  "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+  "title": "Vehicle enforcement checks at roadside and operators’ premises",
+  "description": "Commercial drivers, might be asked to stop by the police or a DVSA officer. Lorries, buses and coaches can also be stopped. The police and DVSA have the power to carry out spot checks vehicles and issue prohibitions if necessary. A prohibition prevents drivers from driving until they get the problem with their vehicle fixed. Police and DVSA officers can also issue fixed penalties if a driver commits an offence. Some of these are graduated depending on the circumstances and seriousness of the offence. Light goods vehicles (LGVs) shown in the tables include light goods vehicles, cars, motorcycles, taxis, private hire cars and non-testable vehicles (eg mobile cranes, diggers and non-HGV trailers). The figures exclude vehicles that were sifted.",
+  "creator": "https://www.gov.uk/government/organisations/driver-and-vehicle-standards-agency",
+  "publisher": "https://www.gov.uk/government/organisations/driver-and-vehicle-standards-agency",
+  "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "themes": "https://www.ons.gov.uk/economy/economicoutputandproductivity",
+  "summary": "Vehicle enforcement checks at roadside and operators’ premises This isn’t classed as an ‘official statistic’. This dataset is not subject to scrutiny and assessment by the UK Statistics Authority.",
+  "keywords": [
+    "cars",
+    "buses",
+    "vans",
+    "taxis",
+    "lorries",
+    "motorcycles",
+    "licence",
+    "checks",
+    "penalties",
+    "cranes",
+    "diggers",
+    "prohibitions"
+  ],
+  "columns": {
+    "Fin_yr": false,
+    "Period": false,
+    "Fin-period": {
+      "from_template": "government-quarter"
+    },
+    "GB_or_nonGB": {
+      "type": "dimension",
+      "label": "Great Britain or Non-Great Britain"
+   },
+   "Veh_grp": {
+     "type": "dimension",
+     "label": "Vehicle group"
+  },
+    "Mech_chcks": {
+        "type": "observations",
+        "data_type": "integer",
+        "measure": {
+          "label": "Mechanical checks",
+          "description": "The number of mechanical spot checks on vehicles",
+          "from_existing": "https://purl.org/csv-cubed/resources/measures#count"
+        },
+        "unit": {
+          "label": "number",
+          "from_existing": "http://qudt.org/vocab/unit/NUM"
+        }
+      },
+    "Mech_chcks-obs-status": {
+        "from_template": "observation-status",
+        "describes_observations": "Mech_chcks"
+      },
+    "Mch_prhb_issd": {
+        "type": "observations",
+        "data_type": "integer",
+        "measure": {
+          "label": "Mechanical prohibitions issued",
+          "description": "The number of mechanical prohibitions issued",
+          "from_existing": "https://purl.org/csv-cubed/resources/measures#count"
+        },
+        "unit": {
+          "label": "number",
+          "from_existing": "http://qudt.org/vocab/unit/NUM"
+        }
+      },
+    "Mch_prhb_issd-obs-status": {
+        "from_template": "observation-status",
+        "describes_observations": "Mch_prhb_issd"
+      },
+    "Mch_prhb_rte": {
+      "type": "observations",
+      "data_type": "float",
+      "measure": {
+        "label": "Mechanical prohibition rate",
+        "description": "Percentage rate of mechanical prohibitions issued",
+        "from_existing": "https://purl.org/csv-cubed/resources/measures#portion"
+      },
+      "unit": {
+        "label": "Percentage",
+        "from_existing": "http://qudt.org/vocab/unit/PERCENT"
+      }
+    },
+    "Mch_prhb_rte-obs-status": {
+        "from_template": "observation-status",
+        "describes_observations": "Mch_prhb_rte"
+      },
+    "Trffc_chcks": {
+        "type": "observations",
+        "data_type": "integer",
+        "measure": {
+          "label": "Traffic checks",
+          "description": "The number of traffic spot checks on vehicles",
+          "from_existing": "https://purl.org/csv-cubed/resources/measures#count"
+        },
+        "unit": {
+          "label": "number",
+          "from_existing": "http://qudt.org/vocab/unit/NUM"
+        }
+      },
+    "Trffc_chcks-obs-status": {
+        "from_template": "observation-status",
+        "describes_observations": "Trffc_chcks"
+      },
+    "Drvrs_hrs_prhb": {
+        "type": "observations",
+        "data_type": "integer",
+        "measure": {
+          "label": "Drivers' hours prohibitions issued",
+          "description": "The number of driver prohibition hours issued",
+          "from_existing": "https://purl.org/csv-cubed/resources/measures#count"
+        },
+        "unit": {
+          "label": "number",
+          "from_existing": "http://qudt.org/vocab/unit/NUM"
+        }
+      },
+    "Drvrs_hrs_prhb-obs-status": {
+        "from_template": "observation-status",
+        "describes_observations": "Drvrs_hrs_prhb"
+      },
+    "Drvrs_hrs_p_rte": {
+      "type": "observations",
+      "data_type": "float",
+      "measure": {
+        "label": "Drivers' hours prohibition rate",
+        "description": "Percentage rate of drivers' hours prohibitions issued",
+        "from_existing": "https://purl.org/csv-cubed/resources/measures#portion"
+      },
+      "unit": {
+        "label": "Percent",
+        "from_existing": "http://qudt.org/vocab/unit/PERCENT"
+      }
+    },
+    "Drvrs_hrs_p_rte-obs-status": {
+      "from_template": "observation-status",
+      "describes_observations": "Drvrs_hrs_p_rte"
+    },
+    "Off_prhb": {
+      "type": "observations",
+      "data_type": "integer",
+      "measure": {
+        "label": "Offence prohibition",
+        "description": "The number of offence prohibition issued",
+        "from_existing": "https://purl.org/csv-cubed/resources/measures#count"
+      },
+      "unit": {
+        "label": "number",
+        "from_existing": "http://qudt.org/vocab/unit/NUM"
+      }
+    },
+    "Off_prhb-obs-status": {
+      "from_template": "observation-status",
+      "describes_observations": "Off_prhb"
+    },
+    "Off_prhb_rte": {
+      "type": "observations",
+      "data_type": "float",
+      "measure": {
+        "label": "Offence prohibition rate",
+        "description": "Percentage rate of offence prohibitions issued",
+        "from_existing": "https://purl.org/csv-cubed/resources/measures#portion"
+      },
+      "unit": {
+        "label": "Percent",
+        "from_existing": "http://qudt.org/vocab/unit/PERCENT"
+      }
+    },
+    "Off_prhb_rte-obs-status": {
+      "from_template": "observation-status",
+      "describes_observations": "Off_prhb_rte"
+    },
+    "Wght_chcks": {
+      "type": "observations",
+      "data_type": "integer",
+      "measure": {
+        "label": "Weight checks",
+        "description": "The number of weight checks carried out",
+        "from_existing": "https://purl.org/csv-cubed/resources/measures#count"
+      },
+      "unit": {
+        "label": "number",
+        "from_existing": "http://qudt.org/vocab/unit/NUM"
+      }
+    },
+    "Wght_chcks-obs-status": {
+      "from_template": "observation-status",
+      "describes_observations": "Wght_chcks"
+    },
+    "Ovrld_prhb_issd": {
+      "type": "observations",
+      "data_type": "integer",
+      "measure": {
+        "label": "Overload prohibitions issued",
+        "description": "The number of overload prohibitions issued",
+        "from_existing": "https://purl.org/csv-cubed/resources/measures#count"
+      },
+      "unit": {
+        "label": "number",
+        "from_existing": "http://qudt.org/vocab/unit/NUM"
+      }
+    },
+    "Ovrld_prhb_issd-obs-status": {
+      "from_template": "observation-status",
+      "describes_observations": "Ovrld_prhb_issd"
+    },
+    "Ovrld_prhb_rte": {
+      "type": "observations",
+      "data_type": "float",
+      "measure": {
+        "label": "Overload prohibition rate",
+        "description": "Percentage rate of overload prohibitions issued",
+        "from_existing": "https://purl.org/csv-cubed/resources/measures#portion"
+      },
+      "unit": {
+        "label": "Percent",
+        "from_existing": "http://qudt.org/vocab/unit/PERCENT"
+      }
+    },
+    "Ovrld_prhb_rte-obs-status": {
+      "from_template": "observation-status",
+      "describes_observations": "Ovrld_prhb_rte"
+    },
+    "Fxd_pnlties": {
+      "type": "observations",
+      "data_type": "integer",
+      "measure": {
+        "label": "Fixed penalties",
+        "description": "The number of fixed penalties issued",
+        "from_existing": "https://purl.org/csv-cubed/resources/measures#count"
+      },
+      "unit": {
+        "label": "number",
+        "from_existing": "http://qudt.org/vocab/unit/NUM"
+      }
+    },
+    "Fxd_pnlties-obs-status": {
+      "from_template": "observation-status",
+      "describes_observations": "Fxd_pnlties"
+    },
+    "Pnlty_amnt": {
+      "type": "observations",
+      "data_type": "float",
+      "measure": {
+        "label": "Penalty amount",
+        "description": "Amount of penalty amount charged",
+        "from_existing": "https://purl.org/csv-cubed/resources/measures#monetary-count"
+      },
+      "unit": {
+        "label": "GBP",
+        "from_existing": "http://qudt.org/vocab/unit/PoundSterling"
+      }
+    },
+    "Pnlty_amnt-obs-status": {
+      "from_template": "observation-status",
+      "describes_observations": "Pnlty_amnt"
+    }
+  }
+}

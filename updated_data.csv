@@ -1,0 +1,322 @@
+Fin_yr,Period,Fin-period,GB_or_nonGB,Veh_grp,Mech_chcks,Mech_chcks-obs-status,Mch_prhb_issd,Mch_prhb_issd-obs-status,Mch_prhb_rte,Mch_prhb_rte-obs-status,Trffc_chcks,Trffc_chcks-obs-status,Drvrs_hrs_prhb,Drvrs_hrs_prhb-obs-status,Drvrs_hrs_p_rte,Drvrs_hrs_p_rte-obs-status,Off_prhb,Off_prhb-obs-status,Off_prhb_rte,Off_prhb_rte-obs-status,Wght_chcks,Wght_chcks-obs-status,Ovrld_prhb_issd,Ovrld_prhb_issd-obs-status,Ovrld_prhb_rte,Ovrld_prhb_rte-obs-status,Fxd_pnlties,Fxd_pnlties-obs-status,Pnlty_amnt,Pnlty_amnt-obs-status
+2022 to 2023,Quarter 4: January to March,2022-2023/Q4,Great Britain,Car,151.0,,86.0,,0.5695,,13.0,,1.0,,0.0769,,4,,0.3077,,4.0,,0.0,,0.0,,3.0,,800.00,
+2022 to 2023,Quarter 4: January to March,2022-2023/Q4,Great Britain,Heavy goods vehicle (HGV),5670.0,,1449.0,,0.2556,,5657.0,,158.0,,0.0279,,98,,0.0173,,956.0,,274.0,,0.2866,,799.0,,126900.00,
+2022 to 2023,Quarter 4: January to March,2022-2023/Q4,Great Britain,LGV,1157.0,,695.0,,0.6007,,624.0,,10.0,,0.016,,31,,0.0496999999999999,,527.0,,393.0,,0.7456999999999999,,248.0,,50000.00,
+2022 to 2023,Quarter 4: January to March,2022-2023/Q4,Great Britain,Non Testable,536.0,,283.0,,0.528,,371.0,,2.0,,0.0054,,0,,0.0,,145.0,,4.0,,0.0276,,9.0,,1200.00,
+2022 to 2023,Quarter 4: January to March,2022-2023/Q4,Great Britain,PSV,369.0,,92.0,,0.2493,,246.0,,13.0,,0.0528,,0,,0.0,,0.0,,0.0,,,x,18.0,,2350.00,
+2022 to 2023,Quarter 4: January to March,2022-2023/Q4,Great Britain,Taxi,54.0,,41.0,,0.7593000000000001,,1.0,,0.0,,0.0,,0,,0.0,,0.0,,0.0,,,x,0.0,,,x
+2022 to 2023,Quarter 4: January to March,2022-2023/Q4,Great Britain,Trailer,2430.0,,703.0,,0.2893,,0.0,,0.0,,,x,0,,,x,5.0,,0.0,,0.0,,0.0,,,x
+2022 to 2023,Quarter 4: January to March,2022-2023/Q4,Non-Great Britain,Car,1.0,,1.0,,1.0,,0.0,,0.0,,,x,0,,,x,0.0,,0.0,,,x,0.0,,,x
+2022 to 2023,Quarter 4: January to March,2022-2023/Q4,Non-Great Britain,Heavy goods vehicle (HGV),6341.0,,1213.0,,0.1913,,10051.0,,193.0,,0.0192,,247,,0.0246,,1192.0,,233.0,,0.1955,,4071.0,,888150.00,
+2022 to 2023,Quarter 4: January to March,2022-2023/Q4,Non-Great Britain,LGV,84.0,,46.0,,0.5476,,112.0,,4.0,,0.0356999999999999,,20,,0.1785999999999999,,84.0,,59.0,,0.7023999999999999,,97.0,,14350.00,
+2022 to 2023,Quarter 4: January to March,2022-2023/Q4,Non-Great Britain,Non Testable,39.0,,27.0,,0.6923,,53.0,,0.0,,0.0,,0,,0.0,,22.0,,0.0,,0.0,,0.0,,,x
+2022 to 2023,Quarter 4: January to March,2022-2023/Q4,Non-Great Britain,PSV,5.0,,2.0,,0.4,,11.0,,0.0,,0.0,,0,,0.0,,0.0,,0.0,,,x,2.0,,600.00,
+2022 to 2023,Quarter 4: January to March,2022-2023/Q4,Non-Great Britain,Trailer,6047.0,,1894.0,,0.3132,,0.0,,0.0,,,x,0,,,x,17.0,,0.0,,0.0,,1.0,,300.00,
+2022 to 2023,Quarter 4: January to March,2022-2023/Q4,Non-Great Britain,Subtotal,22884.0,,6532.0,,0.2854,,17139.0,,381.0,,0.0222,,400,,0.0233,,2952.0,,963.0,,0.3262,,5248.0,,1084650.00,
+2022 to 2023,Quarter 4: January to March,2022-2023/Q4,Total,2022 to 2023 quarter 4,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x
+2022 to 2023,Quarter 3: October to December,2022-2023/Q3,Great Britain,Car,246.0,,147.0,,0.5976,,22.0,,1.0,,0.0455,,7,,0.3182,,9.0,,4.0,,0.4443999999999999,,11.0,,2100.00,
+2022 to 2023,Quarter 3: October to December,2022-2023/Q3,Great Britain,Heavy goods vehicle (HGV),3928.0,,880.0,,0.2239999999999999,,4017.0,,95.0,,0.0236,,68,,0.0169,,605.0,,184.0,,0.3041,,570.0,,100650.00,
+2022 to 2023,Quarter 3: October to December,2022-2023/Q3,Great Britain,LGV,1997.0,,1154.0,,0.5779,,1019.0,,16.0,,0.0157,,66,,0.0648,,837.0,,579.0,,0.6918000000000001,,357.0,,66950.00,
+2022 to 2023,Quarter 3: October to December,2022-2023/Q3,Great Britain,Non Testable,591.0,,310.0,,0.5245000000000001,,408.0,,0.0,,0.0,,0,,0.0,,163.0,,1.0,,0.0060999999999999,,3.0,,300.00,
+2022 to 2023,Quarter 3: October to December,2022-2023/Q3,Great Britain,PSV,998.0,,190.0,,0.1903999999999999,,563.0,,9.0,,0.016,,3,,0.0053,,2.0,,1.0,,0.5,,18.0,,3050.00,
+2022 to 2023,Quarter 3: October to December,2022-2023/Q3,Great Britain,Taxi,170.0,,109.0,,0.6412,,1.0,,0.0,,0.0,,0,,0.0,,0.0,,0.0,,,x,8.0,,550.00,
+2022 to 2023,Quarter 3: October to December,2022-2023/Q3,Great Britain,Trailer,1654.0,,385.0,,0.2328,,0.0,,0.0,,,x,0,,,x,1.0,,0.0,,0.0,,0.0,,,x
+2022 to 2023,Quarter 3: October to December,2022-2023/Q3,Non-Great Britain,Car,2.0,,1.0,,0.5,,0.0,,0.0,,,x,0,,,x,0.0,,0.0,,,x,0.0,,,x
+2022 to 2023,Quarter 3: October to December,2022-2023/Q3,Non-Great Britain,Heavy goods vehicle (HGV),4639.0,,947.0,,0.2041,,7373.0,,155.0,,0.021,,188,,0.0255,,413.0,,135.0,,0.3268999999999999,,3259.0,,724900.00,
+2022 to 2023,Quarter 3: October to December,2022-2023/Q3,Non-Great Britain,LGV,165.0,,69.0,,0.4182,,239.0,,6.0,,0.0250999999999999,,33,,0.1381,,187.0,,115.0,,0.615,,151.0,,24200.00,
+2022 to 2023,Quarter 3: October to December,2022-2023/Q3,Non-Great Britain,Non Testable,53.0,,23.0,,0.434,,58.0,,0.0,,0.0,,0,,0.0,,32.0,,0.0,,0.0,,0.0,,,x
+2022 to 2023,Quarter 3: October to December,2022-2023/Q3,Non-Great Britain,PSV,18.0,,6.0,,0.3333,,30.0,,2.0,,0.0667,,0,,0.0,,0.0,,0.0,,,x,4.0,,1200.00,
+2022 to 2023,Quarter 3: October to December,2022-2023/Q3,Non-Great Britain,Taxi,2.0,,2.0,,1.0,,0.0,,0.0,,,x,0,,,x,0.0,,0.0,,,x,0.0,,,x
+2022 to 2023,Quarter 3: October to December,2022-2023/Q3,Non-Great Britain,Trailer,4459.0,,1373.0,,0.3079,,0.0,,0.0,,,x,0,,,x,12.0,,0.0,,0.0,,1.0,,100.00,
+2022 to 2023,Quarter 3: October to December,2022-2023/Q3,Total,2022 to 2023 quarter 3,18922.0,,5596.0,,0.2957,,13730.0,,284.0,,0.0207,,365,,0.0266,,2261.0,,1019.0,,0.4507,,4382.0,,924000.00,
+2022 to 2023,Quarter 2: July to September,2022-2023/Q2,Great Britain,Car,291.0,,157.0,,0.5395,,29.0,,1.0,,0.0345,,12,,0.4138,,11.0,,5.0,,0.4545,,9.0,,2350.00,
+2022 to 2023,Quarter 2: July to September,2022-2023/Q2,Great Britain,Heavy goods vehicle (HGV),3640.0,,827.0,,0.2271999999999999,,4022.0,,89.0,,0.0220999999999999,,73,,0.0182,,527.0,,169.0,,0.3207,,538.0,,94700.00,
+2022 to 2023,Quarter 2: July to September,2022-2023/Q2,Great Britain,LGV,2108.0,,1081.0,,0.5128,,1206.0,,25.0,,0.0207,,97,,0.0803999999999999,,952.0,,633.0,,0.6648999999999999,,403.0,,82800.00,
+2022 to 2023,Quarter 2: July to September,2022-2023/Q2,Great Britain,Non Testable,852.0,,410.0,,0.4811999999999999,,509.0,,0.0,,0.0,,2,,0.0039,,212.0,,1.0,,0.0046999999999999,,7.0,,700.00,
+2022 to 2023,Quarter 2: July to September,2022-2023/Q2,Great Britain,PSV,1027.0,,137.0,,0.1334,,837.0,,13.0,,0.0155,,22,,0.0263,,1.0,,0.0,,0.0,,33.0,,7250.00,
+2022 to 2023,Quarter 2: July to September,2022-2023/Q2,Great Britain,Taxi,174.0,,92.0,,0.5287,,6.0,,0.0,,0.0,,0,,0.0,,0.0,,0.0,,,x,2.0,,150.00,
+2022 to 2023,Quarter 2: July to September,2022-2023/Q2,Great Britain,Trailer,1632.0,,385.0,,0.2359,,0.0,,0.0,,,x,0,,,x,8.0,,0.0,,0.0,,0.0,,,x
+2022 to 2023,Quarter 2: July to September,2022-2023/Q2,Non-Great Britain,Heavy goods vehicle (HGV),4578.0,,852.0,,0.1861,,7363.0,,191.0,,0.0259,,204,,0.0277,,407.0,,149.0,,0.3661,,3626.0,,880900.00,
+2022 to 2023,Quarter 2: July to September,2022-2023/Q2,Non-Great Britain,LGV,143.0,,45.0,,0.3147,,206.0,,3.0,,0.0146,,40,,0.1942,,149.0,,96.0,,0.6443000000000001,,121.0,,20550.00,
+2022 to 2023,Quarter 2: July to September,2022-2023/Q2,Non-Great Britain,Non Testable,46.0,,24.0,,0.5217,,68.0,,0.0,,0.0,,0,,0.0,,32.0,,0.0,,0.0,,0.0,,,x
+2022 to 2023,Quarter 2: July to September,2022-2023/Q2,Non-Great Britain,PSV,14.0,,2.0,,0.1429,,38.0,,0.0,,0.0,,1,,0.0263,,0.0,,0.0,,,x,8.0,,2200.00,
+2022 to 2023,Quarter 2: July to September,2022-2023/Q2,Non-Great Britain,Trailer,4322.0,,1312.0,,0.3036,,0.0,,0.0,,,x,0,,,x,11.0,,0.0,,0.0,,0.0,,,x
+2022 to 2023,Quarter 2: July to September,2022-2023/Q2,Total,2022 to 2023 quarter 2,18827.0,,5324.0,,0.2828,,14284.0,,322.0,,0.0225,,451,,0.0316,,2310.0,,1053.0,,0.4558,,4747.0,,1091600.00,
+2022 to 2023,Quarter 1: April to June,2022-2023/Q1,Great Britain,Car,354.0,,211.0,,0.596,,36.0,,0.0,,0.0,,13,,0.3611,,15.0,,7.0,,0.4667,,11.0,,2250.00,
+2022 to 2023,Quarter 1: April to June,2022-2023/Q1,Great Britain,Heavy goods vehicle (HGV),4423.0,,999.0,,0.2259,,4297.0,,94.0,,0.0219,,84,,0.0195,,611.0,,164.0,,0.2683999999999999,,515.0,,90650.00,
+2022 to 2023,Quarter 1: April to June,2022-2023/Q1,Great Britain,LGV,2239.0,,1108.0,,0.4949,,1224.0,,26.0,,0.0212,,98,,0.0801,,927.0,,634.0,,0.6839,,441.0,,90600.00,
+2022 to 2023,Quarter 1: April to June,2022-2023/Q1,Great Britain,Non Testable,950.0,,435.0,,0.4579,,606.0,,0.0,,0.0,,1,,0.0017,,219.0,,2.0,,0.0091,,8.0,,1200.00,
+2022 to 2023,Quarter 1: April to June,2022-2023/Q1,Great Britain,PSV,1029.0,,200.0,,0.1944,,987.0,,26.0,,0.0263,,34,,0.0344,,3.0,,1.0,,0.3333,,52.0,,12300.00,
+2022 to 2023,Quarter 1: April to June,2022-2023/Q1,Great Britain,Taxi,88.0,,46.0,,0.5227,,7.0,,0.0,,0.0,,0,,0.0,,0.0,,0.0,,,x,5.0,,450.00,
+2022 to 2023,Quarter 1: April to June,2022-2023/Q1,Great Britain,Trailer,1886.0,,434.0,,0.2301,,0.0,,0.0,,,x,0,,,x,4.0,,0.0,,0.0,,0.0,,,x
+2022 to 2023,Quarter 1: April to June,2022-2023/Q1,Non-Great Britain,Car,4.0,,3.0,,0.75,,2.0,,0.0,,0.0,,0,,0.0,,0.0,,0.0,,,x,0.0,,,x
+2022 to 2023,Quarter 1: April to June,2022-2023/Q1,Non-Great Britain,Heavy goods vehicle (HGV),6003.0,,1109.0,,0.1846999999999999,,8418.0,,204.0,,0.0242,,232,,0.0276,,644.0,,202.0,,0.3137,,4636.0,,1050850.00,
+2022 to 2023,Quarter 1: April to June,2022-2023/Q1,Non-Great Britain,LGV,155.0,,58.0,,0.3742,,208.0,,5.0,,0.024,,29,,0.1394,,172.0,,95.0,,0.5523,,122.0,,18700.00,
+2022 to 2023,Quarter 1: April to June,2022-2023/Q1,Non-Great Britain,Non Testable,40.0,,21.0,,0.525,,47.0,,0.0,,0.0,,0,,0.0,,29.0,,0.0,,0.0,,0.0,,,x
+2022 to 2023,Quarter 1: April to June,2022-2023/Q1,Non-Great Britain,PSV,15.0,,3.0,,0.2,,25.0,,2.0,,0.08,,0,,0.0,,0.0,,0.0,,,x,8.0,,2100.00,
+2022 to 2023,Quarter 1: April to June,2022-2023/Q1,Non-Great Britain,Trailer,5756.0,,1767.0,,0.307,,0.0,,0.0,,,x,0,,,x,21.0,,0.0,,0.0,,1.0,,300.00,
+2022 to 2023,Quarter 1: April to June,2022-2023/Q1,Total,2022 to 2023 quarter 1,22942.0,,6394.0,,0.2787,,15857.0,,357.0,,0.0225,,491,,0.031,,2645.0,,1105.0,,0.4178,,5799.0,,1269400.00,
+2021 to 2022,Quarter 4: January to March,2021-2022/Q4,Great Britain,Heavy goods vehicle (HGV),4903.0,,969.0,,0.1976,,4679.0,,94.0,,0.0200999999999999,,104,,0.0222,,483.0,,161.0,,0.3333,,458.0,,80850.00,
+2021 to 2022,Quarter 4: January to March,2021-2022/Q4,Great Britain,Car,248.0,,155.0,,0.625,,32.0,,1.0,,0.0313,,10,,0.3125,,12.0,,5.0,,0.4167,,9.0,,1850.00,
+2021 to 2022,Quarter 4: January to March,2021-2022/Q4,Great Britain,Light goods vehicle,1973.0,,996.0,,0.5047999999999999,,1084.0,,15.0,,0.0138,,55,,0.0507,,835.0,,556.0,,0.6659,,338.0,,70800.00,
+2021 to 2022,Quarter 4: January to March,2021-2022/Q4,Great Britain,Non Testable,475.0,,268.0,,0.5642,,391.0,,0.0,,0.0,,1,,0.0026,,159.0,,2.0,,0.0126,,5.0,,400.00,
+2021 to 2022,Quarter 4: January to March,2021-2022/Q4,Great Britain,Taxi,143.0,,84.0,,0.5874,,2.0,,0.0,,0.0,,0,,0.0,,0.0,,0.0,,,x,9.0,,1150.00,
+2021 to 2022,Quarter 4: January to March,2021-2022/Q4,Great Britain,Public service vehicle,1122.0,,105.0,,0.0935999999999999,,798.0,,4.0,,0.005,,6,,0.0075,,0.0,,0.0,,,x,10.0,,1850.00,
+2021 to 2022,Quarter 4: January to March,2021-2022/Q4,Great Britain,Trailer,2078.0,,439.0,,0.2113,,0.0,,0.0,,,x,0,,,x,5.0,,0.0,,0.0,,0.0,,,x
+2021 to 2022,Quarter 4: January to March,2021-2022/Q4,Great Britain,Subtotal,10942.0,,3016.0,,0.2756,,6986.0,,114.0,,0.0163,,176,,0.0252,,1494.0,,724.0,,0.4846,,829.0,,156900.00,
+2021 to 2022,Quarter 4: January to March,2021-2022/Q4,Non-Great Britain,Heavy goods vehicle (HGV),6935.0,,1268.0,,0.1828,,9554.0,,247.0,,0.0259,,214,,0.0224,,617.0,,222.0,,0.3597999999999999,,4881.0,,1084200.00,
+2021 to 2022,Quarter 4: January to March,2021-2022/Q4,Non-Great Britain,Car,3.0,,3.0,,1.0,,1.0,,0.0,,0.0,,1,,1.0,,0.0,,0.0,,,x,1.0,,300.00,
+2021 to 2022,Quarter 4: January to March,2021-2022/Q4,Non-Great Britain,Light goods vehicle,274.0,,85.0,,0.3102,,177.0,,4.0,,0.0226,,16,,0.0904,,166.0,,107.0,,0.6446,,140.0,,23050.00,
+2021 to 2022,Quarter 4: January to March,2021-2022/Q4,Non-Great Britain,Non Testable,45.0,,18.0,,0.4,,55.0,,0.0,,0.0,,0,,0.0,,28.0,,0.0,,0.0,,0.0,,,x
+2021 to 2022,Quarter 4: January to March,2021-2022/Q4,Non-Great Britain,Taxi,6.0,,5.0,,0.8332999999999999,,0.0,,0.0,,,x,0,,,x,0.0,,0.0,,,x,2.0,,150.00,
+2021 to 2022,Quarter 4: January to March,2021-2022/Q4,Non-Great Britain,Public service vehicle,1.0,,0.0,,0.0,,1.0,,0.0,,0.0,,0,,0.0,,0.0,,0.0,,,x,0.0,,,x
+2021 to 2022,Quarter 4: January to March,2021-2022/Q4,Non-Great Britain,Trailer,6633.0,,1837.0,,0.2769,,0.0,,0.0,,,x,0,,,x,30.0,,0.0,,0.0,,0.0,,,x
+2021 to 2022,Quarter 4: January to March,2021-2022/Q4,Non-Great Britain,Subtotal,13897.0,,3216.0,,0.2314,,9788.0,,251.0,,0.0256,,231,,0.0236,,841.0,,329.0,,0.3912,,5024.0,,1107700.00,
+2021 to 2022,Quarter 4: January to March,2021-2022/Q4,Total,2021 to 2022 quarter 4,24839.0,,6232.0,,0.2509,,16774.0,,365.0,,0.0218,,407,,0.0243,,2335.0,,1053.0,,0.451,,5853.0,,1264600.00,
+2021 to 2022,Quarter 3: October to December,2021-2022/Q3,Great Britain,Heavy goods vehicle (HGV),4567.0,,836.0,,0.1830999999999999,,4331.0,,95.0,,0.0219,,76,,0.0175,,553.0,,156.0,,0.2821,,535.0,,102200.00,
+2021 to 2022,Quarter 3: October to December,2021-2022/Q3,Great Britain,Car,277.0,,176.0,,0.6354,,18.0,,0.0,,0.0,,8,,0.4443999999999999,,12.0,,2.0,,0.1667,,3.0,,650.00,
+2021 to 2022,Quarter 3: October to December,2021-2022/Q3,Great Britain,Light goods vehicle,1913.0,,1066.0,,0.5572,,1174.0,,6.0,,0.0051,,42,,0.0358,,905.0,,599.0,,0.6618999999999999,,436.0,,97700.00,
+2021 to 2022,Quarter 3: October to December,2021-2022/Q3,Great Britain,Non Testable,470.0,,231.0,,0.4915,,370.0,,1.0,,0.0027,,0,,0.0,,143.0,,1.0,,0.0069999999999999,,2.0,,200.00,
+2021 to 2022,Quarter 3: October to December,2021-2022/Q3,Great Britain,Taxi,137.0,,80.0,,0.5839,,1.0,,0.0,,0.0,,0,,0.0,,0.0,,0.0,,,x,16.0,,1200.00,
+2021 to 2022,Quarter 3: October to December,2021-2022/Q3,Great Britain,Public service vehicle,1186.0,,127.0,,0.1071,,992.0,,8.0,,0.0081,,15,,0.0151,,1.0,,0.0,,0.0,,23.0,,4400.00,
+2021 to 2022,Quarter 3: October to December,2021-2022/Q3,Great Britain,Trailer,2038.0,,427.0,,0.2095,,0.0,,0.0,,,x,0,,,x,12.0,,0.0,,0.0,,0.0,,,x
+2021 to 2022,Quarter 3: October to December,2021-2022/Q3,Great Britain,Subtotal,10588.0,,2943.0,,0.278,,6886.0,,110.0,,0.016,,141,,0.0204999999999999,,1626.0,,758.0,,0.4661999999999999,,1015.0,,206350.00,
+2021 to 2022,Quarter 3: October to December,2021-2022/Q3,Non-Great Britain,Heavy goods vehicle (HGV),6820.0,,1157.0,,0.1696,,9430.0,,229.0,,0.0243,,214,,0.0227,,763.0,,272.0,,0.3565,,4530.0,,1006150.00,
+2021 to 2022,Quarter 3: October to December,2021-2022/Q3,Non-Great Britain,Car,2.0,,2.0,,1.0,,0.0,,0.0,,,x,0,,,x,0.0,,0.0,,,x,0.0,,,x
+2021 to 2022,Quarter 3: October to December,2021-2022/Q3,Non-Great Britain,Light goods vehicle,246.0,,78.0,,0.3171,,136.0,,2.0,,0.0147,,20,,0.1471,,124.0,,83.0,,0.6694,,144.0,,20900.00,
+2021 to 2022,Quarter 3: October to December,2021-2022/Q3,Non-Great Britain,Non Testable,39.0,,21.0,,0.5385,,62.0,,0.0,,0.0,,0,,0.0,,34.0,,0.0,,0.0,,0.0,,,x
+2021 to 2022,Quarter 3: October to December,2021-2022/Q3,Non-Great Britain,Taxi,1.0,,1.0,,1.0,,0.0,,0.0,,,x,0,,,x,0.0,,0.0,,,x,1.0,,50.00,
+2021 to 2022,Quarter 3: October to December,2021-2022/Q3,Non-Great Britain,Public service vehicle,1.0,,0.0,,0.0,,3.0,,0.0,,0.0,,0,,0.0,,0.0,,0.0,,,x,0.0,,,x
+2021 to 2022,Quarter 3: October to December,2021-2022/Q3,Non-Great Britain,Trailer,6601.0,,1721.0,,0.2607,,0.0,,0.0,,,x,0,,,x,32.0,,0.0,,0.0,,0.0,,,x
+2021 to 2022,Quarter 3: October to December,2021-2022/Q3,Non-Great Britain,Subtotal,13710.0,,2980.0,,0.2173999999999999,,9631.0,,231.0,,0.024,,234,,0.0243,,953.0,,355.0,,0.3725,,4675.0,,1027100.00,
+2021 to 2022,Quarter 3: October to December,2021-2022/Q3,Total,2021 to 2022 quarter 3,24298.0,,5923.0,,0.2438,,16517.0,,341.0,,0.0206,,375,,0.0227,,2579.0,,1113.0,,0.4316,,5690.0,,1233450.00,
+2021 to 2022,Quarter 2: July to September,2021-2022/Q2,Great Britain,Heavy goods vehicle (HGV),5140.0,,987.0,,0.192,,4786.0,,85.0,,0.0178,,111,,0.0232,,686.0,,202.0,,0.2945,,598.0,,108150.00,
+2021 to 2022,Quarter 2: July to September,2021-2022/Q2,Great Britain,Car,626.0,,162.0,,0.2588,,33.0,,2.0,,0.0605999999999999,,8,,0.2423999999999999,,9.0,,5.0,,0.5556,,10.0,,2200.00,
+2021 to 2022,Quarter 2: July to September,2021-2022/Q2,Great Britain,Light goods vehicle,1696.0,,898.0,,0.5295000000000001,,1046.0,,15.0,,0.0143,,81,,0.0774,,868.0,,613.0,,0.7062,,422.0,,99550.00,
+2021 to 2022,Quarter 2: July to September,2021-2022/Q2,Great Britain,Non Testable,888.0,,263.0,,0.2962,,469.0,,1.0,,0.0021,,0,,0.0,,149.0,,0.0,,0.0,,6.0,,1200.00,
+2021 to 2022,Quarter 2: July to September,2021-2022/Q2,Great Britain,Taxi,105.0,,47.0,,0.4476,,4.0,,0.0,,0.0,,0,,0.0,,0.0,,0.0,,,x,1.0,,100.00,
+2021 to 2022,Quarter 2: July to September,2021-2022/Q2,Great Britain,Public service vehicle,936.0,,75.0,,0.0801,,728.0,,9.0,,0.0124,,13,,0.0179,,1.0,,0.0,,0.0,,9.0,,2700.00,
+2021 to 2022,Quarter 2: July to September,2021-2022/Q2,Great Britain,Trailer,2309.0,,506.0,,0.2191,,0.0,,0.0,,,x,0,,,x,10.0,,0.0,,0.0,,,x,,x
+2021 to 2022,Quarter 2: July to September,2021-2022/Q2,Great Britain,Subtotal,11700.0,,2938.0,,0.2511,,7066.0,,112.0,,0.0159,,213,,0.0301,,1723.0,,820.0,,0.4759,,1046.0,,213900.00,
+2021 to 2022,Quarter 2: July to September,2021-2022/Q2,Non-Great Britain,Heavy goods vehicle (HGV),6247.0,,1087.0,,0.174,,8586.0,,197.0,,0.0229,,224,,0.0260999999999999,,735.0,,247.0,,0.3361,,3913.0,,823350.00,
+2021 to 2022,Quarter 2: July to September,2021-2022/Q2,Non-Great Britain,Car,5.0,,1.0,,0.2,,0.0,,0.0,,,x,0,,,x,0.0,,0.0,,,x,,x,,x
+2021 to 2022,Quarter 2: July to September,2021-2022/Q2,Non-Great Britain,Light goods vehicle,224.0,,67.0,,0.2991,,134.0,,3.0,,0.0224,,19,,0.1418,,110.0,,78.0,,0.7091,,114.0,,17500.00,
+2021 to 2022,Quarter 2: July to September,2021-2022/Q2,Non-Great Britain,Non Testable,48.0,,16.0,,0.3333,,52.0,,0.0,,0.0,,0,,0.0,,22.0,,,x,0.0,,0.0,,,x
+2021 to 2022,Quarter 2: July to September,2021-2022/Q2,Non-Great Britain,Taxi,,x,,x,,x,,x,,x,,x,,x,,x,,x,0.0,,,x,,x,,x
+2021 to 2022,Quarter 2: July to September,2021-2022/Q2,Non-Great Britain,Public service vehicle,4.0,,1.0,,0.25,,3.0,,1.0,,0.3333,,1,,0.3333,,1.0,,0.0,,0.0,,3.0,,700.00,
+2021 to 2022,Quarter 2: July to September,2021-2022/Q2,Non-Great Britain,Trailer,6072.0,,1777.0,,0.2927,,0.0,,0.0,,,x,,x,,x,40.0,,0.0,,0.0,,0.0,,,x
+2021 to 2022,Quarter 2: July to September,2021-2022/Q2,Non-Great Britain,Subtotal,12600.0,,2949.0,,0.2339999999999999,,8775.0,,201.0,,0.0229,,244,,0.0278,,908.0,,325.0,,0.3579,,4030.0,,841550.00,
+2021 to 2022,Quarter 2: July to September,2021-2022/Q2,Total,2021 to 2022 quarter 2,24300.0,,5887.0,,0.2423,,15841.0,,313.0,,0.0197999999999999,,457,,0.0288,,2631.0,,1145.0,,0.4352,,5076.0,,1055450.00,
+2021 to 2022,Quarter 1: April to June,2021-2022/Q1,Great Britain,Heavy goods vehicle (HGV),5544.0,,1117.0,,0.2014999999999999,,5110.0,,121.0,,0.0237,,94,,0.0184,,826.0,,227.0,,0.2748,,667.0,,123450.00,
+2021 to 2022,Quarter 1: April to June,2021-2022/Q1,Great Britain,Car,318.0,,101.0,,0.3176,,20.0,,2.0,,0.1,,3,,0.15,,11.0,,3.0,,0.2727,,4.0,,1000.00,
+2021 to 2022,Quarter 1: April to June,2021-2022/Q1,Great Britain,Light goods vehicle,1670.0,,867.0,,0.5192,,1261.0,,22.0,,0.0174,,91,,0.0722,,1049.0,,729.0,,0.6949,,527.0,,118650.00,
+2021 to 2022,Quarter 1: April to June,2021-2022/Q1,Great Britain,Non Testable,655.0,,292.0,,0.4458,,497.0,,0.0,,0.0,,0,,0.0,,209.0,,3.0,,0.0144,,3.0,,600.00,
+2021 to 2022,Quarter 1: April to June,2021-2022/Q1,Great Britain,Taxi,49.0,,33.0,,0.6735,,1.0,,0.0,,0.0,,0,,0.0,,0.0,,,x,,x,1.0,,100.00,
+2021 to 2022,Quarter 1: April to June,2021-2022/Q1,Great Britain,Public service vehicle,331.0,,42.0,,0.1268999999999999,,122.0,,0.0,,0.0,,1,,0.0081999999999999,,0.0,,,x,,x,2.0,,600.00,
+2021 to 2022,Quarter 1: April to June,2021-2022/Q1,Great Britain,Trailer,2384.0,,538.0,,0.2257,,0.0,,0.0,,,x,,x,,x,18.0,,,x,0.0,,0.0,,,x
+2021 to 2022,Quarter 1: April to June,2021-2022/Q1,Great Britain,Subtotal,10951.0,,2990.0,,0.273,,7011.0,,145.0,,0.0207,,189,,0.027,,2113.0,,962.0,,0.4553,,1204.0,,244400.00,
+2021 to 2022,Quarter 1: April to June,2021-2022/Q1,Non-Great Britain,Heavy goods vehicle (HGV),6614.0,,1256.0,,0.1898999999999999,,9053.0,,189.0,,0.0209,,224,,0.0247,,892.0,,266.0,,0.2982,,4240.0,,927950.00,
+2021 to 2022,Quarter 1: April to June,2021-2022/Q1,Non-Great Britain,Car,2.0,,1.0,,0.5,,0.0,,0.0,,,x,0,,,x,0.0,,0.0,,,x,,x,,x
+2021 to 2022,Quarter 1: April to June,2021-2022/Q1,Non-Great Britain,Light goods vehicle,186.0,,64.0,,0.3440999999999999,,188.0,,3.0,,0.016,,29,,0.1543,,171.0,,103.0,,0.6023,,171.0,,29700.00,
+2021 to 2022,Quarter 1: April to June,2021-2022/Q1,Non-Great Britain,Non Testable,47.0,,17.0,,0.3617,,75.0,,0.0,,0.0,,0,,0.0,,48.0,,0.0,,0.0,,0.0,,,x
+2021 to 2022,Quarter 1: April to June,2021-2022/Q1,Non-Great Britain,Taxi,,x,,x,,x,,x,,x,,x,,x,,x,0.0,,0.0,,,x,,x,,x
+2021 to 2022,Quarter 1: April to June,2021-2022/Q1,Non-Great Britain,Public service vehicle,0.0,,0.0,,,x,2.0,,0.0,,0.0,,0,,0.0,,0.0,,0.0,,,x,1.0,,300.00,
+2021 to 2022,Quarter 1: April to June,2021-2022/Q1,Non-Great Britain,Trailer,6432.0,,1999.0,,0.3107999999999999,,0.0,,0.0,,,x,0,,,x,41.0,,0.0,,0.0,,0.0,,,x
+2021 to 2022,Quarter 1: April to June,2021-2022/Q1,Non-Great Britain,Subtotal,13281.0,,3337.0,,0.2512999999999999,,9318.0,,192.0,,0.0206,,253,,0.0272,,1152.0,,369.0,,0.3203,,4412.0,,957950.00,
+2021 to 2022,Quarter 1: April to June,2021-2022/Q1,Total,2021 to 2022 quarter 1,24232.0,,6327.0,,0.2611,,16329.0,,337.0,,0.0206,,442,,0.0271,,3265.0,,1331.0,,0.4077,,5616.0,,1202350.00,
+2020 to 2021,Quarter 4: January to March,2020-2021/Q4,Great Britain,Heavy goods vehicle (HGV),4543.0,,813.0,,0.179,,4540.0,,91.0,,0.02,,61,,0.0134,,675.0,,181.0,,0.2681,,521.0,,113500.00,
+2020 to 2021,Quarter 4: January to March,2020-2021/Q4,Great Britain,Car,74.0,,50.0,,0.6757,,14.0,,1.0,,0.0713999999999999,,4,,0.2857,,10.0,,2.0,,0.2,,4.0,,600.00,
+2020 to 2021,Quarter 4: January to March,2020-2021/Q4,Great Britain,Light goods vehicle,827.0,,450.0,,0.5440999999999999,,751.0,,11.0,,0.0146,,32,,0.0426,,673.0,,519.0,,0.7712,,333.0,,75550.00,
+2020 to 2021,Quarter 4: January to March,2020-2021/Q4,Great Britain,Non Testable,231.0,,118.0,,0.5108,,273.0,,0.0,,0.0,,0,,0.0,,103.0,,2.0,,0.0194,,3.0,,500.00,
+2020 to 2021,Quarter 4: January to March,2020-2021/Q4,Great Britain,Taxi,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x
+2020 to 2021,Quarter 4: January to March,2020-2021/Q4,Great Britain,Public service vehicle,269.0,,37.0,,0.1375,,9.0,,0.0,,0.0,,0,,0.0,,0.0,,0.0,,,x,,x,,x
+2020 to 2021,Quarter 4: January to March,2020-2021/Q4,Great Britain,Trailer,2095.0,,484.0,,0.231,,0.0,,0.0,,,x,0,,,x,23.0,,0.0,,0.0,,0.0,,,x
+2020 to 2021,Quarter 4: January to March,2020-2021/Q4,Great Britain,Subtotal,8039.0,,1952.0,,0.2428,,5587.0,,103.0,,0.0184,,97,,0.0174,,1484.0,,704.0,,0.4744,,861.0,,190150.00,
+2020 to 2021,Quarter 4: January to March,2020-2021/Q4,Non-Great Britain,Heavy goods vehicle (HGV),5910.0,,797.0,,0.1349,,8256.0,,91.0,,0.011,,143,,0.0173,,788.0,,148.0,,0.1878,,5025.0,,1329750.00,
+2020 to 2021,Quarter 4: January to March,2020-2021/Q4,Non-Great Britain,Car,1.0,,1.0,,1.0,,0.0,,0.0,,,x,0,,,x,0.0,,0.0,,,x,0.0,,,x
+2020 to 2021,Quarter 4: January to March,2020-2021/Q4,Non-Great Britain,Light goods vehicle,48.0,,22.0,,0.4583,,45.0,,2.0,,0.0444,,7,,0.1556,,47.0,,26.0,,0.5532,,35.0,,5800.00,
+2020 to 2021,Quarter 4: January to March,2020-2021/Q4,Non-Great Britain,Non Testable,14.0,,8.0,,0.5714,,18.0,,0.0,,0.0,,0,,0.0,,11.0,,0.0,,0.0,,0.0,,,x
+2020 to 2021,Quarter 4: January to March,2020-2021/Q4,Non-Great Britain,Taxi,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x
+2020 to 2021,Quarter 4: January to March,2020-2021/Q4,Non-Great Britain,Public service vehicle,2.0,,0.0,,0.0,,2.0,,0.0,,0.0,,0,,0.0,,2.0,,1.0,,0.5,,0.0,,,x
+2020 to 2021,Quarter 4: January to March,2020-2021/Q4,Non-Great Britain,Trailer,5741.0,,1259.0,,0.2193,,0.0,,0.0,,,x,,x,,x,76.0,,0.0,,0.0,,0.0,,,x
+2020 to 2021,Quarter 4: January to March,2020-2021/Q4,Non-Great Britain,Subtotal,11716.0,,2087.0,,0.1780999999999999,,8321.0,,93.0,,0.0112,,150,,0.018,,924.0,,175.0,,0.1894,,5060.0,,1335550.00,
+2020 to 2021,Quarter 4: January to March,2020-2021/Q4,Total,2020 to 2021 quarter 4,19755.0,,4039.0,,0.2045,,13908.0,,196.0,,0.0141,,247,,0.0178,,2408.0,,879.0,,0.365,,5921.0,,1525700.00,
+2020 to 2021,Quarter 3: October to December,2020-2021/Q3,Great Britain,Heavy goods vehicle (HGV),4325.0,,833.0,,0.1926,,3820.0,,96.0,,0.0250999999999999,,54,,0.0141,,485.0,,158.0,,0.3258,,551.0,,100650.00,
+2020 to 2021,Quarter 3: October to December,2020-2021/Q3,Great Britain,Car,122.0,,83.0,,0.6803,,13.0,,1.0,,0.0769,,5,,0.3846,,11.0,,4.0,,0.3636,,5.0,,1300.00,
+2020 to 2021,Quarter 3: October to December,2020-2021/Q3,Great Britain,Light goods vehicle,1239.0,,644.0,,0.5197999999999999,,911.0,,10.0,,0.011,,39,,0.0428,,858.0,,623.0,,0.7261,,471.0,,108550.00,
+2020 to 2021,Quarter 3: October to December,2020-2021/Q3,Great Britain,Non Testable,338.0,,185.0,,0.5473,,297.0,,0.0,,0.0,,0,,0.0,,111.0,,1.0,,0.009,,3.0,,300.00,
+2020 to 2021,Quarter 3: October to December,2020-2021/Q3,Great Britain,Taxi,41.0,,27.0,,0.6585,,0.0,,0.0,,,x,0,,,x,0.0,,0.0,,,x,1.0,,50.00,
+2020 to 2021,Quarter 3: October to December,2020-2021/Q3,Great Britain,Public service vehicle,309.0,,39.0,,0.1261999999999999,,19.0,,0.0,,0.0,,0,,0.0,,1.0,,1.0,,1.0,,1.0,,300.00,
+2020 to 2021,Quarter 3: October to December,2020-2021/Q3,Great Britain,Trailer,1963.0,,443.0,,0.2257,,0.0,,0.0,,,x,0,,,x,13.0,,0.0,,0.0,,,x,,x
+2020 to 2021,Quarter 3: October to December,2020-2021/Q3,Great Britain,Subtotal,8337.0,,2254.0,,0.2704,,5060.0,,107.0,,0.0210999999999999,,98,,0.0194,,1479.0,,787.0,,0.5321,,1032.0,,211150.00,
+2020 to 2021,Quarter 3: October to December,2020-2021/Q3,Non-Great Britain,Heavy goods vehicle (HGV),6754.0,,1300.0,,0.1925,,9109.0,,255.0,,0.0279999999999999,,224,,0.0246,,533.0,,242.0,,0.4539999999999999,,4333.0,,933150.00,
+2020 to 2021,Quarter 3: October to December,2020-2021/Q3,Non-Great Britain,Car,3.0,,3.0,,1.0,,0.0,,0.0,,,x,0,,,x,0.0,,0.0,,,x,,x,,x
+2020 to 2021,Quarter 3: October to December,2020-2021/Q3,Non-Great Britain,Light goods vehicle,213.0,,76.0,,0.3568,,207.0,,1.0,,0.0048,,19,,0.0917999999999999,,206.0,,134.0,,0.6505,,165.0,,24950.00,
+2020 to 2021,Quarter 3: October to December,2020-2021/Q3,Non-Great Britain,Non Testable,43.0,,15.0,,0.3488,,49.0,,0.0,,0.0,,0,,0.0,,26.0,,0.0,,0.0,,,x,,x
+2020 to 2021,Quarter 3: October to December,2020-2021/Q3,Non-Great Britain,Taxi,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x
+2020 to 2021,Quarter 3: October to December,2020-2021/Q3,Non-Great Britain,Public service vehicle,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x
+2020 to 2021,Quarter 3: October to December,2020-2021/Q3,Non-Great Britain,Trailer,6684.0,,1879.0,,0.2811,,0.0,,0.0,,,x,0,,,x,33.0,,0.0,,0.0,,1.0,,100.00,
+2020 to 2021,Quarter 3: October to December,2020-2021/Q3,Non-Great Britain,Subtotal,13697.0,,3273.0,,0.239,,9365.0,,256.0,,0.0273,,243,,0.0259,,798.0,,376.0,,0.4711999999999999,,4499.0,,958200.00,
+2020 to 2021,Quarter 3: October to December,2020-2021/Q3,Total,2020 to 2021 quarter 3,22034.0,,5527.0,,0.2507999999999999,,14425.0,,363.0,,0.0252,,341,,0.0236,,2277.0,,1163.0,,0.5108,,5531.0,,1169350.00,
+2020 to 2021,Quarter 2: July to September,2020-2021/Q2,Great Britain,Heavy goods vehicle (HGV),4386.0,,919.0,,0.2095,,3792.0,,101.0,,0.0266,,75,,0.0197999999999999,,490.0,,200.0,,0.4082,,406.0,,79050.00,
+2020 to 2021,Quarter 2: July to September,2020-2021/Q2,Great Britain,Car,59.0,,18.0,,0.3051,,12.0,,1.0,,0.0833,,2,,0.1667,,7.0,,3.0,,0.4286,,3.0,,650.00,
+2020 to 2021,Quarter 2: July to September,2020-2021/Q2,Great Britain,Light goods vehicle,794.0,,361.0,,0.4547,,713.0,,11.0,,0.0154,,36,,0.0504999999999999,,682.0,,506.0,,0.7419,,320.0,,74600.00,
+2020 to 2021,Quarter 2: July to September,2020-2021/Q2,Great Britain,Non Testable,345.0,,163.0,,0.4725,,260.0,,0.0,,0.0,,1,,0.0038,,127.0,,3.0,,0.0236,,1.0,,300.00,
+2020 to 2021,Quarter 2: July to September,2020-2021/Q2,Great Britain,Taxi,2.0,,1.0,,0.5,,0.0,,0.0,,,x,0,,,x,0.0,,0.0,,,x,0.0,,,x
+2020 to 2021,Quarter 2: July to September,2020-2021/Q2,Great Britain,Public service vehicle,143.0,,14.0,,0.0978999999999999,,2.0,,0.0,,0.0,,0,,0.0,,0.0,,0.0,,,x,0.0,,,x
+2020 to 2021,Quarter 2: July to September,2020-2021/Q2,Great Britain,Trailer,2096.0,,564.0,,0.2691,,0.0,,0.0,,,x,0,,,x,11.0,,0.0,,0.0,,0.0,,,x
+2020 to 2021,Quarter 2: July to September,2020-2021/Q2,Great Britain,Subtotal,7825.0,,2040.0,,0.2607,,4779.0,,113.0,,0.0236,,114,,0.0239,,1317.0,,712.0,,0.5406,,730.0,,154600.00,
+2020 to 2021,Quarter 2: July to September,2020-2021/Q2,Non-Great Britain,Heavy goods vehicle (HGV),7038.0,,1248.0,,0.1773,,8986.0,,195.0,,0.0217,,210,,0.0233999999999999,,460.0,,233.0,,0.5065,,3474.0,,712800.00,
+2020 to 2021,Quarter 2: July to September,2020-2021/Q2,Non-Great Britain,Car,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x
+2020 to 2021,Quarter 2: July to September,2020-2021/Q2,Non-Great Britain,Light goods vehicle,140.0,,45.0,,0.3214,,87.0,,3.0,,0.0345,,23,,0.2644,,79.0,,59.0,,0.7468,,79.0,,12600.00,
+2020 to 2021,Quarter 2: July to September,2020-2021/Q2,Non-Great Britain,Non Testable,39.0,,20.0,,0.5128,,69.0,,0.0,,0.0,,0,,0.0,,40.0,,0.0,,0.0,,0.0,,,x
+2020 to 2021,Quarter 2: July to September,2020-2021/Q2,Non-Great Britain,Taxi,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x
+2020 to 2021,Quarter 2: July to September,2020-2021/Q2,Non-Great Britain,Public service vehicle,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x,,x
+2020 to 2021,Quarter 2: July to September,2020-2021/Q2,Non-Great Britain,Trailer,6906.0,,1864.0,,0.2699,,0.0,,0.0,,,x,0,,,x,25.0,,0.0,,0.0,,0.0,,,x
+2020 to 2021,Quarter 2: July to September,2020-2021/Q2,Non-Great Britain,Subtotal,14123.0,,3177.0,,0.225,,9142.0,,198.0,,0.0217,,233,,0.0255,,604.0,,292.0,,0.4834,,3553.0,,725400.00,
+2020 to 2021,Quarter 2: July to September,2020-2021/Q2,Total,2020 to 2021 quarter 2,21948.0,,5217.0,,0.2377,,13921.0,,311.0,,0.0223,,347,,0.0249,,1921.0,,1004.0,,0.5226,,4283.0,,880000.00,
+2020 to 2021,Quarter 1: April to June,2020-2021/Q1,Great Britain,Heavy goods vehicle (HGV),3232.0,,770.0,,0.2382,,2496.0,,29.0,,0.0116,,4,,0.0016,,127.0,,70.0,,0.5512,,2.0,,600.00,
+2020 to 2021,Quarter 1: April to June,2020-2021/Q1,Great Britain,Car,32.0,,4.0,,0.125,,0.0,,0.0,,,x,0,,,x,13.0,,1.0,,0.0769,,0.0,,,x
+2020 to 2021,Quarter 1: April to June,2020-2021/Q1,Great Britain,Light goods vehicle,402.0,,163.0,,0.4054999999999999,,116.0,,2.0,,0.0172,,9,,0.0776,,204.0,,140.0,,0.6862999999999999,,1.0,,300.00,
+2020 to 2021,Quarter 1: April to June,2020-2021/Q1,Great Britain,Non Testable,194.0,,95.0,,0.4896999999999999,,64.0,,0.0,,0.0,,0,,0.0,,31.0,,1.0,,0.0323,,0.0,,,x
+2020 to 2021,Quarter 1: April to June,2020-2021/Q1,Great Britain,Public service vehicle,2.0,,2.0,,1.0,,1.0,,0.0,,0.0,,0,,0.0,,0.0,,0.0,,,x,0.0,,,x
+2020 to 2021,Quarter 1: April to June,2020-2021/Q1,Great Britain,Trailer,1640.0,,557.0,,0.3396,,0.0,,0.0,,,x,0,,,x,17.0,,0.0,,0.0,,0.0,,,x
+2020 to 2021,Quarter 1: April to June,2020-2021/Q1,Great Britain,Subtotal,5502.0,,1591.0,,0.2892,,2677.0,,31.0,,0.0116,,13,,0.0049,,392.0,,212.0,,0.5408,,3.0,,900.00,
+2020 to 2021,Quarter 1: April to June,2020-2021/Q1,Non-Great Britain,Heavy goods vehicle (HGV),4876.0,,721.0,,0.1479,,2157.0,,24.0,,0.0111,,27,,0.0125,,38.0,,23.0,,0.6053000000000001,,14.0,,2500.00,
+2020 to 2021,Quarter 1: April to June,2020-2021/Q1,Non-Great Britain,Car,2.0,,0.0,,0.0,,0.0,,0.0,,,x,0,,,x,0.0,,0.0,,,x,,x,,x
+2020 to 2021,Quarter 1: April to June,2020-2021/Q1,Non-Great Britain,Light goods vehicle,87.0,,39.0,,0.4483,,15.0,,1.0,,0.0667,,0,,0.0,,18.0,,16.0,,0.8889,,0.0,,,x
+2020 to 2021,Quarter 1: April to June,2020-2021/Q1,Non-Great Britain,Non Testable,24.0,,13.0,,0.5417000000000001,,8.0,,0.0,,0.0,,0,,0.0,,4.0,,0.0,,0.0,,0.0,,,x
+2020 to 2021,Quarter 1: April to June,2020-2021/Q1,Non-Great Britain,Public service vehicle,0.0,,0.0,,,x,0.0,,0.0,,,x,0,,,x,0.0,,0.0,,,x,0.0,,,x
+2020 to 2021,Quarter 1: April to June,2020-2021/Q1,Non-Great Britain,Trailer,4731.0,,1254.0,,0.2651,,0.0,,0.0,,,x,0,,,x,13.0,,0.0,,0.0,,0.0,,,x
+2020 to 2021,Quarter 1: April to June,2020-2021/Q1,Non-Great Britain,Subtotal,9720.0,,2027.0,,0.2085,,2180.0,,25.0,,0.0115,,27,,0.0124,,73.0,,39.0,,0.5342,,14.0,,2500.00,
+2020 to 2021,Quarter 1: April to June,2020-2021/Q1,Total,2020 to 2021 quarter 1,15222.0,,3618.0,,0.2377,,4857.0,,56.0,,0.0115,,40,,0.0081999999999999,,465.0,,251.0,,0.5398,,17.0,,3400.00,
+2019 to 2020,Quarter 4: January to March,2019-2020/Q4,Great Britain,Heavy goods vehicle (HGV),3999.0,,753.0,,0.188,,3084.0,,65.0,,0.021,,67,,0.022,,345.0,,133.0,,0.386,,325.0,,57400.00,
+2019 to 2020,Quarter 4: January to March,2019-2020/Q4,Great Britain,Light goods vehicle,2363.0,,1030.0,,0.436,,1284.0,,17.0,,0.013,,67,,0.052,,1014.0,,652.0,,0.643,,393.0,,78550.00,
+2019 to 2020,Quarter 4: January to March,2019-2020/Q4,Great Britain,Non Testable,841.0,,323.0,,0.384,,506.0,,0.0,,0.0,,0,,0.0,,191.0,,1.0,,0.005,,3.0,,250.00,
+2019 to 2020,Quarter 4: January to March,2019-2020/Q4,Great Britain,Public service vehicle,742.0,,142.0,,0.191,,354.0,,3.0,,0.008,,8,,0.023,,1.0,,0.0,,0.0,,9.0,,1500.00,
+2019 to 2020,Quarter 4: January to March,2019-2020/Q4,Great Britain,Trailer,1562.0,,362.0,,0.2319999999999999,,0.0,,0.0,,,x,0,,,x,7.0,,0.0,,0.0,,,x,,x
+2019 to 2020,Quarter 4: January to March,2019-2020/Q4,Great Britain,Subtotal,9507.0,,2610.0,,0.275,,5228.0,,85.0,,0.016,,142,,0.027,,1558.0,,786.0,,0.504,,730.0,,137700.00,
+2019 to 2020,Quarter 4: January to March,2019-2020/Q4,Non-Great Britain,Heavy goods vehicle (HGV),6840.0,,1393.0,,0.204,,8637.0,,169.0,,0.02,,228,,0.0264,,399.0,,190.0,,0.476,,4240.0,,1012250.00,
+2019 to 2020,Quarter 4: January to March,2019-2020/Q4,Non-Great Britain,Light goods vehicle,238.0,,78.0,,0.3279999999999999,,163.0,,7.0,,0.043,,46,,0.2822,,127.0,,87.0,,0.685,,192.0,,40250.00,
+2019 to 2020,Quarter 4: January to March,2019-2020/Q4,Non-Great Britain,Non Testable,89.0,,34.0,,0.382,,108.0,,0.0,,0.0,,0,,,x,53.0,,0.0,,0.0,,19.0,,7200.00,
+2019 to 2020,Quarter 4: January to March,2019-2020/Q4,Non-Great Britain,Public service vehicle,13.0,,4.0,,0.308,,18.0,,5.0,,0.278,,0,,,x,6.0,,4.0,,0.667,,,x,,x
+2019 to 2020,Quarter 4: January to March,2019-2020/Q4,Non-Great Britain,Trailer,6491.0,,2117.0,,0.326,,0.0,,0.0,,,x,0,,,x,13.0,,0.0,,0.0,,2.0,,400.00,
+2019 to 2020,Quarter 4: January to March,2019-2020/Q4,Non-Great Britain,Subtotal,13671.0,,3626.0,,0.265,,8926.0,,181.0,,0.02,,274,,0.031,,598.0,,281.0,,0.47,,4453.0,,1060100.00,
+2019 to 2020,Quarter 4: January to March,2019-2020/Q4,Total,2019 to 2020 quarter 4,23178.0,,6236.0,,0.2689999999999999,,14154.0,,266.0,,0.019,,416,,0.0289999999999999,,2156.0,,1067.0,,0.495,,5183.0,,1197800.00,
+2019 to 2020,Quarter 3: October to December,2019-2020/Q3,Great Britain,Heavy goods vehicle (HGV),4676.0,,910.0,,0.195,,3656.0,,111.0,,0.03,,65,,0.018,,437.0,,142.0,,0.325,,575.0,,99050.00,
+2019 to 2020,Quarter 3: October to December,2019-2020/Q3,Great Britain,Light goods vehicle,2387.0,,1081.0,,0.4529999999999999,,944.0,,16.0,,0.017,,83,,0.088,,734.0,,469.0,,0.639,,294.0,,58450.00,
+2019 to 2020,Quarter 3: October to December,2019-2020/Q3,Great Britain,Non Testable,851.0,,340.0,,0.4,,449.0,,0.0,,0.0,,0,,0.0,,145.0,,0.0,,0.0,,,x,,x
+2019 to 2020,Quarter 3: October to December,2019-2020/Q3,Great Britain,Public service vehicle,1197.0,,151.0,,0.126,,731.0,,7.0,,0.01,,8,,0.011,,1.0,,0.0,,0.0,,12.0,,2500.00,
+2019 to 2020,Quarter 3: October to December,2019-2020/Q3,Great Britain,Trailer,1873.0,,403.0,,0.215,,0.0,,0.0,,,x,0,,,x,3.0,,0.0,,0.0,,,x,,x
+2019 to 2020,Quarter 3: October to December,2019-2020/Q3,Great Britain,Subtotal,10984.0,,2885.0,,0.263,,5780.0,,134.0,,0.023,,156,,0.027,,1320.0,,611.0,,0.4629999999999999,,881.0,,160000.00,
+2019 to 2020,Quarter 3: October to December,2019-2020/Q3,Non-Great Britain,Heavy goods vehicle (HGV),7226.0,,1480.0,,0.205,,9944.0,,295.0,,0.03,,256,,0.0256999999999999,,560.0,,252.0,,0.45,,5304.0,,1185250.00,
+2019 to 2020,Quarter 3: October to December,2019-2020/Q3,Non-Great Britain,Light goods vehicle,159.0,,54.0,,0.34,,137.0,,1.0,,0.0069999999999999,,35,,0.2555,,115.0,,84.0,,0.73,,139.0,,23750.00,
+2019 to 2020,Quarter 3: October to December,2019-2020/Q3,Non-Great Britain,Non Testable,81.0,,34.0,,0.42,,109.0,,0.0,,0.0,,0,,,x,63.0,,0.0,,0.0,,,x,,x
+2019 to 2020,Quarter 3: October to December,2019-2020/Q3,Non-Great Britain,Public service vehicle,5.0,,1.0,,0.2,,26.0,,2.0,,0.077,,0,,,x,1.0,,1.0,,1.0,,5.0,,1250.00,
+2019 to 2020,Quarter 3: October to December,2019-2020/Q3,Non-Great Britain,Trailer,6902.0,,2145.0,,0.311,,0.0,,0.0,,,x,0,,,x,15.0,,0.0,,0.0,,,x,,x
+2019 to 2020,Quarter 3: October to December,2019-2020/Q3,Non-Great Britain,Subtotal,14373.0,,3714.0,,0.258,,10216.0,,298.0,,0.0289999999999999,,291,,0.0279999999999999,,754.0,,337.0,,0.447,,5448.0,,1210250.00,
+2019 to 2020,Quarter 3: October to December,2019-2020/Q3,Total,2019 to 2020 quarter 3,25357.0,,6599.0,,0.26,,15996.0,,432.0,,0.027,,447,,0.0279999999999999,,2074.0,,948.0,,0.457,,6329.0,,1370250.00,
+2019 to 2020,Quarter 2: July to September,2019-2020/Q2,Great Britain,Heavy goods vehicle (HGV),4752.0,,900.0,,0.1894,,4152.0,,122.0,,0.0294,,91,,0.0219,,620.0,,178.0,,0.2871,,574.0,,106850.00,
+2019 to 2020,Quarter 2: July to September,2019-2020/Q2,Great Britain,Light goods vehicle,3235.0,,1574.0,,0.4866,,1266.0,,14.0,,0.0111,,68,,0.0537,,966.0,,660.0,,0.6831999999999999,,459.0,,93000.00,
+2019 to 2020,Quarter 2: July to September,2019-2020/Q2,Great Britain,Non Testable,694.0,,299.0,,0.4307999999999999,,487.0,,0.0,,0.0,,1,,0.0021,,179.0,,2.0,,0.0112,,6.0,,1100.00,
+2019 to 2020,Quarter 2: July to September,2019-2020/Q2,Great Britain,Public service vehicle,1612.0,,258.0,,0.16,,975.0,,29.0,,0.0297,,32,,0.0327999999999999,,8.0,,3.0,,0.375,,60.0,,13400.00,
+2019 to 2020,Quarter 2: July to September,2019-2020/Q2,Great Britain,Trailer,1942.0,,429.0,,0.2208999999999999,,0.0,,0.0,,,x,0,,,x,0.0,,0.0,,,x,,x,,x
+2019 to 2020,Quarter 2: July to September,2019-2020/Q2,Great Britain,Subtotal,12235.0,,3460.0,,0.2828,,6880.0,,165.0,,0.024,,192,,0.0279,,1773.0,,843.0,,,x,1099.0,,214350.00,
+2019 to 2020,Quarter 2: July to September,2019-2020/Q2,Non-Great Britain,Heavy goods vehicle (HGV),6999.0,,1293.0,,0.1846999999999999,,9511.0,,253.0,,0.0266,,244,,0.0256999999999999,,611.0,,284.0,,0.4648,,5218.0,,1157700.00,
+2019 to 2020,Quarter 2: July to September,2019-2020/Q2,Non-Great Britain,Light goods vehicle,138.0,,63.0,,0.4564999999999999,,137.0,,4.0,,0.0292,,34,,0.2482,,119.0,,91.0,,0.7646999999999999,,145.0,,24900.00,
+2019 to 2020,Quarter 2: July to September,2019-2020/Q2,Non-Great Britain,Non Testable,69.0,,22.0,,0.3188,,110.0,,0.0,,0.0,,0,,0.0,,63.0,,0.0,,0.0,,,x,,x
+2019 to 2020,Quarter 2: July to September,2019-2020/Q2,Non-Great Britain,Public service vehicle,55.0,,10.0,,0.1818,,89.0,,9.0,,0.1011,,4,,0.0449,,4.0,,2.0,,0.5,,29.0,,6350.00,
+2019 to 2020,Quarter 2: July to September,2019-2020/Q2,Non-Great Britain,Trailer,6687.0,,2008.0,,0.3003,,0.0,,0.0,,,x,0,,,x,0.0,,0.0,,,x,,x,,x
+2019 to 2020,Quarter 2: July to September,2019-2020/Q2,Non-Great Britain,Subtotal,13948.0,,3396.0,,0.2435,,9847.0,,266.0,,0.027,,282,,0.0286,,797.0,,377.0,,0.473,,5392.0,,1188950.00,
+2019 to 2020,Quarter 2: July to September,2019-2020/Q2,Total,2019 to 2020 quarter 2,26183.0,,6856.0,,0.2618,,16727.0,,431.0,,0.0258,,474,,0.0283,,2570.0,,1220.0,,0.4747,,6491.0,,1403300.00,
+2019 to 2020,Quarter 1: April to June,2019-2020/Q1,Great Britain,Heavy goods vehicle (HGV),5998.0,,1277.0,,0.213,,5314.0,,164.0,,0.031,,109,,0.021,,785.0,,236.0,,0.301,,794.0,,141700.00,
+2019 to 2020,Quarter 1: April to June,2019-2020/Q1,Great Britain,Light goods vehicle,3039.0,,1535.0,,0.505,,1222.0,,40.0,,0.033,,91,,0.074,,915.0,,591.0,,0.6459999999999999,,430.0,,87550.00,
+2019 to 2020,Quarter 1: April to June,2019-2020/Q1,Great Britain,Non Testable,619.0,,351.0,,0.5670000000000001,,501.0,,1.0,,0.002,,1,,0.002,,174.0,,0.0,,0.0,,1.0,,100.00,
+2019 to 2020,Quarter 1: April to June,2019-2020/Q1,Great Britain,Public service vehicle,1931.0,,393.0,,0.204,,1070.0,,26.0,,0.024,,28,,0.026,,0.0,,0.0,,,x,67.0,,14300.00,
+2019 to 2020,Quarter 1: April to June,2019-2020/Q1,Great Britain,Trailer,2390.0,,620.0,,0.259,,0.0,,0.0,,,x,0,,,x,0.0,,0.0,,,x,,x,,x
+2019 to 2020,Quarter 1: April to June,2019-2020/Q1,Great Britain,Subtotal,13977.0,,4176.0,,0.299,,8107.0,,231.0,,0.0279999999999999,,229,,0.0279999999999999,,1874.0,,827.0,,0.441,,,x,,x
+2019 to 2020,Quarter 1: April to June,2019-2020/Q1,Non-Great Britain,Heavy goods vehicle (HGV),8856.0,,1754.0,,0.198,,10847.0,,314.0,,0.0289999999999999,,317,,0.0289999999999999,,744.0,,281.0,,0.3779999999999999,,6430.0,,1480200.00,
+2019 to 2020,Quarter 1: April to June,2019-2020/Q1,Non-Great Britain,Light goods vehicle,178.0,,70.0,,0.3929999999999999,,163.0,,9.0,,0.055,,41,,0.252,,125.0,,90.0,,0.72,,170.0,,31900.00,
+2019 to 2020,Quarter 1: April to June,2019-2020/Q1,Non-Great Britain,Non Testable,76.0,,29.0,,0.382,,135.0,,0.0,,0.0,,0,,0.0,,61.0,,0.0,,0.0,,,x,,x
+2019 to 2020,Quarter 1: April to June,2019-2020/Q1,Non-Great Britain,Public service vehicle,70.0,,18.0,,0.257,,130.0,,6.0,,0.046,,4,,0.031,,4.0,,3.0,,0.75,,39.0,,9350.00,
+2019 to 2020,Quarter 1: April to June,2019-2020/Q1,Non-Great Britain,Trailer,8473.0,,2817.0,,0.332,,0.0,,0.0,,,x,0,,,x,0.0,,0.0,,,x,,x,,x
+2019 to 2020,Quarter 1: April to June,2019-2020/Q1,Non-Great Britain,Subtotal,17653.0,,4688.0,,0.266,,11275.0,,329.0,,0.0289999999999999,,362,,0.032,,934.0,,374.0,,0.4,,,x,,x
+2019 to 2020,Quarter 1: April to June,2019-2020/Q1,Total,2019 to 2020 quarter 1,31630.0,,8864.0,,0.28,,19382.0,,560.0,,0.0289999999999999,,591,,0.03,,2808.0,,1201.0,,0.428,,7931.0,,1765100.00,
+2018 to 2019,Total,2018-2019,Great Britain,Heavy goods vehicle (HGV),23299.0,,5872.0,,0.252,,23152.0,,861.0,,0.037,,564,,0.024,,2927.0,,1034.0,,0.353,,3844.0,,682200.00,
+2018 to 2019,Total,2018-2019,Great Britain,Light goods vehicle,12159.0,,6038.0,,0.497,,4682.0,,99.0,,0.021,,352,,0.075,,3461.0,,2431.0,,0.7020000000000001,,1785.0,,355800.00,
+2018 to 2019,Total,2018-2019,Great Britain,Non Testable,2831.0,,1427.0,,0.504,,2094.0,,2.0,,0.001,,0,,0.0,,668.0,,3.0,,0.004,,32.0,,3200.00,
+2018 to 2019,Total,2018-2019,Great Britain,Public service vehicle,7201.0,,1247.0,,0.173,,3650.0,,127.0,,0.035,,86,,0.024,,9.0,,4.0,,0.444,,220.0,,42450.00,
+2018 to 2019,Total,2018-2019,Great Britain,Trailer,9826.0,,2750.0,,0.28,,0.0,,0.0,,,x,0,,,x,0.0,,0.0,,,x,,x,,x
+2018 to 2019,Total,2018-2019,Great Britain,Subtotal,55316.0,,17334.0,,0.313,,33578.0,,1089.0,,0.032,,1002,,0.03,,7065.0,,3472.0,,0.491,,5881.0,,1083650.00,
+2018 to 2019,Total,2018-2019,Non-Great Britain,Heavy goods vehicle (HGV),31636.0,,7171.0,,0.2269999999999999,,44296.0,,1450.0,,0.033,,1318,,0.03,,2715.0,,1273.0,,0.469,,26063.0,,5769050.00,
+2018 to 2019,Total,2018-2019,Non-Great Britain,Light goods vehicle,734.0,,322.0,,0.439,,774.0,,24.0,,0.031,,191,,0.247,,638.0,,473.0,,0.741,,844.0,,142250.00,
+2018 to 2019,Total,2018-2019,Non-Great Britain,Non Testable,324.0,,140.0,,0.432,,563.0,,1.0,,0.002,,1,,0.002,,311.0,,0.0,,0.0,,5.0,,800.00,
+2018 to 2019,Total,2018-2019,Non-Great Britain,Public service vehicle,156.0,,53.0,,0.34,,275.0,,11.0,,0.04,,8,,0.0289999999999999,,17.0,,13.0,,0.765,,119.0,,30350.00,
+2018 to 2019,Total,2018-2019,Non-Great Britain,Trailer,30680.0,,10724.0,,0.35,,0.0,,0.0,,,x,0,,,x,0.0,,0.0,,,x,,x,,x
+2018 to 2019,Total,2018-2019,Non-Great Britain,Subtotal,63530.0,,18410.0,,0.29,,45908.0,,1486.0,,0.032,,1518,,0.033,,3681.0,,1759.0,,0.478,,27031.0,,5942450.00,
+2018 to 2019,Total,2018-2019,Total,Total,118846.0,,35744.0,,0.301,,79486.0,,2575.0,,0.032,,2520,,0.032,,10746.0,,5231.0,,0.487,,32912.0,,7026100.00,
+2017 to 2018,Total,2017-2018,Great Britain,Heavy goods vehicle (HGV),28747.0,,7111.0,,0.248,,28061.0,,1195.0,,0.043,,780,,0.0279999999999999,,3063.0,,1131.0,,0.369,,3405.0,,480400.00,
+2017 to 2018,Total,2017-2018,Great Britain,Light goods vehicle,13357.0,,6256.0,,0.469,,4838.0,,115.0,,0.024,,383,,0.079,,2993.0,,2180.0,,0.7290000000000001,,1668.0,,327200.00,
+2017 to 2018,Total,2017-2018,Great Britain,Non Testable,3032.0,,1723.0,,0.569,,2161.0,,0.0,,0.0,,5,,0.003,,650.0,,8.0,,0.013,,53.0,,5250.00,
+2017 to 2018,Total,2017-2018,Great Britain,Public service vehicle,9311.0,,1524.0,,0.1639999999999999,,5368.0,,163.0,,0.031,,143,,0.027,,16.0,,3.0,,0.188,,207.0,,27700.00,
+2017 to 2018,Total,2017-2018,Great Britain,Trailer,11059.0,,2858.0,,0.259,,0.0,,0.0,,0.0,,,x,0.0,,0.0,,0.0,,0.0,,,x,,x
+2017 to 2018,Total,2017-2018,Great Britain,Subtotal,65506.0,,19472.0,,0.297,,40428.0,,1473.0,,0.037,,1311,,0.033,,6722.0,,3322.0,,0.494,,5333.0,,840550.00,
+2017 to 2018,Total,2017-2018,Non-Great Britain,Heavy goods vehicle (HGV),34707.0,,8240.0,,0.238,,46432.0,,2198.0,,0.048,,1998,,0.043,,2747.0,,1435.0,,0.523,,15105.0,,3077850.00,
+2017 to 2018,Total,2017-2018,Non-Great Britain,Light goods vehicle,578.0,,253.0,,0.4379999999999999,,606.0,,21.0,,0.035,,163,,0.2689999999999999,,398.0,,303.0,,0.762,,536.0,,113050.00,
+2017 to 2018,Total,2017-2018,Non-Great Britain,Non Testable,223.0,,88.0,,0.395,,407.0,,0.0,,0.0,,,x,0.0,,171.0,,0.0,,0.0,,1.0,,100.00,
+2017 to 2018,Total,2017-2018,Non-Great Britain,Public service vehicle,191.0,,25.0,,0.131,,331.0,,28.0,,0.085,,6,,0.018,,5.0,,4.0,,0.8,,50.0,,11300.00,
+2017 to 2018,Total,2017-2018,Non-Great Britain,Trailer,33730.0,,10943.0,,0.325,,0.0,,0.0,,0.0,,,x,0.0,,0.0,,0.0,,0.0,,,x,,x
+2017 to 2018,Total,2017-2018,Non-Great Britain,Subtotal,69429.0,,19549.0,,0.282,,47776.0,,2247.0,,0.047,,2167,,0.046,,3321.0,,1742.0,,0.525,,15692.0,,3202300.00,
+2017 to 2018,Total,2017-2018,Total,Total,134935.0,,39021.0,,0.289,,88204.0,,3720.0,,0.042,,3478,,0.04,,10043.0,,5064.0,,0.504,,,x,4042850.00,
+2016 to 2017,Total,2016-2017,Great Britain,Heavy goods vehicle (HGV),26671.0,,7411.0,,0.278,,28791.0,,1478.0,,0.051,,978,,0.034,,2815.0,,1101.0,,0.391,,3772.0,,506700.00,
+2016 to 2017,Total,2016-2017,Great Britain,Light goods vehicle,9512.0,,5288.0,,0.556,,2845.0,,86.0,,0.03,,281,,0.099,,1946.0,,1505.0,,0.773,,1132.0,,217300.00,
+2016 to 2017,Total,2016-2017,Great Britain,Non Testable,2314.0,,1329.0,,0.574,,1740.0,,2.0,,0.001,,10,,0.006,,504.0,,7.0,,0.0139999999999999,,33.0,,4350.00,
+2016 to 2017,Total,2016-2017,Great Britain,Public service vehicle,11116.0,,1703.0,,0.153,,4363.0,,161.0,,0.037,,120,,0.0279999999999999,,9.0,,4.0,,0.444,,203.0,,26400.00,
+2016 to 2017,Total,2016-2017,Great Britain,Trailer,9606.0,,2733.0,,0.285,,0.0,,0.0,,,x,,x,,x,0.0,,0.0,,,x,,x,,x
+2016 to 2017,Total,2016-2017,Great Britain,Subtotal,59219.0,,18464.0,,0.312,,37739.0,,1727.0,,0.046,,1389,,0.037,,5274.0,,2617.0,,0.496,,5140.0,,754750.00,
+2016 to 2017,Total,2016-2017,Non-Great Britain,Heavy goods vehicle (HGV),38019.0,,9994.0,,0.263,,50847.0,,2987.0,,0.059,,2992,,0.059,,2641.0,,1509.0,,0.5710000000000001,,16998.0,,3368350.00,
+2016 to 2017,Total,2016-2017,Non-Great Britain,Light goods vehicle,275.0,,146.0,,0.531,,320.0,,30.0,,0.094,,131,,0.409,,208.0,,173.0,,0.8320000000000001,,355.0,,71100.00,
+2016 to 2017,Total,2016-2017,Non-Great Britain,Non Testable,176.0,,84.0,,0.477,,356.0,,0.0,,0.0,,,x,0.0,,145.0,,6.0,,0.0,,,x,,x
+2016 to 2017,Total,2016-2017,Non-Great Britain,Public service vehicle,208.0,,57.0,,0.2739999999999999,,306.0,,15.0,,0.049,,9,,0.0289999999999999,,4.0,,4.0,,1.0,,44.0,,13200.00,
+2016 to 2017,Total,2016-2017,Non-Great Britain,Trailer,36421.0,,12675.0,,0.348,,0.0,,0.0,,,x,,x,,x,0.0,,0.0,,,x,,x,,x
+2016 to 2017,Total,2016-2017,Non-Great Britain,Subtotal,75099.0,,22956.0,,0.306,,51829.0,,3032.0,,0.059,,3132,,0.06,,2998.0,,1692.0,,0.564,,17397.0,,3452650.00,
+2016 to 2017,Total,2016-2017,Total,Total,134318.0,,41420.0,,0.308,,89568.0,,4759.0,,0.053,,4521,,0.051,,8272.0,,4309.0,,0.521,,22537.0,,4207400.00,
+2015 to 2016,Total,2015-2016,Great Britain,Heavy goods vehicle (HGV),29030.0,,8734.0,,0.301,,32909.0,,2331.0,,0.071,,1517,,0.046,,2567.0,,1168.0,,0.455,,4989.0,,626400.00,
+2015 to 2016,Total,2015-2016,Great Britain,Public service vehicle,8485.0,,1738.0,,0.205,,5161.0,,226.0,,0.044,,160,,0.031,,11.0,,3.0,,0.273,,293.0,,41000.00,
+2015 to 2016,Total,2015-2016,Great Britain,Non Testable,2504.0,,1538.0,,0.614,,1865.0,,1.0,,0.001,,10,,0.005,,470.0,,5.0,,0.011,,40.0,,4750.00,
+2015 to 2016,Total,2015-2016,Great Britain,Light goods vehicle,8429.0,,5208.0,,0.618,,2708.0,,105.0,,0.039,,357,,0.132,,2158.0,,1662.0,,0.77,,1220.0,,231000.00,
+2015 to 2016,Total,2015-2016,Great Britain,Trailer,10461.0,,3136.0,,0.3,,0.0,,0.0,,,x,,x,,x,0.0,,0.0,,,x,,x,,x
+2015 to 2016,Total,2015-2016,Great Britain,Subtotal,58909.0,,20354.0,,0.346,,42643.0,,2663.0,,0.062,,2044,,0.048,,5206.0,,2838.0,,0.545,,6542.0,,903150.00,
+2015 to 2016,Total,2015-2016,Non-Great Britain,Heavy goods vehicle (HGV),35538.0,,11277.0,,0.317,,51355.0,,4231.0,,0.0819999999999999,,3974,,0.077,,3063.0,,1741.0,,0.568,,17656.0,,3380700.00,
+2015 to 2016,Total,2015-2016,Non-Great Britain,Public service vehicle,216.0,,56.0,,0.259,,319.0,,25.0,,0.078,,7,,0.022,,1.0,,1.0,,1.0,,50.0,,10300.00,
+2015 to 2016,Total,2015-2016,Non-Great Britain,Non Testable,147.0,,76.0,,0.517,,393.0,,0.0,,0.0,,1,,0.003,,149.0,,0.0,,0.0,,,x,,x
+2015 to 2016,Total,2015-2016,Non-Great Britain,Light goods vehicle,273.0,,178.0,,0.652,,381.0,,38.0,,0.1,,174,,0.457,,265.0,,216.0,,0.815,,407.0,,86100.00,
+2015 to 2016,Total,2015-2016,Non-Great Britain,Trailer,33798.0,,13925.0,,0.412,,0.0,,0.0,,,x,,x,,x,0.0,,0.0,,,x,,x,,x
+2015 to 2016,Total,2015-2016,Non-Great Britain,Subtotal,69972.0,,25512.0,,0.365,,52448.0,,4294.0,,0.0819999999999999,,4156,,0.079,,3478.0,,1958.0,,0.563,,18113.0,,3477100.00,
+2015 to 2016,Total,2015-2016,Total,Total,128881.0,,45866.0,,0.356,,95091.0,,6957.0,,0.073,,6200,,0.065,,8684.0,,4796.0,,0.552,,24655.0,,4380250.00,
+2014 to 2015,Total,2014-2015,Great Britain,Heavy goods vehicle (HGV),37203.0,,11438.0,,0.307,,37101.0,,2717.0,,0.073,,1811,,0.049,,2639.0,,1308.0,,0.496,,5173.0,,680350.00,
+2014 to 2015,Total,2014-2015,Great Britain,Public service vehicle,11342.0,,1997.0,,0.176,,4743.0,,284.0,,0.06,,208,,0.044,,7.0,,6.0,,0.857,,356.0,,50950.00,
+2014 to 2015,Total,2014-2015,Great Britain,Non Testable,3732.0,,2352.0,,0.63,,2284.0,,5.0,,0.002,,10,,0.004,,602.0,,17.0,,0.0279999999999999,,69.0,,7500.00,
+2014 to 2015,Total,2014-2015,Great Britain,Light goods vehicle,12749.0,,7626.0,,0.598,,3225.0,,146.0,,0.045,,483,,0.15,,2434.0,,1918.0,,0.7879999999999999,,1443.0,,262300.00,
+2014 to 2015,Total,2014-2015,Great Britain,Trailer,13270.0,,4056.0,,0.306,,0.0,,0.0,,,x,,x,,x,0.0,,0.0,,,x,,x,,x
+2014 to 2015,Total,2014-2015,Great Britain,Subtotal,78296.0,,27469.0,,0.351,,47353.0,,3152.0,,0.067,,2512,,0.053,,5682.0,,3249.0,,0.5720000000000001,,7041.0,,1001100.00,
+2014 to 2015,Total,2014-2015,Non-Great Britain,Heavy goods vehicle (HGV),36212.0,,11279.0,,0.311,,45570.0,,3653.0,,0.08,,3547,,0.078,,2719.0,,1477.0,,0.5429999999999999,,15273.0,,2746280.00,
+2014 to 2015,Total,2014-2015,Non-Great Britain,Public service vehicle,203.0,,56.0,,0.276,,283.0,,29.0,,0.102,,16,,0.057,,2.0,,2.0,,1.0,,52.0,,9950.00,
+2014 to 2015,Total,2014-2015,Non-Great Britain,Non Testable,184.0,,99.0,,0.5379999999999999,,300.0,,0.0,,0.0,,,x,0.0,,86.0,,1.0,,0.012,,3.0,,600.00,
+2014 to 2015,Total,2014-2015,Non-Great Britain,Light goods vehicle,406.0,,234.0,,0.5760000000000001,,313.0,,24.0,,0.077,,106,,0.3389999999999999,,216.0,,178.0,,0.8240000000000001,,289.0,,68500.00,
+2014 to 2015,Total,2014-2015,Non-Great Britain,Trailer,34392.0,,14230.0,,0.414,,0.0,,0.0,,,x,,x,,x,0.0,,0.0,,,x,,x,,x
+2014 to 2015,Total,2014-2015,Non-Great Britain,Subtotal,71397.0,,25898.0,,0.363,,46466.0,,3706.0,,0.08,,3669,,0.079,,3023.0,,1658.0,,0.5479999999999999,,15617.0,,2825330.00,
+2014 to 2015,Total,2014-2015,Total,Total,149693.0,,53367.0,,0.357,,93819.0,,6858.0,,0.073,,6181,,0.066,,8705.0,,4907.0,,0.564,,22658.0,,3826430.00,
+2013 to 2014,Total,2013-2014,Great Britain,Heavy goods vehicle (HGV),38816.0,,12089.0,,0.311,,39322.0,,2964.0,,0.075,,2110,,0.054,,3097.0,,1583.0,,0.511,,4829.0,,646220.00,
+2013 to 2014,Total,2013-2014,Great Britain,Public service vehicle,14786.0,,2972.0,,0.201,,7539.0,,356.0,,0.047,,281,,0.037,,27.0,,6.0,,0.222,,377.0,,49370.00,
+2013 to 2014,Total,2013-2014,Great Britain,Non Testable,4836.0,,3171.0,,0.6559999999999999,,2878.0,,0.0,,0.0,,4,,0.001,,699.0,,9.0,,0.013,,79.0,,6650.00,
+2013 to 2014,Total,2013-2014,Great Britain,Light goods vehicle,20520.0,,11657.0,,0.568,,4983.0,,183.0,,0.037,,559,,0.1119999999999999,,3271.0,,2540.0,,0.777,,1808.0,,303800.00,
+2013 to 2014,Total,2013-2014,Great Britain,Trailer,13481.0,,4286.0,,0.318,,0.0,,0.0,,,x,,x,,x,0.0,,0.0,,,x,,x,,x
+2013 to 2014,Total,2013-2014,Great Britain,Subtotal,92439.0,,34175.0,,0.37,,54722.0,,3503.0,,0.064,,2954,,0.054,,7094.0,,4138.0,,0.583,,7093.0,,1006040.00,
+2013 to 2014,Total,2013-2014,Non-Great Britain,Heavy goods vehicle (HGV),32271.0,,10696.0,,0.331,,39210.0,,3265.0,,0.083,,2831,,0.072,,2720.0,,1475.0,,0.542,,10749.0,,1449160.00,
+2013 to 2014,Total,2013-2014,Non-Great Britain,Public service vehicle,257.0,,79.0,,0.307,,427.0,,38.0,,0.089,,16,,0.038,,11.0,,7.0,,0.636,,62.0,,10870.00,
+2013 to 2014,Total,2013-2014,Non-Great Britain,Non Testable,195.0,,101.0,,0.518,,261.0,,0.0,,0.0,,,x,0.0,,81.0,,0.0,,0.0,,5.0,,400.00,
+2013 to 2014,Total,2013-2014,Non-Great Britain,Light goods vehicle,496.0,,257.0,,0.518,,391.0,,15.0,,0.038,,73,,0.187,,314.0,,257.0,,0.818,,365.0,,64590.00,
+2013 to 2014,Total,2013-2014,Non-Great Britain,Trailer,30537.0,,13568.0,,0.444,,0.0,,0.0,,,x,,x,,x,0.0,,0.0,,,x,,x,,x
+2013 to 2014,Total,2013-2014,Non-Great Britain,Subtotal,63756.0,,24701.0,,0.387,,40289.0,,3318.0,,0.0819999999999999,,2920,,0.073,,3126.0,,1739.0,,0.556,,11181.0,,1525020.00,
+2013 to 2014,Total,2013-2014,Total,Total,156195.0,,58876.0,,0.377,,95011.0,,6821.0,,0.072,,5874,,0.062,,10220.0,,5877.0,,0.575,,18274.0,,2531060.00,
